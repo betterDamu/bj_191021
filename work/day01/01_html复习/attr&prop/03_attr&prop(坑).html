@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <!-- 
+        重点讨论 布尔值属性
+            浏览器在渲染的时候 到底是根据attr? 还是根据prop?
+            用户在界面上操作的时候 到底动的是attr? 还是根据prop?
+                prop
+
+            attr 和 prop 之间有没有什么同步关系?
+                没有动过prop
+                    attr的修改 会去同步 prop
+                动过prop
+                    attr的修改 不会去同步 prop
+                不管什么情况下    
+                    prop的修改 不会同步 attr
+    -->
+    <input type="checkbox" >
+
+</body>
+<script>
+    window.onload=function(){
+        var inputNode = document.querySelector("input");  
+       
+        inputNode.setAttribute("checked","checked1")
+        debugger
+        inputNode.checked = false;
+
+    }
+</script>
+</html>
