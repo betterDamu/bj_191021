@@ -10,7 +10,7 @@
                 flex-shrink
                 flex-grow : 伸展因子
                 flex-basis: 分配空间时,每个元素的基准值!!
-                flex
+                flex      : 用来实现等分 等比例布局
 
                 富裕空间管理 是不会给项目去分配空间的;它只会控制富裕空间的位置
                 弹性空间管理 按比例将主轴的富裕空间分配到项目上
@@ -42,23 +42,25 @@
             /*flex-grow:1 ;
             flex-basis: 0%;*/
             /*flex:1  !*等分布局的*!*/
-            flex-basis: 0%
+            /*flex-basis: 0%*/
         }
 
         #wrap .item:nth-child(1){
-            flex-grow: 1;
+            flex: 1;
+            /*flex-grow: 1;
+            flex-basis: 0%;*/
         }
         #wrap .item:nth-child(2){
-            flex-grow: 2;
+            flex: 2;
         }
         #wrap .item:nth-child(3){
-            flex-grow: 3;
+            flex: 3;
         }
         #wrap .item:nth-child(4){
-            flex-grow: 4;
+            flex: 4;
         }
         #wrap .item:nth-child(5){
-            flex-grow: 5;
+            flex: 5;
         }
     </style>
 </head>
