@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/pre/02_css复习/07_flex/02_new/项目/02_align-self.html" beforeDir="false" afterPath="$PROJECT_DIR$/pre/02_css复习/07_flex/02_new/项目/02_align-self.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day01/01_html复习/attr&amp;prop/02_attr&amp;prop.html" beforeDir="false" afterPath="$PROJECT_DIR$/work/day01/01_html复习/attr&amp;prop/02_attr&amp;prop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day01/02_css复习/03_flex/~$flex.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/课件/01_vue阶段前的复习..doc" beforeDir="false" afterPath="$PROJECT_DIR$/课件/01_vue阶段前的复习..doc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/课件/~$_vue阶段前的复习..doc" beforeDir="false" />
-    </list>
+    <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -23,8 +17,8 @@
       <file leaf-file-name="03_flex.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/03_flex/03_flex.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+            <state relative-caret-position="336">
+              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -158,12 +152,12 @@
       <workItem from="1585224338738" duration="4811000" />
       <workItem from="1585266187801" duration="77000" />
       <workItem from="1585266281473" duration="4945000" />
-      <workItem from="1585271644308" duration="1634000" />
+      <workItem from="1585271644308" duration="2004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12453000" />
+    <option name="totallyTimeSpent" value="12823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -306,8 +300,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/03_flex/03_flex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+        <state relative-caret-position="336">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>
