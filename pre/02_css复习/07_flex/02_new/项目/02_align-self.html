@@ -9,10 +9,13 @@
 				padding: 0;
 			}
 			#wrap{
+				width: 300px;
 				height: 400px;
 				border: 1px solid;
 				display:flex;
+				flex-wrap: wrap;
 				align-items: flex-start;
+				/*align-content: center;*/
 			}
 			.item{
 				width: 50px;
@@ -21,7 +24,7 @@
 				text-align: center;
 			}
 			.item:nth-child(1){
-				align-self:flex-end ;
+				align-self:flex-end;
 			}
 		</style>
 	</head>
