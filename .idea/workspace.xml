@@ -3,8 +3,45 @@
   <component name="ChangeListManager">
     <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day02/03_ECMAScript复习/01_Promise/03_Promise.html" beforeDir="false" afterPath="$PROJECT_DIR$/work/day02/03_ECMAScript复习/01_Promise/03_Promise-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day02/03_ECMAScript复习/01_Promise/04_Promise.html" beforeDir="false" afterPath="$PROJECT_DIR$/work/day02/03_ECMAScript复习/01_Promise/04_Promise-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/02_css复习/10_css sticky footer/sticky01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/02_css复习/10_css sticky footer/sticky02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/02_css复习/10_css sticky footer/粘贴布局.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/00_API from ES5/01_数组的创建/01_数组的创建.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/00_API from ES5/02_属性/01_length.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/00_API from ES5/02_属性/02_案例.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/00_API from ES5/03_方法/01/01_isArray.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/00_API from ES5/03_方法/01/02_push.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/00_API from ES5/03_方法/01/03_unshift.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/00_API from ES5/03_方法/01/04_pop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/00_API from ES5/03_方法/01/05_shift.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/00_API from ES5/03_方法/01/06_concat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/00_API from ES5/03_方法/01/07_indexof.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/00_API from ES5/03_方法/01/08_lastindexof.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/00_API from ES5/03_方法/01/09_join.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/00_API from ES5/03_方法/01/10_tostring.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/00_API from ES5/03_方法/01_forEach.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/00_API from ES5/03_方法/02_every.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/00_API from ES5/03_方法/03_some.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/00_API from ES5/03_方法/04_filter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/00_API from ES5/03_方法/05_sort.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/00_API from ES5/03_方法/06_reverse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/00_API from ES5/03_方法/07_map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/00_API from ES5/03_方法/08_slice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/00_API from ES5/03_方法/09_splice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/00_API from ES5/03_方法/10_reduce.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/01_数组去重.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/02_稀疏数组.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/03_伪数组(类数组).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/04_arguments.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/05_arguments-callee.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/06_逗号问题.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/07_二维数组.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/08_杨辉三角.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/01_数组/09_杨辉三角.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/02_promise/01_Promise.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/02_promise/02_Promise.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/03_js复习/02_promise/03_ajax.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day02/03_ECMAScript复习/01_Promise/~$6异步最佳实践.doc" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +55,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/work/day02/03_ECMAScript复习/02_async&amp;await/index.html">
+      <file leaf-file-name="array.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/work/day03/01_ECMAScript复习/02_数组/array.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="48">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -81,6 +118,15 @@
         <option value="$PROJECT_DIR$/work/day02/03_ECMAScript复习/01_Promise/06_Promise-2.html" />
         <option value="$PROJECT_DIR$/work/day02/03_ECMAScript复习/01_Promise/07_Promise-3.html" />
         <option value="$PROJECT_DIR$/work/day02/03_ECMAScript复习/02_async&amp;await/index.html" />
+        <option value="$PROJECT_DIR$/work/day03/01_ECMAScript复习/01_async&amp;await.html" />
+        <option value="$PROJECT_DIR$/work/day03/01_ECMAScript复习/02_async&amp;await.html" />
+        <option value="$PROJECT_DIR$/work/day03/01_ECMAScript复习/03_async&amp;await.html" />
+        <option value="$PROJECT_DIR$/work/day02/day02.md" />
+        <option value="$PROJECT_DIR$/work/day03/01_ECMAScript复习/02_数组/01_稀疏数组.html" />
+        <option value="$PROJECT_DIR$/work/day03/01_ECMAScript复习/02_数组/02_arguments.html" />
+        <option value="$PROJECT_DIR$/work/day03/01_ECMAScript复习/02_数组/03_arguments-callee.html" />
+        <option value="$PROJECT_DIR$/work/day03/01_ECMAScript复习/02_数组/04_逗号问题.html" />
+        <option value="$PROJECT_DIR$/work/day03/01_ECMAScript复习/02_数组/array.md" />
       </list>
     </option>
   </component>
@@ -91,12 +137,39 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/node_modules/autoprefixer/package.json" />
+      <path value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/node_modules/browserslist/package.json" />
+      <path value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/node_modules/caniuse-lite/package.json" />
+      <path value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/node_modules/color-convert/package.json" />
+      <path value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/node_modules/color-name/package.json" />
+      <path value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/node_modules/electron-to-chromium/package.json" />
+      <path value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/node_modules/find-up/package.json" />
+      <path value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/node_modules/has-flag/package.json" />
+      <path value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/node_modules/locate-path/package.json" />
+      <path value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/node_modules/node-releases/package.json" />
+      <path value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/node_modules/normalize-range/package.json" />
+      <path value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/node_modules/num2fraction/package.json" />
+      <path value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/node_modules/p-limit/package.json" />
+      <path value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/node_modules/p-locate/package.json" />
+      <path value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/node_modules/p-try/package.json" />
+      <path value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/node_modules/path-exists/package.json" />
+      <path value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/node_modules/pkg-up/package.json" />
+      <path value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/node_modules/postcss-value-parser/package.json" />
+      <path value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/node_modules/postcss/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/node_modules/postcss/package.json" />
+      <path value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/node_modules/supports-color/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="381" />
-    <option name="y" value="322" />
-    <option name="width" value="1553" />
+    <option name="x" value="380" />
+    <option name="y" value="320" />
+    <option name="width" value="1555" />
     <option name="height" value="840" />
   </component>
   <component name="ProjectView">
@@ -104,6 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,34 +188,49 @@
             <path>
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
               <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="pre" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="pre" type="462c0819:PsiDirectoryNode" />
+              <item name="03_js复习" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
               <item name="work" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
               <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
               <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day02" type="462c0819:PsiDirectoryNode" />
+              <item name="day03" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
               <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
               <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day02" type="462c0819:PsiDirectoryNode" />
-              <item name="03_ECMAScript复习" type="462c0819:PsiDirectoryNode" />
+              <item name="day03" type="462c0819:PsiDirectoryNode" />
+              <item name="01_ECMAScript复习" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
               <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
               <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day02" type="462c0819:PsiDirectoryNode" />
-              <item name="03_ECMAScript复习" type="462c0819:PsiDirectoryNode" />
-              <item name="02_async&amp;await" type="462c0819:PsiDirectoryNode" />
+              <item name="day03" type="462c0819:PsiDirectoryNode" />
+              <item name="01_ECMAScript复习" type="462c0819:PsiDirectoryNode" />
+              <item name="02_数组" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="课件" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -152,12 +241,16 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day03\01_ECMAScript复习\01_async" />
+      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day03\01_ECMAScript复习" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day02\03_ECMAScript复习\01_Promise" />
-      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day02\02_css复习\08_css后置处理器" />
-      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day02\02_css复习\07_css预处理器" />
-      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day02\02_css复习\06_浮动&amp;BFC" />
-      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day02\02_css复习\05_字体图标\icomoon_demo\demo" />
+      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day03\01_ECMAScript复习\02_数组" />
+      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day03\01_ECMAScript复习" />
+      <recent name="C:\Users\alienware\Desktop\bj_19_1021\pre\03_js复习\05_属性&amp;属性描述符" />
+      <recent name="C:\Users\alienware\Desktop\bj_19_1021\pre\03_js复习\03_this关键字解析" />
+      <recent name="C:\Users\alienware\Desktop\bj_19_1021\pre\03_js复习\01_promise" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -186,18 +279,21 @@
       <workItem from="1585224338738" duration="4811000" />
       <workItem from="1585266187801" duration="77000" />
       <workItem from="1585266281473" duration="4945000" />
-      <workItem from="1585271644308" duration="23059000" />
+      <workItem from="1585271644308" duration="23632000" />
+      <workItem from="1585326579382" duration="87000" />
+      <workItem from="1585326874978" duration="1388000" />
+      <workItem from="1585352271495" duration="6388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33878000" />
+    <option name="totallyTimeSpent" value="42314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22787318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1974901" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -226,191 +322,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pre/03_js复习/00_异步API/ajax/path" />
-    <entry file="file://$PROJECT_DIR$/pre/03_js复习/06_属性&amp;属性描述符/03_存在性/01_why.html" />
-    <entry file="file://$PROJECT_DIR$/pre/03_js复习/02_promise/01_Promise.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pre/02_css复习/07_flex/02_new/项目/02_align-self.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day01/01_html复习/attr&amp;prop/02_attr&amp;prop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day01/02_css复习/01_选择器/01_选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day01/02_css复习/01_选择器/CSS3-选择器.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="108" column="39" selection-start-line="108" selection-start-column="21" selection-end-line="108" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day01/02_css复习/03_flex/flex.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="18" column="70" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="18" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day01/day01.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="82" column="19" lean-forward="true" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/03_flex/02_flex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/03_flex/03_flex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pre/02_css复习/07_flex/02_new/项目/07_flex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pre/02_css复习/07_flex/02_new/项目/03_flex-shrink.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="29" lean-forward="true" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/03_flex/04_flex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="41" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/03_flex/flex.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/04_自定义字体/01_自定义字体.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/05_字体图标/iconfont_demo/font_1717845_b287im588tn/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/05_字体图标/iconfont_demo/font_1717845_b287im588tn/iconfont.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/05_字体图标/iconfont_demo/font_1717845_b287im588tn/demo_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/05_字体图标/iconfont_demo/demo/02_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/05_字体图标/iconfont_demo/demo/01_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/05_字体图标/icomoon_demo/icommon/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/05_字体图标/icomoon_demo/demo/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/05_字体图标/icomoon_demo/icommon/demo-files/demo.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/05_字体图标/icomoon_demo/demo/demo.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/05_字体图标/icomoon_demo/icommon/demo-files/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1914" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/05_字体图标/iconfont_demo/demo/03_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/05_字体图标/icomoon_demo/icommon/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="18" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/05_字体图标/icomoon_demo/demo/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/05_字体图标/字体图标.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -526,17 +441,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day02/03_ECMAScript复习/01_Promise/06_Promise-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day02/03_ECMAScript复习/01_Promise/05_Promise-1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
           <caret line="25" column="18" lean-forward="true" selection-end-line="33" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pre/03_js复习/02_数组/00_API from ES5/03_方法/01/02_push.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pre/03_js复习/02_数组/00_API from ES5/03_方法/01/01_isArray.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-354" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pre/03_js复习/02_数组/00_API from ES5/03_方法/01_forEach.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pre/03_js复习/04_闭包/闭包.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pre/03_js复习/05_属性&amp;属性描述符/00_两种查找机制.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pre/03_js复习/01_promise/01_Promise.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pre/03_js复习/01_promise/02_Promise.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pre/03_js复习/01_promise/面试题/01_Promise面试题.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-522" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pre/03_js复习/01_promise/面试题/04_Promise面试题.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pre/03_js复习/01_promise/面试题/03_Promise面试题.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-354" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pre/03_js复习/01_promise/面试题/02_Promise面试题.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/05_字体图标/字体图标.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day02/03_ECMAScript复习/02_async&amp;await/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="822">
+          <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day01/day01.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="80" selection-start-line="80" selection-end-line="88" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/03_flex/flex.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/03_flex/01_flex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-906" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/03_flex/02_flex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="28" column="62" selection-start-line="27" selection-start-column="14" selection-end-line="28" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -547,10 +544,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day02/03_ECMAScript复习/02_async&amp;await/index.html">
+    <entry file="file://$PROJECT_DIR$/work/day02/03_ECMAScript复习/01_Promise/06_Promise-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="29" column="10" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="29" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day03/01_ECMAScript复习/01_async/03_async&amp;await.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day03/01_ECMAScript复习/01_async/02_async&amp;await.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day03/01_ECMAScript复习/01_async/01_async&amp;await.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day02/day02.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2328">
+          <caret line="97" column="41" selection-start-line="97" selection-start-column="41" selection-end-line="97" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pre/03_js复习/02_数组/01_数组去重.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day03/01_ECMAScript复习/02_数组/01_稀疏数组.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pre/03_js复习/02_数组/03_伪数组(类数组).html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pre/03_js复习/02_数组/05_arguments-callee.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pre/03_js复习/02_数组/04_arguments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day03/01_ECMAScript复习/02_数组/02_arguments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day03/01_ECMAScript复习/02_数组/03_arguments-callee.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pre/03_js复习/02_数组/06_逗号问题.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="13" />
+          <caret line="12" column="10" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day03/01_ECMAScript复习/02_数组/04_逗号问题.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day03/01_ECMAScript复习/02_数组/array.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
