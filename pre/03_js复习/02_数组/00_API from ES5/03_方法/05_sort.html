@@ -9,7 +9,7 @@
 	<script type="text/javascript">
 		/*sort() 方法使用in-place算法对数组的元素进行排序，并返回数组。
 		默认排序顺序是根据字符串Unicode码点。*/
-		var arr =[1,2,3,4,26,16,147,28];
+		var arr =[1,266,30,4,26,16,147,28];
 		var result = arr.sort(function(a,b){
 			//从小到大
 			// return a-b;
@@ -17,8 +17,8 @@
 			return b-a;
 		})
 		console.log(result);
-		// console.log(arr);
-		// console.log(arr == result)
+		console.log(arr);
+		console.log(arr == result)
 		
 		//参数compareFunction 可选。
 			/*
