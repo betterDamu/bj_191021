@@ -16,9 +16,9 @@
 		console.log(mymodule.getNum()); // 81
 
 		var getNum = mymodule.getNum;
-		console.log(getNum());// 9, 因为在这个例子中，"this"指向全局对象
+		console.log(getNum());// 9, 因为在这个例子中，"03_this"指向全局对象
 		
-		// 创建一个'this'绑定到mymodule的函数
+		// 创建一个'03_this'绑定到mymodule的函数
 		var boundGetNum = getNum.bind(mymodule);
 		console.log(boundGetNum()); // 81
 	</script>
