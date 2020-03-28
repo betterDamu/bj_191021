@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/pre/02_css复习/08_less/less/less.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/pre/02_css复习/08_less/less/less.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pre/03_js复习/02_数组/00_API from ES5/03_方法/04_filter.html" beforeDir="false" afterPath="$PROJECT_DIR$/pre/03_js复习/02_数组/00_API from ES5/03_方法/04_filter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pre/03_js复习/02_数组/04_arguments.html" beforeDir="false" afterPath="$PROJECT_DIR$/pre/03_js复习/02_数组/04_arguments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pre/03_js复习/03_this关键字解析/02_绑定规则_1_默认绑定/01_draft_01.html" beforeDir="false" afterPath="$PROJECT_DIR$/pre/03_js复习/03_this关键字解析/02_绑定规则_1_默认绑定/01_draft_01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pre/03_js复习/03_this关键字解析/02_绑定规则_1_默认绑定/01_draft_02.html" beforeDir="false" afterPath="$PROJECT_DIR$/pre/03_js复习/03_this关键字解析/02_绑定规则_1_默认绑定/01_draft_02.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pre/03_js复习/03_this关键字解析/02_绑定规则_1_默认绑定/01_draft_03.html" beforeDir="false" afterPath="$PROJECT_DIR$/pre/03_js复习/03_this关键字解析/02_绑定规则_1_默认绑定/01_draft_03.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pre/03_js复习/03_this关键字解析/02_绑定规则_2_隐式绑定/01_draft_01.html" beforeDir="false" afterPath="$PROJECT_DIR$/pre/03_js复习/03_this关键字解析/02_绑定规则_2_隐式绑定/01_draft_01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pre/03_js复习/03_this关键字解析/02_绑定规则_2_隐式绑定/02_隐式丢失/02_draft_01.html" beforeDir="false" afterPath="$PROJECT_DIR$/pre/03_js复习/03_this关键字解析/02_绑定规则_2_隐式绑定/02_隐式丢失/02_draft_01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pre/03_js复习/03_this关键字解析/02_绑定规则_3_显示绑定/01_硬绑定/02_draft_01.html" beforeDir="false" afterPath="$PROJECT_DIR$/pre/03_js复习/03_this关键字解析/02_绑定规则_3_显示绑定/01_硬绑定/02_draft_01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pre/03_js复习/03_this关键字解析/02_绑定规则_3_显示绑定/02_硬绑定函数-bind/03_bind.html" beforeDir="false" afterPath="$PROJECT_DIR$/pre/03_js复习/03_this关键字解析/02_绑定规则_3_显示绑定/02_硬绑定函数-bind/03_bind.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pre/03_js复习/03_this关键字解析/02_绑定规则_3_显示绑定/03_解决隐式丢失/03_draft_01.html" beforeDir="false" afterPath="$PROJECT_DIR$/pre/03_js复习/03_this关键字解析/02_绑定规则_3_显示绑定/03_解决隐式丢失/03_draft_01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pre/03_js复习/03_this关键字解析/02_绑定规则_4_new绑定/02_draft_01.html" beforeDir="false" afterPath="$PROJECT_DIR$/pre/03_js复习/03_this关键字解析/02_绑定规则_4_new绑定/02_draft_01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pre/03_js复习/03_this关键字解析/03_绑定规则优先级/03_draft_04.html" beforeDir="false" afterPath="$PROJECT_DIR$/pre/03_js复习/03_this关键字解析/03_绑定规则优先级/03_draft_04.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pre/03_js复习/04_闭包/00_引入.html" beforeDir="false" afterPath="$PROJECT_DIR$/pre/03_js复习/04_闭包/00_引入.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day01/01_html复习/attr&amp;prop/04_attr&amp;prop(坑).html" beforeDir="false" afterPath="$PROJECT_DIR$/work/day01/01_html复习/attr&amp;prop/04_attr&amp;prop(坑).html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day02/01_html复习/attr&amp;prop/04_attr&amp;prop(坑).html" beforeDir="false" afterPath="$PROJECT_DIR$/work/day02/01_html复习/attr&amp;prop/04_attr&amp;prop(坑).html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day03/01_ECMAScript复习/02_数组/02_arguments.html" beforeDir="false" afterPath="$PROJECT_DIR$/work/day03/01_ECMAScript复习/02_数组/02_arguments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day03/01_ECMAScript复习/02_数组/api/02_every.html" beforeDir="false" afterPath="$PROJECT_DIR$/work/day03/01_ECMAScript复习/02_数组/api/02_every.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day03/01_ECMAScript复习/02_数组/api/03_some.html" beforeDir="false" afterPath="$PROJECT_DIR$/work/day03/01_ECMAScript复习/02_数组/api/03_some.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,11 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="02_js中this机制.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/work/day03/01_ECMAScript复习/03_this/02_js中this机制.html">
+      <file leaf-file-name="03_常用闭包.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work/day03/01_ECMAScript复习/04_闭包/03_常用闭包.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+            <state relative-caret-position="198">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="02_经典闭包.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/work/day03/01_ECMAScript复习/04_闭包/02_经典闭包.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -61,9 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/work/day01/01_html复习/attr&amp;prop/02_attr&amp;prop.html" />
-        <option value="$PROJECT_DIR$/work/day01/day01.md" />
-        <option value="$PROJECT_DIR$/work/day02/02_css复习/03_flex/02_flex.html" />
         <option value="$PROJECT_DIR$/work/day02/02_css复习/03_flex/03_flex.html" />
         <option value="$PROJECT_DIR$/work/day02/02_css复习/03_flex/04_flex.html" />
         <option value="$PROJECT_DIR$/work/day02/02_css复习/03_flex/flex.md" />
@@ -112,6 +100,9 @@
         <option value="$PROJECT_DIR$/work/day03/01_ECMAScript复习/02_数组/api/04_filter.html" />
         <option value="$PROJECT_DIR$/work/day03/01_ECMAScript复习/03_this/01_面试题.html" />
         <option value="$PROJECT_DIR$/work/day03/01_ECMAScript复习/03_this/02_js中this机制.html" />
+        <option value="$PROJECT_DIR$/work/day03/01_ECMAScript复习/04_闭包/01_鸡肋闭包.html" />
+        <option value="$PROJECT_DIR$/work/day03/01_ECMAScript复习/04_闭包/03_常用闭包.html" />
+        <option value="$PROJECT_DIR$/work/day03/01_ECMAScript复习/04_闭包/02_经典闭包.html" />
       </list>
     </option>
   </component>
@@ -194,7 +185,7 @@
               <item name="work" type="462c0819:PsiDirectoryNode" />
               <item name="day03" type="462c0819:PsiDirectoryNode" />
               <item name="01_ECMAScript复习" type="462c0819:PsiDirectoryNode" />
-              <item name="03_this" type="462c0819:PsiDirectoryNode" />
+              <item name="04_闭包" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,11 +206,11 @@
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day03\01_ECMAScript复习" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day03\01_ECMAScript复习\04_闭包" />
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day03\01_ECMAScript复习\02_数组\api" />
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day03\01_ECMAScript复习\02_数组" />
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day03\01_ECMAScript复习" />
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\pre\03_js复习\05_属性&amp;属性描述符" />
-      <recent name="C:\Users\alienware\Desktop\bj_19_1021\pre\03_js复习\03_this关键字解析" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -251,18 +242,18 @@
       <workItem from="1585271644308" duration="23632000" />
       <workItem from="1585326579382" duration="87000" />
       <workItem from="1585326874978" duration="1388000" />
-      <workItem from="1585352271495" duration="12644000" />
+      <workItem from="1585352271495" duration="14285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48570000" />
+    <option name="totallyTimeSpent" value="50211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22457068" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1988111" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -291,27 +282,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/.postcssrc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/build/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day02/03_ECMAScript复习/01_Promise/03_Promise-1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -594,6 +564,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/work/day03/01_ECMAScript复习/03_this/02_js中this机制.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="27" selection-start-line="27" selection-end-line="42" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/work/day03/01_ECMAScript复习/03_this/01_面试题.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -601,10 +578,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day03/01_ECMAScript复习/03_this/02_js中this机制.html">
+    <entry file="file://$PROJECT_DIR$/work/day03/01_ECMAScript复习/04_闭包/01_鸡肋闭包.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+        <state relative-caret-position="408">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day03/01_ECMAScript复习/04_闭包/03_常用闭包.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day03/01_ECMAScript复习/04_闭包/02_经典闭包.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>
