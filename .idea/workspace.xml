@@ -2,75 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/课件/vue/01_vue-base/01_vue简介.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/01_vue-base/02_vue基本使用.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/01_vue-base/03_vue指令.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/01_vue-base/04_vue计算属性.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/01_vue-base/05_vue实例对象.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/01_vue-base/06_vue组件.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/01_vue-base/07_vue生命周期.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/01_vue-base/08_组件间传值.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/01_vue-base/09_其他技术点.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/01_vue-base/10_插槽.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/01_vue-base/img/MVVM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/01_vue-base/img/components.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/01_vue-base/img/lifecycle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/01_vue-base/img/mvc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/01_vue-base/img/mvp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/01_vue-base/img/mvvn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/01_vue-base/img/transition.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/01_vue-base/img/xfz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/01_vue-base/img/yyx.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/01_vue-base/img/版本.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/02_vue-router/01_readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/02_vue-router/02_basic-use.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/02_vue-router/03_nested-routes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/02_vue-router/04_dynamic-matching.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/02_vue-router/05_passing-props.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/02_vue-router/06_navigation.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/03_vue-ajax/01_axios.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/03_vue-ajax/img/promise.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/01_readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/02_store&amp;state.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/03_mutation.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/04_getter.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/05_actions.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/06_vuex辅助函数.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/07_使用细节.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/actions/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/actions/components/count.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/actions/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/actions/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/count/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/count/components/count.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/count/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/count/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/count2/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/count2/components/count.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/count2/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/count2/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/getter/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/getter/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/getter/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/map/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/map/components/count.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/map/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/map/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/mutation/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/mutation/components/count.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/mutation/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/mutation/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/mutation2/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/mutation2/components/count.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/mutation2/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/mutation2/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/store&amp;state/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/store&amp;state/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/code/store&amp;state/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/04_vuex/img/vuex.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pre/03_js复习/05_属性&amp;属性描述符/01_属性描述符/04_configurable.html" beforeDir="false" afterPath="$PROJECT_DIR$/pre/03_js复习/05_属性&amp;属性描述符/01_属性描述符/04_configurable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/课件/~$_vue阶段前的复习..doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/vue/01_vue-base/01_vue简介.md" beforeDir="false" afterPath="$PROJECT_DIR$/课件/vue/01_vue-base/01_vue简介.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -84,9 +16,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pre/04_vue/04_vuex-demo/demo/src/store/index.js">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="01_vue简介.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/课件/vue/01_vue-base/01_vue简介.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -107,7 +43,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/work/day02/02_css复习/07_css预处理器/混合&amp;继承的区别/css/index.less" />
         <option value="$PROJECT_DIR$/work/day02/02_css复习/07_css预处理器/混合&amp;继承的区别/css/index.css" />
         <option value="$PROJECT_DIR$/work/day02/02_css复习/07_css预处理器/混合&amp;继承的区别/index.html" />
         <option value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/.postcssrc.js" />
@@ -158,6 +93,7 @@
         <option value="$PROJECT_DIR$/work/day03/03_Node/node_modules/colors/index.js" />
         <option value="$PROJECT_DIR$/work/day03/03_Node/index.js" />
         <option value="$PROJECT_DIR$/pre/03_js复习/05_属性&amp;属性描述符/01_属性描述符/04_configurable.html" />
+        <option value="$PROJECT_DIR$/课件/vue/01_vue-base/01_vue简介.md" />
       </list>
     </option>
   </component>
@@ -208,7 +144,7 @@
       <path value="$PROJECT_DIR$/work/day03/03_Node/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -235,12 +171,31 @@
             <path>
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
               <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="pre" type="462c0819:PsiDirectoryNode" />
+              <item name="04_vue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
               <item name="work" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
               <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
               <item name="课件" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="课件" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="课件" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="01_vue-base" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -299,15 +254,16 @@
       <workItem from="1585326874978" duration="1388000" />
       <workItem from="1585352271495" duration="27109000" />
       <workItem from="1585488245646" duration="1676000" />
-      <workItem from="1585523099857" duration="662000" />
+      <workItem from="1585523099857" duration="834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65373000" />
+    <option name="totallyTimeSpent" value="65545000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21928665" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -338,11 +294,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pre/03_js复习/02_数组/01_数组去重.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pre/03_js复习/02_数组/03_伪数组(类数组).html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -672,6 +623,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pre/04_vue/04_vuex-demo/demo/src/store/index.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/课件/vue/01_vue-base/01_vue简介.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

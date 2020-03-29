@@ -33,9 +33,6 @@
   ![mvc](img/mvc.jpg)
   - > mvp
     <br/>
-  ![mvp](img/mvp.jpg)
-  - > mvvm
-    <br/>
   ![mvvm](img/mvvn.png)
   ![mvvm](img/MVVM.png)
     
