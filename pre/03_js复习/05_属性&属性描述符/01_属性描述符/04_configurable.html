@@ -10,39 +10,21 @@
 		var obj={
 			a:1
 		};
-		obj.a=3;
-		console.log(obj.a);
-		
-		
+
+        Object.defineProperty(obj,"a",{
+            value:5,
+            writable:false,
+            configurable:false,
+            emumerable:true
+        });
+
 		Object.defineProperty(obj,"a",{
-			value:4,
-			writable:true,
-			configurable:true,
-			emumerable:true
-		});
-		console.log(obj.a);
-		
-		
-		Object.defineProperty(obj,"a",{
-			value:5,
-			writable:true,
+			value:6,
+			writable:false,
 			configurable:false,
 			emumerable:true
 		});
-		console.log(obj.a);
-		
-		
-		obj.a=6;
-		console.log(obj.a);
-		
-		Object.defineProperty(obj,"a",{
-			value:7,
-			writable:true,
-			configurable:true,
-			emumerable:true
-		});
-		console.log(obj.a);
-		
-		
+
+        Object.seal(obj)
 	</script>
 </html>
