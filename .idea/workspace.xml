@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day04(vue-base)/03_vue-01&amp;02注意点.html" beforeDir="false" afterPath="$PROJECT_DIR$/work/day04(vue-base)/03_vue-01&amp;02注意点.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day04(vue-base)/06_api-插值表达式.html" beforeDir="false" afterPath="$PROJECT_DIR$/work/day04(vue-base)/06_api-插值表达式.html" afterDir="false" />
-    </list>
+    <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="10_api-指令-事件修饰符.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/10_api-指令-事件修饰符.html">
+      <file leaf-file-name="11_api-指令-事件event.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/11_api-指令-事件event.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+            <state relative-caret-position="174">
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -45,7 +41,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/work/day03/01_ECMAScript复习/02_async&amp;await.html" />
         <option value="$PROJECT_DIR$/work/day03/01_ECMAScript复习/03_async&amp;await.html" />
         <option value="$PROJECT_DIR$/work/day03/01_ECMAScript复习/02_数组/01_稀疏数组.html" />
         <option value="$PROJECT_DIR$/work/day03/01_ECMAScript复习/02_数组/02_arguments.html" />
@@ -96,6 +91,7 @@
         <option value="$PROJECT_DIR$/work/day04(vue-base)/08_api-指令-事件.html" />
         <option value="$PROJECT_DIR$/work/day04(vue-base)/09_api-指令-事件修饰符.html" />
         <option value="$PROJECT_DIR$/work/day04(vue-base)/10_api-指令-事件修饰符.html" />
+        <option value="$PROJECT_DIR$/work/day04(vue-base)/11_api-指令-事件event.html" />
       </list>
     </option>
   </component>
@@ -235,18 +231,18 @@
       <workItem from="1585488245646" duration="1676000" />
       <workItem from="1585523099857" duration="1037000" />
       <workItem from="1585524349940" duration="143000" />
-      <workItem from="1585528039462" duration="11053000" />
+      <workItem from="1585528039462" duration="12454000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76944000" />
+    <option name="totallyTimeSpent" value="78345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19022457" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17965654" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -275,11 +271,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pre/03_js复习/02_数组/00_API from ES5/03_方法/10_reduce.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pre/03_js复习/02_数组/00_API from ES5/03_方法/01_forEach.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -611,8 +602,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/10_api-指令-事件修饰符.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+        <state relative-caret-position="486">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/11_api-指令-事件event.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
         </state>
       </provider>
     </entry>
