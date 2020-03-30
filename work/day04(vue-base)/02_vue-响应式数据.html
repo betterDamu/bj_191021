@@ -17,13 +17,15 @@
     // 使用vue编程!!!  基本上所有的代码都应该出现在配置对象中!!!
 
     //mounted: vue的生命周期中的一个钩子; 它是一个回调函数
+    //mounted不能写成箭头函数;一旦写成箭头函数 this指向会错乱
     var vm = new Vue({
         el:"#app",
         data:{
             msg:"hello Vue"
         },
-        mounted:function () {
-            // 会在vue中数据挂载到界面上之后别调用
+        mounted() {
+            // 回调函数
+            // 会在vue中数据挂载到界面上之后被调用
             // 在vue中基本上所有配置函数的this 都会指向对应的vm实例对象
             setTimeout(()=>{
                 this.msg = "xxx"
@@ -33,6 +35,21 @@
 
 
 
+    /*
+        new Vue()
+        function Vue(options) {
+            options.mounted.call(this)
+        }
+
+        es6 对象的简写形式
+            var data = "";
+           {
+                data,
+                fn(){
+
+                }
+           }
+    */
 </script>
 </html>
 
