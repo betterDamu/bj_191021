@@ -30,8 +30,8 @@
     var vm = new Vue({
         el:"#test",
         methods:{
-            handleC(){
-                console.log("handleC from root")
+            handleC(val){
+                console.log("handleC from root",val)
             }
         },
         components:{
@@ -39,6 +39,7 @@
                 template:`<div :style="styleObj" @click="handleC">v-child</div>`,
                 data(){
                     return {
+                        msg:"msg from v-child",
                         styleObj:{
                             width:"100px",
                             height:"100px",
@@ -51,7 +52,8 @@
                 methods:{
                     handleC(){
                         // this: 当前的组件对象(vm实例对象)
-                        this.$emit("click")
+                        //v-child.$emit("click",123)
+                        this.$emit("click",this.msg)
                     }
                 }
             }

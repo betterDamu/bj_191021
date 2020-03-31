@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day05(vue-base)/06_vue-实例对象-事件.html" beforeDir="false" afterPath="$PROJECT_DIR$/work/day05(vue-base)/06_vue-实例对象-事件.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day05(vue-base)/11_vue-组件系统-使用细节.html" beforeDir="false" afterPath="$PROJECT_DIR$/work/day05(vue-base)/11_vue-组件系统-使用细节.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,15 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="11_vue-组件系统-使用细节.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/work/day05(vue-base)/11_vue-组件系统-使用细节.html">
+      <file leaf-file-name="12_vue-组件系统-使用细节.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/work/day05(vue-base)/12_vue-组件系统-使用细节.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
-              <folding>
-                <element signature="e#370#410#0" />
-                <element signature="e#434#503#0" />
-              </folding>
+            <state relative-caret-position="408">
+              <caret line="33" column="30" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -47,7 +44,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/work/day03/02_DOM复习/index.html" />
         <option value="$PROJECT_DIR$/work/day03/day03.md" />
         <option value="$PROJECT_DIR$/work/day03/03_Node/node_modules/colors/package.json" />
         <option value="$PROJECT_DIR$/work/day03/03_Node/node_modules/colors/index.js" />
@@ -92,12 +88,13 @@
         <option value="$PROJECT_DIR$/work/day05(vue-base)/05_vue-实例对象-方法.html" />
         <option value="$PROJECT_DIR$/work/day04(vue-base)/21_vue-问题-对象更新检查.html" />
         <option value="$PROJECT_DIR$/work/day05(vue-base)/01-api-配置-侦听器.html" />
-        <option value="$PROJECT_DIR$/work/day05(vue-base)/06_vue-实例对象-事件.html" />
         <option value="$PROJECT_DIR$/work/day05(vue-base)/07_vue-组件系统-全局组件.html" />
         <option value="$PROJECT_DIR$/work/day05(vue-base)/08_vue-组件系统-局部组件.html" />
         <option value="$PROJECT_DIR$/work/day05(vue-base)/09_vue-组件系统-todolist.html" />
         <option value="$PROJECT_DIR$/work/day05(vue-base)/10_vue-组件系统-使用细节.html" />
+        <option value="$PROJECT_DIR$/work/day05(vue-base)/06_vue-实例对象-事件.html" />
         <option value="$PROJECT_DIR$/work/day05(vue-base)/11_vue-组件系统-使用细节.html" />
+        <option value="$PROJECT_DIR$/work/day05(vue-base)/12_vue-组件系统-使用细节.html" />
       </list>
     </option>
   </component>
@@ -148,7 +145,7 @@
       <path value="$PROJECT_DIR$/work/day03/03_Node/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="30" />
     <option name="y" value="115" />
     <option name="width" value="1940" />
@@ -246,18 +243,18 @@
       <workItem from="1585558932755" duration="129000" />
       <workItem from="1585579692129" duration="2214000" />
       <workItem from="1585614810487" duration="12011000" />
-      <workItem from="1585631808623" duration="2512000" />
+      <workItem from="1585631808623" duration="3855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107036000" />
+    <option name="totallyTimeSpent" value="108379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20871863" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1994716" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -286,13 +283,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pre/03_js复习/05_属性&amp;属性描述符/01_属性描述符/04_configurable.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pre/04_vue/04_vuex-demo/demo/src/store/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -609,19 +599,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/work/day05(vue-base)/06_vue-实例对象-事件.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="10" />
+        <state relative-caret-position="30">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/work/day05(vue-base)/11_vue-组件系统-使用细节.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+        <state relative-caret-position="199">
+          <caret line="33" column="51" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="51" />
           <folding>
             <element signature="e#370#410#0" />
             <element signature="e#434#503#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day05(vue-base)/12_vue-组件系统-使用细节.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="30" />
         </state>
       </provider>
     </entry>
