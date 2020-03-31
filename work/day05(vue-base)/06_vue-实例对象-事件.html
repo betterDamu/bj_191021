@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+        {{msg}}
+    </div>
+</body>
+<script src="./js/vue.js"></script>
+<script>
+
+    // vue实例对象上的事件!!! 不是dom事件!!!!
+
+    Vue.config.productionTip=false;
+    var vm = new Vue({
+        el:"#app",
+        data:{
+            msg:"xxx"
+        }
+    })
+
+    //注册vue的自定义事件
+    vm.$on("click",()=>{console.log("-----")})
+    setTimeout(()=>{
+        //触发vue的自定义事件
+        vm.$emit("click")
+    },2000)
+
+</script>
+</html>

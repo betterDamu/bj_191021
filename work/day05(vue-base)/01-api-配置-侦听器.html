@@ -29,14 +29,27 @@
             fullName:"T-Mac"
         },
         //用来监听 data中数据!
-        watch:{
+        /*watch:{
             firstName(val){
                 this.fullName = `${val}-${this.lastName}`
             },
             lastName(val){
                 this.fullName = `${this.firstName}-${val}`
             }
+        }*/
+
+        mounted(){
+            console.log("----")
+            this.$watch("firstName",function(val){
+                this.fullName = `${val}-${this.lastName}`
+            });
+
+            this.$watch("lastName",function(val){
+                this.fullName = `${val}-${this.lastName}`
+            })
         }
     })
+
+
 </script>
 </html>
