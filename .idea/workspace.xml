@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/work/day04(vue-base)/22_api-配置-计算属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/work/day04(vue-base)/22_api-配置-计算属性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day04(vue-base)/23_api-配置-计算属性(依赖).html" beforeDir="false" afterPath="$PROJECT_DIR$/work/day04(vue-base)/23_api-配置-计算属性(依赖).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/vue/01_vue-base/06_vue组件.md" beforeDir="false" afterPath="$PROJECT_DIR$/课件/vue/01_vue-base/06_vue组件.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,21 +16,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="25_api-配置-计算属性(setter).html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/25_api-配置-计算属性(setter).html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="03_列表排序.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/work/day05(vue-base)/03_列表排序.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="40" column="13" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="40" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="23_api-配置-计算属性(依赖).html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/23_api-配置-计算属性(依赖).html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="47" column="15" selection-start-line="43" selection-start-column="12" selection-end-line="47" selection-end-column="15" />
+            <state relative-caret-position="366">
+              <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -53,11 +44,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/work/day03/01_ECMAScript复习/04_闭包/01_鸡肋闭包.html" />
-        <option value="$PROJECT_DIR$/work/day03/01_ECMAScript复习/04_闭包/03_常用闭包.html" />
-        <option value="$PROJECT_DIR$/work/day03/01_ECMAScript复习/04_闭包/02_经典闭包.html" />
-        <option value="$PROJECT_DIR$/work/day03/01_ECMAScript复习/05_属性/01_左查询&amp;右查询.html" />
-        <option value="$PROJECT_DIR$/work/day03/01_ECMAScript复习/05_属性/02_定义属性.html" />
         <option value="$PROJECT_DIR$/work/day03/01_ECMAScript复习/05_属性/02_get&amp;set.html" />
         <option value="$PROJECT_DIR$/work/day03/01_ECMAScript复习/05_属性/04_全局变量.html" />
         <option value="$PROJECT_DIR$/work/day03/01_ECMAScript复习/05_属性/05_原型链上的属性.html" />
@@ -104,6 +90,11 @@
         <option value="$PROJECT_DIR$/work/day04(vue-base)/25_api-配置-计算属性(setter).html" />
         <option value="$PROJECT_DIR$/work/day04(vue-base)/26_api-配置-计算属性(vs methods).html" />
         <option value="$PROJECT_DIR$/work/day04(vue-base)/23_api-配置-计算属性(依赖).html" />
+        <option value="$PROJECT_DIR$/课件/vue/01_vue-base/06_vue组件.md" />
+        <option value="$PROJECT_DIR$/work/day04(vue-base)/day04.md" />
+        <option value="$PROJECT_DIR$/work/day05(vue-base)/01_侦听器.html" />
+        <option value="$PROJECT_DIR$/work/day05(vue-base)/02_列表过滤.html" />
+        <option value="$PROJECT_DIR$/work/day05(vue-base)/03_列表排序.html" />
       </list>
     </option>
   </component>
@@ -156,7 +147,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="30" />
-    <option name="y" value="116" />
+    <option name="y" value="115" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
@@ -182,12 +173,7 @@
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
               <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
               <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day04(vue-base)" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="课件" type="462c0819:PsiDirectoryNode" />
+              <item name="day05(vue-base)" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -203,16 +189,16 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day03\01_ECMAScript复习\01_async" />
-      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day03\01_ECMAScript复习" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day05(vue-base)" />
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day04(vue-base)" />
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\pre" />
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\课件" />
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day03\01_ECMAScript复习\05_属性" />
-      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day03\01_ECMAScript复习\04_闭包" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day03\01_ECMAScript复习\01_async" />
+      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day03\01_ECMAScript复习" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -248,12 +234,15 @@
       <workItem from="1585488245646" duration="1676000" />
       <workItem from="1585523099857" duration="1037000" />
       <workItem from="1585524349940" duration="143000" />
-      <workItem from="1585528039462" duration="24077000" />
+      <workItem from="1585528039462" duration="24279000" />
+      <workItem from="1585558932755" duration="129000" />
+      <workItem from="1585579692129" duration="2214000" />
+      <workItem from="1585614810487" duration="4355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89968000" />
+    <option name="totallyTimeSpent" value="96868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -288,62 +277,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/work/day03/01_ECMAScript复习/05_属性/03_属性描述符.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="30" column="54" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="30" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day03/01_ECMAScript复习/05_属性/02_get&amp;set.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="22" column="28" lean-forward="true" selection-end-line="32" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day03/01_ECMAScript复习/05_属性/07_get&amp;set新语法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day03/01_ECMAScript复习/05_属性/08_存在性检查.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day03/01_ECMAScript复习/05_属性/10_js-API的一个特点.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day03/01_ECMAScript复习/05_属性/09_对象的不变性.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day03/01_ECMAScript复习/05_属性/属性描述符.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day03/02_DOM复习/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day03/03_Node/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -428,38 +361,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/02_vue-响应式数据.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/04_vue-数据双向绑定.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="49" column="12" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pre/04_vue/01_vue-base-demo/vue-base-1/05_简单的todolist.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/05_vue-数据驱动.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/01_vue-声明式编程.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="39" lean-forward="true" selection-end-line="51" />
         </state>
       </provider>
     </entry>
@@ -474,13 +379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/03_vue-01&amp;02注意点.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="64" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -540,24 +438,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/18_api-指令-其他.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/19_api-指令-其他.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="28" column="14" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="28" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/07_api-指令-数据绑定.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -617,15 +501,111 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/25_api-配置-计算属性(setter).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="40" column="13" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="40" selection-end-column="13" />
+        <state relative-caret-position="222">
+          <caret line="17" column="67" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="67" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/07_api-指令-数据绑定.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/02_vue-响应式数据.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/课件/vue/01_vue-base/06_vue组件.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/课件/vue/01_vue-base/05_vue实例对象.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/18_api-指令-其他.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/05_vue-数据驱动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" column="15" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/04_vue-数据双向绑定.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/03_vue-01&amp;02注意点.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/day04.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/01_vue-声明式编程.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day05(vue-base)/js/vue.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/23_api-配置-计算属性(依赖).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="47" column="15" selection-start-line="43" selection-start-column="12" selection-end-line="47" selection-end-column="15" />
+        <state relative-caret-position="342">
+          <caret line="40" column="59" lean-forward="true" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day05(vue-base)/01_侦听器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pre/04_vue/01_vue-base-demo/vue-base-2/06_列表排序.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day05(vue-base)/02_列表过滤.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#span#2;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day05(vue-base)/03_列表排序.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
         </state>
       </provider>
     </entry>
