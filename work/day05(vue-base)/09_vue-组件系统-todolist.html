@@ -31,6 +31,8 @@
         },
         components:{
             //模板上的数据 可以去 data methods computed props
+            //不应该在data computed props配置中定义同名属性
+            //methods定义方法的
             "v-todolist":{
                 template:`<ul>
                     <li v-for="todo in todolist">
