@@ -23,11 +23,25 @@
     })
 
     //注册vue的自定义事件
-    vm.$on("click",()=>{console.log("-----")})
-    setTimeout(()=>{
+    vm.$on("damuclick1",()=>{console.log("damuclick1")})
+    vm.$on("damuclick2",()=>{console.log("damuclick2")})
+    vm.$on("damuclick3",()=>{console.log("damuclick3")})
+
+    function damuclick4_1(){console.log("damuclick4-1")}
+    function damuclick4_2(){console.log("damuclick4-2")}
+    vm.$on("damuclick4",damuclick4_1)
+    vm.$on("damuclick4",damuclick4_2)
+    setInterval(()=>{
         //触发vue的自定义事件
-        vm.$emit("click")
-    },2000)
+        vm.$emit("damuclick1")
+        vm.$emit("damuclick2")
+        vm.$emit("damuclick3")
+        vm.$emit("damuclick4")
+    },1000)
+
+    setTimeout(()=>{
+        vm.$off("damuclick4",damuclick4_2)
+    },3000)
 
 </script>
 </html>
