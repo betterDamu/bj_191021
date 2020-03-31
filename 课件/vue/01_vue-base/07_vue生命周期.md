@@ -14,8 +14,8 @@
             * beforeUpdate()
             * updated()
         销毁vue实例: vm.$destory()
-            * beforeDestory()
-            * destoryed()
+            * beforeDestroy()
+            * destroyed()
 
     2)	常用的生命周期方法
         created()/mounted(): 发送ajax请求, 启动定时器等异步任务
