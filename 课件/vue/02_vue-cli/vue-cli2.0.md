@@ -1,20 +1,3 @@
-### vue的源码版本
-      完整版本 : 编译器 + 运行时 ; 支持template
-      运行时版本:    不支持template
-
-### render
-    配置项:
-        render:function(h){
-            //return h("span","123");
-            return h(组件的配置对象);
-        }
-
-### webpack找包的机制
-    import Vue from "vue";
-    import App from "./App";
-        经过vue-loader的处理 我们拿到的就是app组件的配置对象
-
-
 ### 如何修改windows的环境变量
     set : 查看当前windows操作系统所有的环境变量
     set name : 查看指定的环境变量的值
@@ -118,4 +101,29 @@
                                       <span>test</span>
                                     </div>'
                         })
+
+### vue的源码版本
+      完整版本 : 编译器 + 运行时 ; 支持template
+      运行时版本:    不支持template
+
+### render
+    配置项:
+        render:function(h){
+            //return h("span","123");
+            return h(组件的配置对象);
+        }
+
+### webpack找包的机制
+    import App from "./App";
+        经过vue-loader的处理 我们拿到的就是app组件的配置对象
+    import Vue from "vue";
+        webpack找到的到底是一个什么样的文件?
+            webpack import的规则?
+                import Vue from "vue";   "vue"是一个包!!
+                    1. 根据resolve.modules这个配置去指定的目录中查找vue这个包
+                    2. 找包的描述文件package.json
+                    3. 根据resolve.mainFields 去package.json找对应的字段
+                    4. 如果以上步骤没有找到对应的js文件 则按照resolve.mainFiles字段指定的文件名 去找对应的文件
+                    5. 文件的扩展名 由resolve.extensions来决定
+                    6. 如果以上步骤都没有成功  那么webpack就找不到对应的包!
 
