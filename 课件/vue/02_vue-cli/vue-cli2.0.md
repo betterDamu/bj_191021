@@ -1,4 +1,18 @@
 ### vue的源码版本
+      完整版本 : 编译器 + 运行时 ; 支持template
+      运行时版本:    不支持template
+
+### render
+    配置项:
+        render:function(h){
+            //return h("span","123");
+            return h(组件的配置对象);
+        }
+
+### webpack找包的机制
+    import Vue from "vue";
+    import App from "./App";
+        经过vue-loader的处理 我们拿到的就是app组件的配置对象
 
 
 ### 如何修改windows的环境变量
