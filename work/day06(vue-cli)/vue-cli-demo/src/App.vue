@@ -1,28 +1,35 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+     <span>{{msg}}</span>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
-
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  data(){
+    return {
+      msg:"test"
+    }
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
+
+
+<!--
+app.vue 在被vue-loader解析过后:
+export default {
+  name: 'App',
+  template:'<div id="app">
+    <span>{{msg}}</span>
+  </div>',
+  data(){
+    return {
+      msg:"test"
+    }
+  }
+}
+-->

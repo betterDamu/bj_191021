@@ -1,3 +1,6 @@
+### vue的源码版本
+
+
 ### 如何修改windows的环境变量
     set : 查看当前windows操作系统所有的环境变量
     set name : 查看指定的环境变量的值
@@ -40,7 +43,7 @@
         npm install -g vue-cli
             npm 帮你生成了脚手架对应的命令
                 vue,vue-init,vue-list
-            命令存放的目录 被配置了环境变量的path中
+            命令存放的目录 被配置在了环境变量的path中
 
     查阅一下脚手架可支持的模板
         vue list
@@ -51,3 +54,54 @@
     启动项目
         npm run dev
         npm start
+
+### 脚手架启动流程基本分析
+    启动的是开发环境:
+        1. 启动开发服务器
+            npm start
+            npm run dev
+            webpack-dev-server --inline --progress --config build/webpack.dev.conf.js
+                webpack-dev-server : 脚手架内置一个开发服务器
+                --inline --progress : 将脚手架的启动进度在一行进行显示
+
+        2. 查看开发服务器对应的配置文件
+                公司的脚手架工具 可能会要去环境变量中读取一些信息;
+                我们要学会使用set命令(windows 操作系统的命令) 来操作环境变量
+                build/webpack.dev.conf.js:
+                    //process node的内置模块;用来读取操作系统的一些信息
+                    //process.env : 读取操作系统中环境变量
+                    const HOST = process.env.HOST
+                    const PORT = process.env.PORT && Number(process.env.PORT)
+                    const merge = require('webpack-merge');
+                    const baseWebpackConfig = require('./webpack.base.conf');
+                    const config = require('../config')
+                    const devWebpackConfig = merge(baseWebpackConfig,{
+                        devServer:{
+                            host: HOST || config.dev.host,
+                            port: PORT || config.dev.port,
+                            open: config.dev.autoOpenBrowser
+                        }
+                    });
+
+
+        3. 启动项目后;界面是如何出来的?
+                build/webpack.base.conf.js
+                    entry:{
+                         app: './src/main.js' // 整个项目的入口!!!
+                    }
+                    output: {
+                        filename: 'app.js',
+                    }
+                    new HtmlWebpackPlugin({
+                      filename: 'index.html',
+                      template: 'index.html',
+                      inject: true
+                    }),
+                    打包成功之后的文件:
+                        new Vue({
+                          el: '#app',
+                          template: '<div id="app">
+                                      <span>test</span>
+                                    </div>'
+                        })
+
