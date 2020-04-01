@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/.eslintignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/课件/vue/02_vue-cli/vue-cli2.0.md" beforeDir="false" afterPath="$PROJECT_DIR$/课件/vue/02_vue-cli/vue-cli2.0.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,37 +18,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="webpack.base.conf.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/build/webpack.base.conf.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="34" column="14" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="14" />
+            <state relative-caret-position="240">
+              <caret line="10" column="34" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="34" />
               <folding>
-                <element signature="n#!!block;n#resolve#0" />
-                <element signature="e#267#509#0" />
-                <element signature="e#583#613#0" />
-                <element signature="e#625#820#0" />
-                <element signature="e#938#1945#0" />
-                <element signature="e#1955#2345#0" />
+                <element signature="n#!!block;n#dependencies#0;n#!!top" />
+                <element signature="n#!!block;n#engines#0;n#!!top" />
+                <element signature="e#2070#2128#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/src/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vue-cli2.0.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/课件/vue/02_vue-cli/vue-cli2.0.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="127" column="54" selection-start-line="127" selection-start-column="54" selection-end-line="127" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -74,11 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/work/day04(vue-base)/15_api-key.html" />
-        <option value="$PROJECT_DIR$/work/day04(vue-base)/16_api-指令-循环.html" />
-        <option value="$PROJECT_DIR$/work/day04(vue-base)/17_api-指令-其他.html" />
-        <option value="$PROJECT_DIR$/work/day04(vue-base)/18_api-指令-其他.html" />
-        <option value="$PROJECT_DIR$/work/day04(vue-base)/19_api-指令-其他.html" />
         <option value="$PROJECT_DIR$/work/day04(vue-base)/20_vue-问题-数组更新检查.html" />
         <option value="$PROJECT_DIR$/work/day04(vue-base)/22_api-配置-计算属性.html" />
         <option value="$PROJECT_DIR$/work/day04(vue-base)/24_api-配置-计算属性(缓存).html" />
@@ -122,9 +98,14 @@
         <option value="$PROJECT_DIR$/work/day06(vue-cli)/vue版本/index.html" />
         <option value="$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/src/App.vue" />
         <option value="$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/node_modules/vue/index.js" />
-        <option value="$PROJECT_DIR$/课件/vue/02_vue-cli/vue-cli2.0.md" />
         <option value="$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/node_modules/vue/package.json" />
         <option value="$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/src/main.js" />
+        <option value="$PROJECT_DIR$/课件/vue/02_vue-cli/vue-cli2.0.md" />
+        <option value="$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo2/src/App.vue" />
+        <option value="$PROJECT_DIR$/work/day06(vue-cli)/07_index.html" />
+        <option value="$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/.eslintignore" />
+        <option value="$PROJECT_DIR$/work/day06(vue-cli)/day06.md" />
+        <option value="$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/package.json" />
       </list>
     </option>
   </component>
@@ -138,6 +119,7 @@
     <handled-path value="$PROJECT_DIR$/pre/04_vue/06_vue-cli-demo/todolist/node_modules" />
     <handled-path value="$PROJECT_DIR$/work/day03/03_Node/node_modules" />
     <handled-path value="$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/node_modules" />
+    <handled-path value="$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo2/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -175,6 +157,7 @@
       <path value="$PROJECT_DIR$/work/day02/02_css复习/08_css后置处理器/node_modules/supports-color/package.json" />
       <path value="$PROJECT_DIR$/work/day03/03_Node/package.json" />
       <path value="$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/package.json" />
+      <path value="$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo2/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -220,24 +203,7 @@
               <item name="work" type="462c0819:PsiDirectoryNode" />
               <item name="day06(vue-cli)" type="462c0819:PsiDirectoryNode" />
               <item name="vue-cli-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day06(vue-cli)" type="462c0819:PsiDirectoryNode" />
-              <item name="vue-cli-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day06(vue-cli)" type="462c0819:PsiDirectoryNode" />
-              <item name="vue-cli-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -254,8 +220,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day06(vue-cli)\vue版本\js" />
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day06(vue-cli)" />
+      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day06(vue-cli)\vue版本\js" />
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day05(vue-base)" />
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day04(vue-base)" />
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\pre" />
@@ -303,18 +269,18 @@
       <workItem from="1585579692129" duration="2214000" />
       <workItem from="1585614810487" duration="12011000" />
       <workItem from="1585631808623" duration="11988000" />
-      <workItem from="1585699856045" duration="21782000" />
+      <workItem from="1585699856045" duration="25522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138294000" />
+    <option name="totallyTimeSpent" value="142034000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28401586" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2338177" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -322,7 +288,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.47524753" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.5671853" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -342,73 +308,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pre/04_vue/01_vue-base-demo/vue-base-2/06_列表排序.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day05(vue-base)/02_列表过滤.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/03_vue-01&amp;02注意点.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="63" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day05(vue-base)/03_列表排序.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="52" lean-forward="true" selection-end-line="82" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/21_vue-问题-对象更新检查.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day05(vue-base)/05_vue-实例对象-方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day05(vue-base)/09_vue-组件系统-todolist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day05(vue-base)/10_vue-组件系统-使用细节.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/08_api-指令-事件.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day05(vue-base)/06_vue-实例对象-事件.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day05(vue-base)/07_vue-组件系统-全局组件.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -425,13 +330,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/课件/vue/01_vue-base/img/lifecycle.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/vue阶段的课程.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" selection-start-line="21" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/day04.md">
       <provider selected="true" editor-type-id="text-editor">
@@ -605,42 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/build/webpack.dev.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1227">
-          <caret line="58" column="7" lean-forward="true" selection-start-line="54" selection-start-column="4" selection-end-line="58" selection-end-column="7" />
-          <folding>
-            <element signature="e#947#1069#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="n#!!block;n#dependencies#0;n#!!top" />
-            <element signature="n#!!block;n#engines#0;n#!!top" />
-            <element signature="e#2070#2128#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/config/dev.env.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -658,10 +520,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/work/day03/03_Node/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/node_modules/vue/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/node_modules/vue/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="136" column="9" selection-start-line="136" selection-start-column="3" selection-end-line="136" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!block;n#_requested#0;n#!!top" />
+            <element signature="n#!!block;n#repository#0;n#!!top" />
+            <element signature="n#!!block;n#scripts#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/vue阶段的课程.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" selection-start-line="21" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/build/webpack.base.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="34" column="14" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="14" />
+        <state relative-caret-position="408">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="8" />
           <folding>
             <element signature="n#!!block;n#resolve#0" />
             <element signature="e#267#509#0" />
@@ -673,27 +564,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/课件/vue/02_vue-cli/vue-cli2.0.md">
+    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="127" column="54" selection-start-line="127" selection-start-column="54" selection-end-line="127" selection-end-column="54" />
+        <state>
+          <caret selection-end-line="18" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/node_modules/vue/package.json">
+    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/build/webpack.dev.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="136" column="29" selection-start-line="136" selection-start-column="29" selection-end-line="136" selection-end-column="29" />
+        <state relative-caret-position="-192">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding>
-            <element signature="n#!!block;n#_requested#0;n#!!top" />
+            <element signature="e#947#1069#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo2/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="19" selection-start-line="10" selection-start-column="3" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#140#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo2/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/07_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo2/build/webpack.base.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="e#557#687#0" />
+            <element signature="e#699#1644#0" />
+            <element signature="e#1654#2044#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo2/build/webpack.dev.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="56" column="15" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="15" />
+          <folding>
+            <element signature="e#2276#3002#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo2/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!block;n#dependencies#0;n#!!top" />
+            <element signature="n#!!block;n#devDependencies#0;n#!!top" />
+            <element signature="n#!!block;n#engines#0;n#!!top" />
+            <element signature="e#1672#1730#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/课件/vue/02_vue-cli/vue-cli2.0.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1552">
+          <caret line="89" column="26" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="168">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/.eslintignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/day06.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="50" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="34" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!block;n#dependencies#0;n#!!top" />
+            <element signature="n#!!block;n#engines#0;n#!!top" />
+            <element signature="e#2070#2128#0" />
+          </folding>
         </state>
       </provider>
     </entry>

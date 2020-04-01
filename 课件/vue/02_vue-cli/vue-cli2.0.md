@@ -44,6 +44,7 @@
 
     查阅一下脚手架可支持的模板
         vue list
+        可以查到 template-name
 
     使用脚手架生成项目(以下命令得运行在项目的包裹目录下)
          vue init <template-name> <project-name>
@@ -114,12 +115,18 @@
         }
 
 ### webpack找包的机制
+    https://webpack.docschina.org/concepts/module-resolution
     import App from "./App";
         经过vue-loader的处理 我们拿到的就是app组件的配置对象
     import Vue from "vue";
         webpack找到的到底是一个什么样的文件?
             webpack import的规则?
-                import Vue from "vue";   "vue"是一个包!!
+                import Vue from "vue";
+
+                配别名的情况: "vue"是一个别名!!
+                    直接找别名指定的文件
+
+                沒有配别名的情况: "vue"是一个包!!
                     1. 根据resolve.modules这个配置去指定的目录中查找vue这个包
                     2. 找包的描述文件package.json
                     3. 根据resolve.mainFields 去package.json找对应的字段
