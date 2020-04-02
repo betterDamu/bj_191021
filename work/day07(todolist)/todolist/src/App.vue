@@ -28,7 +28,38 @@
     methods:{
       addItem(item){
         this.listArr.unshift(item)
+      },
+      delItem(id){
+        this.listArr = this.listArr.filter((item)=>{
+          return item.id !== id;
+        })
+      },
+      changeChecked(checked,id){
+        //id: item传递过来的id;代表要删除的item
+        this.listArr.forEach((item)=>{
+          if(item.id === id){
+            item.checked =checked;
+          }
+        })
       }
+    },
+    created(){
+      this.$bus.$on("delItem",this.delItem),
+      this.$bus.$on("changeChecked",this.changeChecked)
+      /*this.$bus.$on("delItem",(id)=>{
+        //id: item传递过来的id;代表要删除的item
+        this.listArr = this.listArr.filter((item)=>{
+          return item.id !== id;
+        })
+      }),
+      this.$bus.$on("changeChecked",(checked,id)=>{
+        //id: item传递过来的id;代表要删除的item
+        this.listArr.forEach((item)=>{
+          if(item.id === id){
+            item.checked =checked;
+          }
+        })
+      })*/
     },
     components:{
       "todo-header":header,

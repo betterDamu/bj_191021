@@ -1,10 +1,12 @@
 <template>
     <li>
       <label>
-        <input type="checkbox" v-model="item.checked" />
+        <!--item 组件 不能直接修改 app组件中的数据-->
+        <!-- v-model脏数据 -->
+        <input type="checkbox" v-model="checked" />
         <span>{{item.text}}</span>
       </label>
-      <button class="btn btn-danger" style="display:none">删除</button>
+      <button class="btn btn-danger" @click="delItem">删除</button>
     </li>
 </template>
 
@@ -13,6 +15,21 @@
         name: "Item",
         props:{
           item:Object
+        },
+        computed:{
+          checked:{
+            get(){return this.item.checked},
+            set(val){
+              // console.log(val,this.item.id);
+              this.$bus.$emit("changeChecked",val,this.item.id)
+            }
+          }
+        },
+        methods:{
+          delItem(){
+            //跟app进行一次 爷孙之间的通信
+            this.$bus.$emit("delItem",this.item.id)
+          }
         }
     }
 </script>
@@ -40,7 +57,6 @@
 
   li button {
     float: right;
-    display: none;
     margin-top: 3px;
   }
 
