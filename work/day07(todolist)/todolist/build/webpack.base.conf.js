@@ -4,6 +4,9 @@ const utils = require('./utils')
 const config = require('../config')
 const vueLoaderConfig = require('./vue-loader.conf')
 
+//__dirname 绝对路径 代表当前文件所在的文件夹
+//console.log(path.join(__dirname, '..', "src"),"-----");
+//C:\Users\alienware\Desktop\bj_19_1021\work\day07(todolist)\todolist\src
 function resolve (dir) {
   return path.join(__dirname, '..', dir)
 }
@@ -25,7 +28,9 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.vue', '.json'],
     alias: {
+      //C:\Users\alienware\Desktop\bj_19_1021\work\day07(todolist)\todolist\src
       '@': resolve('src'),
+      "components":resolve('src/components')
     }
   },
   module: {
