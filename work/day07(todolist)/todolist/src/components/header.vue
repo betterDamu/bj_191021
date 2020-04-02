@@ -1,12 +1,34 @@
 <template>
   <div class="todo-header">
-  <input type="text" placeholder="请输入你的任务名称，按回车键确认"/>
+  <input type="text" placeholder="请输入你的任务名称，按回车键确认"
+         v-model="text" @keydown.13="addItem"/>
 </div>
 </template>
 
 <script>
+  let id = 2;
   export default {
-    name: 'Header'
+    name: 'Header',
+    data(){
+      return {
+        text:""
+      }
+    },
+    methods:{
+      addItem(){
+        //拿到 text数据, 往app中新增一项
+        //实现一个子向父的通信
+        id++;
+        let item ={
+          id,
+          text:this.text,
+          checked:false
+        }
+        //主动和app进行一次通信
+        this.$emit("addItem",item)
+        this.text="";
+      }
+    }
   }
 </script>
 

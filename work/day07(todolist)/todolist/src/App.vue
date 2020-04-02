@@ -2,7 +2,7 @@
   <div id="app">
     <div class="todo-container">
       <div class="todo-wrap">
-        <todo-header></todo-header>
+        <todo-header @addItem="addItem"></todo-header>
         <todo-list :listArr="listArr"></todo-list>
         <todo-footer></todo-footer>
       </div>
@@ -20,9 +20,14 @@
       return {
         listArr:[
           {id:0,text:"找到一个3级头",checked:false},
-          {id:1,text:"打穿一个3级甲",checked:true},
+          {id:1,text:"打穿一个3级甲",checked:false},
           {id:2,text:"舔到一个3级包",checked:false}
         ]
+      }
+    },
+    methods:{
+      addItem(item){
+        this.listArr.unshift(item)
       }
     },
     components:{
