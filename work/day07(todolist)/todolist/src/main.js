@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App' //组件的配置对象
-import "../static/base.css"
+// import "../static/base.css"
 
 
 //总线

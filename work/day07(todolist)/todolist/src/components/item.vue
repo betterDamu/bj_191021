@@ -1,12 +1,15 @@
 <template>
-    <li>
+    <li :class="{highlight:highlight,line:checked}"
+        @mouseleave="highlight = !highlight"
+        @mouseenter="highlight = !highlight">
       <label>
         <!--item 组件 不能直接修改 app组件中的数据-->
         <!-- v-model脏数据 -->
         <input type="checkbox" v-model="checked" />
         <span>{{item.text}}</span>
       </label>
-      <button class="btn btn-danger" @click="delItem">删除</button>
+      <button class="btn btn-danger" @click="delItem"
+              :style="{display:highlight?'block':'none'}">删除</button>
     </li>
 </template>
 
@@ -15,6 +18,11 @@
         name: "Item",
         props:{
           item:Object
+        },
+        data(){
+          return {
+            highlight:false
+          }
         },
         computed:{
           checked:{
@@ -35,6 +43,26 @@
 </script>
 
 <style scoped>
+  .line{
+    position: relative;
+  }
+  .line:after{
+    content: "";
+    display: block;
+    width: 85%;
+    height: 1px;
+    background: red;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .highlight{
+    background: pink;
+  }
+
   li {
     list-style: none;
     height: 36px;
@@ -56,8 +84,11 @@
   }
 
   li button {
+    position: relative;
+    z-index: 9;
     float: right;
     margin-top: 3px;
+    display: none;
   }
 
   li:before {
