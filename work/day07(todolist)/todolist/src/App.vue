@@ -4,7 +4,7 @@
       <div class="todo-wrap">
         <todo-header @addItem="addItem"></todo-header>
         <todo-list :listArr="listArr"></todo-list>
-        <todo-footer></todo-footer>
+        <todo-footer :listArr="listArr" @clear="clear"></todo-footer>
       </div>
     </div>
   </div>
@@ -40,6 +40,11 @@
           if(item.id === id){
             item.checked =checked;
           }
+        })
+      },
+      clear(){
+        this.listArr = this.listArr.filter((item)=>{
+            return !item.checked;
         })
       }
     },

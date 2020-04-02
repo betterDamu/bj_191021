@@ -58,6 +58,7 @@
     top: 0;
     bottom: 0;
     margin: auto;
+    transform: scaleY(.5);
   }
   .highlight{
     background: pink;

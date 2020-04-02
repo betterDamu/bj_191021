@@ -4,15 +4,34 @@
       <input type="checkbox"/>
     </label>
     <span>
-            <span>已完成0</span> / 全部2
-          </span>
-    <button class="btn btn-danger">清除已完成任务</button>
+      已完成
+      <i style="color: green;font-weight: 800">{{checkedCount}}</i>
+      / 全部
+      <i style="color: red;font-weight: 800">{{totalCount}}</i>
+    </span>
+    <button class="btn btn-danger" @click="clear">清除已完成任务</button>
   </div>
 </template>
 
 <script>
     export default {
-        name: "Footer"
+        name: "Footer",
+        props:{
+          listArr:Array
+        },
+        computed:{
+          totalCount(){return this.listArr.length},
+          checkedCount(){
+            return this.listArr.reduce((adder,item)=>{
+                return adder += (item.checked ? 1 : 0)
+            },0)
+          }
+        },
+        methods:{
+          clear(){
+            this.$emit("clear")
+          }
+        }
     }
 </script>
 
