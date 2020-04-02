@@ -4,7 +4,7 @@
       <div class="todo-wrap">
         <todo-header @addItem="addItem"></todo-header>
         <todo-list :listArr="listArr"></todo-list>
-        <todo-footer :listArr="listArr" @clear="clear"></todo-footer>
+        <todo-footer :listArr="listArr" @clear="clear" @checkedAll="checkedAll"></todo-footer>
       </div>
     </div>
   </div>
@@ -45,6 +45,18 @@
       clear(){
         this.listArr = this.listArr.filter((item)=>{
             return !item.checked;
+        })
+      },
+      checkedAll(checked){
+        /*
+          对数组中元素进行一些统一操作的时候 可以学到map方法
+          this.listArr = this.listArr.map((item)=>{
+             item.checked = checked;
+             return item
+          })
+        */
+        this.listArr.forEach((item)=>{
+          item.checked =checked
         })
       }
     },

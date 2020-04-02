@@ -1,7 +1,7 @@
 <template>
   <div class="todo-footer">
     <label>
-      <input type="checkbox"/>
+      <input type="checkbox" v-model="checkedAll"/>
     </label>
     <span>
       已完成
@@ -25,6 +25,15 @@
             return this.listArr.reduce((adder,item)=>{
                 return adder += (item.checked ? 1 : 0)
             },0)
+          },
+          checkedAll:{
+            get(){
+              var flag = this.totalCount!==0 && this.checkedCount!==0;
+              return flag && this.totalCount === this.checkedCount
+            },
+            set(val){
+              this.$emit("checkedAll",val)
+            }
           }
         },
         methods:{
