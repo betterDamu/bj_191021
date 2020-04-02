@@ -6,7 +6,8 @@
 </template>
 
 <script>
-  let id = 2;
+  // let id = 2;
+  import util from "util";
   export default {
     name: 'Header',
     data(){
@@ -18,7 +19,8 @@
       addItem(){
         //拿到 text数据, 往app中新增一项
         //实现一个子向父的通信
-        id++;
+        let id =util.get("todoid",0)
+        util.set("todoid",++id)
         let item ={
           id,
           text:this.text,

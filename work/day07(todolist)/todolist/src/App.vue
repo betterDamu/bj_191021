@@ -19,13 +19,7 @@
     name: 'App',
     data(){
       return {
-        /*
-          JSON序列化:  将一个对象 转化成一个 字符串
-            JSON.stringify
-          JSON反序列化 : 将一个字符串 转从一个 对象
-            JSON.parse
-        */
-        listArr: util.get("todolist",[])
+        listArr: []
       }
     },
     methods:{
@@ -81,10 +75,30 @@
         })
       })*/
     },
+    mounted(){
+      /*
+          JSON序列化:  将一个对象 转化成一个 字符串
+            JSON.stringify
+          JSON反序列化 : 将一个字符串 转从一个 对象
+            JSON.parse
+        */
+      this.listArr=util.get("todolist",[]);
+    },
     components:{
       "todo-header":header,
       "todo-list":list,
       "todo-footer":footer
+    },
+    watch:{
+      //只要listArr有变动 我们就应该去同步loaclstorge
+      //watch默认情况下 实现的是浅监听
+      //deep:true 时 才是深度监听
+      listArr:{
+        handler: function (val) {
+          util.set("todolist",val)
+        },
+        deep: true
+      }
     }
   }
 </script>

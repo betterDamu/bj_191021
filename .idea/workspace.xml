@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/work/day07(todolist)/todolist/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day07(todolist)/todolist/build/webpack.base.conf.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work/day07(todolist)/todolist/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day07(todolist)/todolist/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day07(todolist)/todolist/src/util/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day07(todolist)/todolist/src/util/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,22 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="App.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/work/day07(todolist)/todolist/src/App.vue">
+      <file leaf-file-name="day07.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/work/day07(todolist)/day07.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-              <folding>
-                <element signature="e#349#373#0" expanded="true" />
-                <element signature="e#769#1598#0" />
-                <element signature="e#790#834#0" />
-                <element signature="e#853#959#0" />
-                <element signature="e#992#1165#0" />
-                <element signature="e#1180#1287#0" />
-                <element signature="e#1314#1592#0" />
-                <element signature="e#1613#2132#0" />
-                <element signature="e#2149#2235#0" />
-              </folding>
+            <state relative-caret-position="534">
+              <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -61,7 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/work/day05(vue-base)/08_vue-组件系统-局部组件.html" />
         <option value="$PROJECT_DIR$/work/day05(vue-base)/09_vue-组件系统-todolist.html" />
         <option value="$PROJECT_DIR$/work/day05(vue-base)/10_vue-组件系统-使用细节.html" />
         <option value="$PROJECT_DIR$/work/day05(vue-base)/06_vue-实例对象-事件.html" />
@@ -104,7 +93,6 @@
         <option value="$PROJECT_DIR$/work/day05(vue-base)/07_vue-组件系统-全局组件.html" />
         <option value="$PROJECT_DIR$/work/day07(todolist)/todolist/static/base.css" />
         <option value="$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/list.vue" />
-        <option value="$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/header.vue" />
         <option value="$PROJECT_DIR$/work/day07(todolist)/todolist/index.html" />
         <option value="$PROJECT_DIR$/work/day07(todolist)/todolist/src/main.js" />
         <option value="$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/item.vue" />
@@ -112,6 +100,8 @@
         <option value="$PROJECT_DIR$/work/day07(todolist)/todolist/build/webpack.base.conf.js" />
         <option value="$PROJECT_DIR$/work/day07(todolist)/todolist/src/util/index.js" />
         <option value="$PROJECT_DIR$/work/day07(todolist)/todolist/src/App.vue" />
+        <option value="$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/header.vue" />
+        <option value="$PROJECT_DIR$/work/day07(todolist)/day07.md" />
       </list>
     </option>
   </component>
@@ -190,44 +180,6 @@
               <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
               <item name="work" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day07(todolist)" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day07(todolist)" type="462c0819:PsiDirectoryNode" />
-              <item name="todolist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day07(todolist)" type="462c0819:PsiDirectoryNode" />
-              <item name="todolist" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day07(todolist)" type="462c0819:PsiDirectoryNode" />
-              <item name="todolist" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day07(todolist)" type="462c0819:PsiDirectoryNode" />
-              <item name="todolist" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -295,18 +247,17 @@
       <workItem from="1585699856045" duration="25713000" />
       <workItem from="1585759567718" duration="1421000" />
       <workItem from="1585785542475" duration="6423000" />
-      <workItem from="1585792882779" duration="14896000" />
+      <workItem from="1585792882779" duration="18365000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164965000" />
+    <option name="totallyTimeSpent" value="168434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21136063" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25165126" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -340,19 +291,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue版本/js/vue.runtime.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/config/dev.env.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/config/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/node_modules/vue/index.js" />
     <entry file="file://$PROJECT_DIR$/work/day03/03_Node/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -595,13 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/header.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day07(todolist)/todolist/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -623,13 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day07(todolist)/todolist/build/webpack.dev.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="27" column="69" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -665,28 +589,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/work/day07(todolist)/todolist/config/dev.env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day07(todolist)/todolist/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#1024#1975#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day07(todolist)/todolist/build/webpack.dev.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/work/day07(todolist)/todolist/src/util/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="5" />
+        <state relative-caret-position="216">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/work/day07(todolist)/todolist/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        <state relative-caret-position="147">
+          <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
           <folding>
             <element signature="e#349#373#0" expanded="true" />
-            <element signature="e#769#1598#0" />
-            <element signature="e#790#834#0" />
-            <element signature="e#853#959#0" />
-            <element signature="e#992#1165#0" />
-            <element signature="e#1180#1287#0" />
-            <element signature="e#1314#1592#0" />
-            <element signature="e#1613#2132#0" />
-            <element signature="e#2149#2235#0" />
+            <element signature="e#584#799#0" />
+            <element signature="e#813#1642#0" />
+            <element signature="e#834#878#0" />
+            <element signature="e#897#1003#0" />
+            <element signature="e#1036#1209#0" />
+            <element signature="e#1224#1331#0" />
+            <element signature="e#1358#1636#0" />
+            <element signature="e#1657#2176#0" />
+            <element signature="e#2170#2184#0" />
+            <element signature="e#2193#2279#0" />
+            <element signature="e#2334#2516#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day07(todolist)/day07.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
         </state>
       </provider>
     </entry>
