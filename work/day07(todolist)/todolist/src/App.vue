@@ -11,6 +11,7 @@
 </template>
 
 <script>
+  import util from "util";
   import header from "components/header.vue"; //vue-loader 就帮我们生成了一个组件的配置对象
   import list from "components/list.vue";
   import footer from "components/footer.vue";
@@ -18,11 +19,13 @@
     name: 'App',
     data(){
       return {
-        listArr:[
-          {id:0,text:"找到一个3级头",checked:false},
-          {id:1,text:"打穿一个3级甲",checked:false},
-          {id:2,text:"舔到一个3级包",checked:false}
-        ]
+        /*
+          JSON序列化:  将一个对象 转化成一个 字符串
+            JSON.stringify
+          JSON反序列化 : 将一个字符串 转从一个 对象
+            JSON.parse
+        */
+        listArr: util.get("todolist",[])
       }
     },
     methods:{

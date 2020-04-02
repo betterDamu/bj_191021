@@ -30,7 +30,8 @@ module.exports = {
     alias: {
       //C:\Users\alienware\Desktop\bj_19_1021\work\day07(todolist)\todolist\src
       '@': resolve('src'),
-      "components":resolve('src/components')
+      "components":resolve('src/components'),
+      "util":resolve('src/util')
     }
   },
   module: {
