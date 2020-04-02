@@ -13,12 +13,18 @@
 <script src="js/vue.js"></script>
 <script>
     //使用过滤器时  过滤器定义的回调会被自动调用  传的参数就是过滤器作用的那个值
-    Vue.filter('dateFilter', function (value) {
+    /*Vue.filter('dateFilter', function (value) {
         return moment(value).format("YYYY-MM-DD HH:mm:ss");
-    })
+    })*/
 
     var vm = new Vue({
-        el:"#app"
+        el:"#app",
+        filters:{
+            dateFilter(value){
+                // return moment(value).format("YYYY-MM-DD HH:mm:ss");
+                return 123;
+            }
+        }
     })
 </script>
 </html>
