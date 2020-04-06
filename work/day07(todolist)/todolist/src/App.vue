@@ -3,23 +3,25 @@
     <div class="todo-container">
       <div class="todo-wrap">
         <todo-header @addItem="addItem"></todo-header>
-        <todo-list :listArr="listArr">
-          <template slot-scope="{text}" slot="spanSlot">
-            <span style="color: red;font-weight: 800">{{text}}</span>
-          </template>
-          <template slot-scope="{text}" slot="inputSlot">
-            (>^ω^<)喵<input type="checkbox">
-          </template>
-        </todo-list>
+        <!--插槽开始-->
+          <todo-list :listArr="listArr">
+            <template slot-scope="{text}" slot="spanSlot">
+              <span style="color: red;font-weight: 800">{{text}}</span>
+            </template>
+            <template slot-scope="{index}" slot="inputSlot">
+              (>^ω^<)喵<input type="checkbox" v-model="listArr[index].checked">
+            </template>
+          </todo-list>
 
-        <todo-list :listArr="listArr">
-          <template slot-scope="{text}" slot="spanSlot">
-            <span style="color: gray;font-weight: 800">{{text}}</span>
-          </template>
-          <template slot-scope="{text}" slot="inputSlot">
-            (>^ω^<)汪<input type="checkbox">
-          </template>
-        </todo-list>
+          <todo-list :listArr="listArr">
+            <template slot-scope="{text}" slot="spanSlot">
+              <span style="color: gray;font-weight: 800">{{text}}</span>
+            </template>
+            <template slot-scope="{index}" slot="inputSlot">
+              (>^ω^<)汪<input type="checkbox" v-model="listArr[index].checked">
+            </template>
+          </todo-list>
+        <!--插槽结束-->
         <todo-footer :listArr="listArr" @clear="clear" @checkedAll="checkedAll"></todo-footer>
       </div>
     </div>
@@ -47,14 +49,14 @@
           return item.id !== id;
         })
       },
-      changeChecked(checked,id){
+      /*changeChecked(checked,id){
         //id: item传递过来的id;代表要删除的item
         this.listArr.forEach((item)=>{
           if(item.id === id){
             item.checked =checked;
           }
         })
-      },
+      },*/
       clear(){
         this.listArr = this.listArr.filter((item)=>{
             return !item.checked;

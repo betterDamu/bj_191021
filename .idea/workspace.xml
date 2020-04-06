@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work/day07(todolist)/todolist/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day07(todolist)/todolist/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/item.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/list.vue" afterDir="false" />
@@ -21,35 +22,40 @@
       <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/work/day07(todolist)/todolist/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="43" />
+            <state relative-caret-position="198">
+              <caret line="11" column="76" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="76" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#template#0;n#todo-list#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#todo-list#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
                 <element signature="n#style#0;n#span#0;n#template#0;n#todo-list#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="e#584#634#0" />
-                <element signature="e#648#1477#0" />
+                <element signature="e#669#713#0" />
+                <element signature="e#732#838#0" />
+                <element signature="e#1535#1738#0" />
+                <element signature="e#1059#1166#0" />
+                <element signature="e#1193#1471#0" />
                 <element signature="e#1492#2011#0" />
                 <element signature="e#2026#2219#0" />
+                <element signature="e#2236#2322#0" />
                 <element signature="e#2334#2559#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="list.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/list.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="216">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="item.vue" pinned="false" current-in-tab="false">
+      <file leaf-file-name="item.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/item.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="192">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -126,9 +132,9 @@
         <option value="$PROJECT_DIR$/work/day08(插槽&amp;路由)/01_插槽/04_边界语法.html" />
         <option value="$PROJECT_DIR$/work/day08(插槽&amp;路由)/01_插槽/02_具名插槽.html" />
         <option value="$PROJECT_DIR$/work/day08(插槽&amp;路由)/01_插槽/05_边界语法.html" />
-        <option value="$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/item.vue" />
-        <option value="$PROJECT_DIR$/work/day07(todolist)/todolist/src/App.vue" />
         <option value="$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/list.vue" />
+        <option value="$PROJECT_DIR$/work/day07(todolist)/todolist/src/App.vue" />
+        <option value="$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/item.vue" />
       </list>
     </option>
   </component>
@@ -283,18 +289,18 @@
       <workItem from="1585792882779" duration="19101000" />
       <workItem from="1585970333995" duration="144000" />
       <workItem from="1586096974600" duration="659000" />
-      <workItem from="1586132236068" duration="5898000" />
+      <workItem from="1586132236068" duration="7416000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175871000" />
+    <option name="totallyTimeSpent" value="177389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20277411" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19022457" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -324,7 +330,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -634,33 +640,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/item.vue">
+    <entry file="file://$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/list.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="216">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/work/day07(todolist)/todolist/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="43" />
+        <state relative-caret-position="198">
+          <caret line="11" column="76" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="76" />
           <folding>
             <element signature="n#style#0;n#span#0;n#template#0;n#todo-list#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#todo-list#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
             <element signature="n#style#0;n#span#0;n#template#0;n#todo-list#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="e#584#634#0" />
-            <element signature="e#648#1477#0" />
+            <element signature="e#669#713#0" />
+            <element signature="e#732#838#0" />
+            <element signature="e#1535#1738#0" />
+            <element signature="e#1059#1166#0" />
+            <element signature="e#1193#1471#0" />
             <element signature="e#1492#2011#0" />
             <element signature="e#2026#2219#0" />
+            <element signature="e#2236#2322#0" />
             <element signature="e#2334#2559#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/list.vue">
+    <entry file="file://$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/item.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="192">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
         </state>
       </provider>
     </entry>

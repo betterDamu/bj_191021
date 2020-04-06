@@ -7,7 +7,7 @@
         <!-- v-model脏数据 -->
         <!--待办任务的复选框-->
         <!--<input type="checkbox" v-model="checked" />-->
-        <slot name="inputSlot"></slot>
+        <slot name="inputSlot" :index="index"></slot>
         <!--待办任务的文案-->
         <!--<span>{{item.text}}</span>-->
         <!--插槽-->
@@ -23,7 +23,8 @@
     export default {
         name: "Item",
         props:{
-          item:Object
+          item:Object,
+          index:Number
         },
         data(){
           return {
@@ -32,11 +33,11 @@
         },
         computed:{
           checked:{
-            get(){return this.item.checked},
-            set(val){
+            get(){return this.item.checked}
+            /*set(val){
               // console.log(val,this.item.id);
               this.$bus.$emit("changeChecked",val,this.item.id)
-            }
+            }*/
           }
         },
         methods:{
