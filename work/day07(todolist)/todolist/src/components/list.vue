@@ -1,14 +1,15 @@
 <template>
   <ul class="todo-main">
     <todo-item v-for="item in listArr" :key="item.id" :item="item">
-      <template slot-scope="{text}">
-        <slot :text="text"></slot>
+      <template slot-scope="{text}" slot="spanSlot">
+        <slot :text="text" name="spanSlot"></slot>
+        <!--<span style="color: red;font-weight: 800">{{text}}</span>-->
       </template>
-      <!--
-        <template>
-          <span style="color: red;font-weight: 800">html from app-1</span>
-        </template>
-      -->
+
+      <template slot="inputSlot">
+        <slot name="inputSlot"></slot>
+        <!--(>^ω^<)喵<input type="checkbox">-->
+      </template>
     </todo-item>
   </ul>
 </template>

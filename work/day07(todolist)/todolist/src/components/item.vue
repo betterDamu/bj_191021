@@ -5,11 +5,14 @@
       <label>
         <!--item 组件 不能直接修改 app组件中的数据-->
         <!-- v-model脏数据 -->
-        <input type="checkbox" v-model="checked" />
+        <!--待办任务的复选框-->
+        <!--<input type="checkbox" v-model="checked" />-->
+        <slot name="inputSlot"></slot>
+        <!--待办任务的文案-->
         <!--<span>{{item.text}}</span>-->
         <!--插槽-->
         <!--<span style="color: red;font-weight: 800">html from app-1</span>-->
-        <slot :text="item.text"></slot>
+        <slot name="spanSlot" :text="item.text"></slot>
       </label>
       <button class="btn btn-danger" @click="delItem"
               :style="{display:highlight?'block':'none'}">删除</button>

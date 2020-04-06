@@ -4,14 +4,20 @@
       <div class="todo-wrap">
         <todo-header @addItem="addItem"></todo-header>
         <todo-list :listArr="listArr">
-          <template slot-scope="{text}">
+          <template slot-scope="{text}" slot="spanSlot">
             <span style="color: red;font-weight: 800">{{text}}</span>
+          </template>
+          <template slot-scope="{text}" slot="inputSlot">
+            (>^ω^<)喵<input type="checkbox">
           </template>
         </todo-list>
 
         <todo-list :listArr="listArr">
-          <template slot-scope="{text}">
+          <template slot-scope="{text}" slot="spanSlot">
             <span style="color: gray;font-weight: 800">{{text}}</span>
+          </template>
+          <template slot-scope="{text}" slot="inputSlot">
+            (>^ω^<)汪<input type="checkbox">
           </template>
         </todo-list>
         <todo-footer :listArr="listArr" @clear="clear" @checkedAll="checkedAll"></todo-footer>
