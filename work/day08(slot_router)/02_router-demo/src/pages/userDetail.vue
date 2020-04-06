@@ -1,12 +1,16 @@
 <template>
     <div>
-      当前登录的用户是{{$route.params.id}}号;用户名为{{$route.query.name}}
+      当前登录的用户是<span style="color:red">{{id}}</span> 号;用户名为{{name}}
     </div>
 </template>
 
 <script>
     export default {
-        name: "userDetail"
+        name: "userDetail",
+        props:{
+          id:String,
+          name:String
+        }
     }
 </script>
 

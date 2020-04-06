@@ -15,25 +15,13 @@ export default [
       {path:"",redirect:"news"}
     ]
   },
+  /*{path:"/user/:id",component:user},
+  {path:"/user",redirect:"/user/1"},*/
   {
     path:"/user",
     component:user,
     children:[
-      // <userDetail id="1"></userDetail>
-      // {path:":id",component:userDetail,props:true},
-
-      // <userDetail id="1" name="damu"></userDetail>
-      // {path:":id",component:userDetail,props:{id:"1",name:"damu"}},
-
-      // <userDetail id="得看路径" name="得看路径"></userDetail>
-      {
-        path:":id",
-        component:userDetail,
-        props:route=>({
-          id:route.params.id,
-          name:route.query.name
-        })
-      },
+      {path:":id",component:userDetail},
       {path:"",redirect:"1"}
     ]
   },
