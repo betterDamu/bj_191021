@@ -4,6 +4,7 @@ import user from "pages/user.vue";
 import news from "pages/news.vue";
 import message from "pages/message.vue";
 import userDetail from "pages/userDetail.vue";
+import messageDetail from "pages/messageDetail.vue"
 export default [
   {path:"/about",component:about},
   {
@@ -11,8 +12,14 @@ export default [
     component:home,
     children:[
       {path:"news",component:news},
-      {path:"message",component:message},
-      {path:"",redirect:"news"}
+      {
+        path:"message",
+        component:message,
+        children:[
+          {path:":id",component:messageDetail,props:true}
+        ]
+      },
+      {path:"",redirect:"message"}
     ]
   },
   {
