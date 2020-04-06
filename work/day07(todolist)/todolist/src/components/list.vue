@@ -6,10 +6,13 @@
         <!--<span style="color: red;font-weight: 800">{{text}}</span>-->
       </template>
 
-      <template slot-scope="{index}" slot="inputSlot">
+      <template #inputSlot="{index}">
         <slot :index="index" name="inputSlot"></slot>
-        <!--(>^ω^<)喵<input type="checkbox">-->
       </template>
+     <!-- <template slot-scope="{index}" slot="inputSlot">
+        <slot :index="index" name="inputSlot"></slot>
+        &lt;!&ndash;(>^ω^<)喵<input type="checkbox">&ndash;&gt;
+      </template>-->
     </todo-item>
   </ul>
 </template>

@@ -8,9 +8,12 @@
             <template slot-scope="{text}" slot="spanSlot">
               <span style="color: red;font-weight: 800">{{text}}</span>
             </template>
-            <template slot-scope="{index}" slot="inputSlot">
+            <template #inputSlot="{index}">
               (>^ω^<)喵<input type="checkbox" v-model="listArr[index].checked">
             </template>
+            <!--<template slot-scope="{index}" slot="inputSlot">
+              (>^ω^<)喵<input type="checkbox" v-model="listArr[index].checked">
+            </template>-->
           </todo-list>
 
           <todo-list :listArr="listArr">
