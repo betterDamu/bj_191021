@@ -1,6 +1,7 @@
 <template>
     <div>
-      user组件 : 当前登录的用户是{{$route.params.id}}号;用户名为{{$route.query.name}}
+      -----这是user组件----- <br>
+      <router-view></router-view>
     </div>
 </template>
 
