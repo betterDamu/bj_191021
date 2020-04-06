@@ -16,10 +16,7 @@
 
 <script>
     export default {
-        name: "home",
-        mounted(){
-          console.log("home.mounted")
-        }
+        name: "home"
     }
 </script>
 

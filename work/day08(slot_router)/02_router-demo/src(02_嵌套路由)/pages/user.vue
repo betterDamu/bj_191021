@@ -1,15 +1,12 @@
 <template>
     <div>
-      about.vue
+      user.vue
     </div>
 </template>
 
 <script>
     export default {
-        name: "about",
-        mounted(){
-          console.log("about.mounted")
-        }
+        name: "user"
     }
 </script>
 

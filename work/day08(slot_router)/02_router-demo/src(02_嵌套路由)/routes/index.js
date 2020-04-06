@@ -10,10 +10,11 @@ export default [
     component:home,
     children:[
       {path:"news",component:news},
-      {path:"message",component:message},
-      {path:"",redirect:"news"}
+      {path:"message",component:message}
     ]
   },
-  {path:"/user/:id",component:user},
+  // 规范的定义路由!!! 不要使用二级路由的定义形式来注册一个一级路由
+  // {path:"/home/user",component:user},
+  {path:"/user",component:user},
   {path:"/",redirect:"/about"}
 ]
