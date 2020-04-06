@@ -3,7 +3,17 @@
     <div class="todo-container">
       <div class="todo-wrap">
         <todo-header @addItem="addItem"></todo-header>
-        <todo-list :listArr="listArr"></todo-list>
+        <todo-list :listArr="listArr">
+          <template slot-scope="{text}">
+            <span style="color: red;font-weight: 800">{{text}}</span>
+          </template>
+        </todo-list>
+
+        <todo-list :listArr="listArr">
+          <template slot-scope="{text}">
+            <span style="color: gray;font-weight: 800">{{text}}</span>
+          </template>
+        </todo-list>
         <todo-footer :listArr="listArr" @clear="clear" @checkedAll="checkedAll"></todo-footer>
       </div>
     </div>

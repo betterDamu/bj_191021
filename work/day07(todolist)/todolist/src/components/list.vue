@@ -1,6 +1,15 @@
 <template>
   <ul class="todo-main">
-    <todo-item v-for="item in listArr" :key="item.id" :item="item"></todo-item>
+    <todo-item v-for="item in listArr" :key="item.id" :item="item">
+      <template slot-scope="{text}">
+        <slot :text="text"></slot>
+      </template>
+      <!--
+        <template>
+          <span style="color: red;font-weight: 800">html from app-1</span>
+        </template>
+      -->
+    </todo-item>
   </ul>
 </template>
 
