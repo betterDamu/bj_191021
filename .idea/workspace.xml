@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work/day09(vant_axios)/vant-demo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/work/day09(vant_axios)/vant-demo/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work/day09(vant_axios)/vant-demo/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day09(vant_axios)/vant-demo/src/App.vue" afterDir="false" />
     </list>
@@ -20,8 +21,17 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/work/day09(vant_axios)/vant-demo/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="59" column="7" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="7" />
+            <state relative-caret-position="246">
+              <caret line="52" column="31" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="concat.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work/day09(vant_axios)/vant-demo/src/concat.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="77" column="46" lean-forward="true" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -29,16 +39,13 @@
       <file leaf-file-name="App.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/work/day09(vant_axios)/vant-demo/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="58" column="68" lean-forward="true" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="68" />
+            <state relative-caret-position="417">
+              <caret line="103" column="35" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="35" />
               <folding>
-                <element signature="n#van-contact-card#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="n#van-popup#1;n#div#0;n#template#0;n#!!top" />
-                <element signature="e#829#1069#0" />
-                <element signature="e#1480#1583#0" />
-                <element signature="e#1618#1658#0" />
-                <element signature="e#2012#2216#0" />
-                <element signature="e#2307#2465#0" />
+                <element signature="e#1676#1779#0" />
+                <element signature="e#2666#2706#0" />
+                <element signature="e#2567#2585#0" />
+                <element signature="e#2514#2660#0" />
               </folding>
             </state>
           </provider>
@@ -293,12 +300,12 @@
       <workItem from="1586132236068" duration="12583000" />
       <workItem from="1586150866774" duration="12677000" />
       <workItem from="1586164205405" duration="118000" />
-      <workItem from="1586218248681" duration="13030000" />
+      <workItem from="1586218248681" duration="18017000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208381000" />
+    <option name="totallyTimeSpent" value="213368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -334,7 +341,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -632,30 +639,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/work/day09(vant_axios)/vant-demo/src/concat.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="77" column="30" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="30" />
+        <state relative-caret-position="294">
+          <caret line="77" column="46" lean-forward="true" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/work/day09(vant_axios)/vant-demo/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="59" column="7" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="7" />
+        <state relative-caret-position="246">
+          <caret line="52" column="31" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/work/day09(vant_axios)/vant-demo/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="58" column="68" lean-forward="true" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="68" />
+        <state relative-caret-position="417">
+          <caret line="103" column="35" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="35" />
           <folding>
-            <element signature="n#van-contact-card#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#van-popup#1;n#div#0;n#template#0;n#!!top" />
-            <element signature="e#829#1069#0" />
-            <element signature="e#1480#1583#0" />
-            <element signature="e#1618#1658#0" />
-            <element signature="e#2012#2216#0" />
-            <element signature="e#2307#2465#0" />
+            <element signature="e#1676#1779#0" />
+            <element signature="e#2666#2706#0" />
+            <element signature="e#2567#2585#0" />
+            <element signature="e#2514#2660#0" />
           </folding>
         </state>
       </provider>

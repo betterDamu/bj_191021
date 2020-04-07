@@ -57,7 +57,7 @@
   :tel-validator="validator" : 手机号的验证函数
   :show-set-default="true"   : 代表是否出现默认联系人的选项
   set-default-label="xxx"    : 默认联系人区域的文案
-  @save="saveFn"             : 保存事件
+  @save="saveFn"             : 保存事件 参数是contact-info中的内容  而不仅仅是表单的内容
   @delete="deleteFn"         : 删除事件
 
 ### axios官网
