@@ -3,8 +3,30 @@
   <component name="ChangeListManager">
     <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pre/04_vue/03_vue-ajax-demo/axios-api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/pre/04_vue/03_vue-ajax-demo/axios-api/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day09(vant_axios)/vant-demo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/work/day09(vant_axios)/vant-demo/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/02_css复习/08_less/less/less.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/pre/02_css复习/08_less/less/less.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/04_vue/01_vue-base-demo/vue-base-1/js/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/pre/04_vue/01_vue-base-demo/vue-base-1/js/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/04_vue/01_vue-base-demo/vue-base-1/js/vue.runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/pre/04_vue/01_vue-base-demo/vue-base-1/js/vue.runtime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/04_vue/01_vue-base-demo/vue-base-2/js/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/pre/04_vue/01_vue-base-demo/vue-base-2/js/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/04_vue/01_vue-base-demo/vue-base-2/js/vue.runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/pre/04_vue/01_vue-base-demo/vue-base-2/js/vue.runtime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/04_vue/01_vue-base-demo/vue-base-3/js/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/pre/04_vue/01_vue-base-demo/vue-base-3/js/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/04_vue/01_vue-base-demo/vue-base-3/js/vue.runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/pre/04_vue/01_vue-base-demo/vue-base-3/js/vue.runtime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/04_vue/01_vue-base-demo/vue-base-5/js/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/pre/04_vue/01_vue-base-demo/vue-base-5/js/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/04_vue/01_vue-base-demo/vue-base-5/js/vue.runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/pre/04_vue/01_vue-base-demo/vue-base-5/js/vue.runtime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day04(vue-base)/js/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day04(vue-base)/js/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day05(vue-base)/js/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day05(vue-base)/js/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day06(vue-cli)/js/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day06(vue-cli)/js/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day06(vue-cli)/vue版本/js/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day06(vue-cli)/vue版本/js/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day06(vue-cli)/vue版本/js/vue.runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day06(vue-cli)/vue版本/js/vue.runtime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day07(todolist)/render/js/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day07(todolist)/render/js/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day07(todolist)/render/js/vue.runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day07(todolist)/render/js/vue.runtime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day07(todolist)/v-model/js/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day07(todolist)/v-model/js/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day08(slot_router)/01_slot-demo/js/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day08(slot_router)/01_slot-demo/js/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/build/webpack.base.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/src/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,17 +43,24 @@
       <file leaf-file-name="API.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pre/04_vue/03_vue-ajax-demo/axios-api/API.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="12" />
+            <state relative-caret-position="120">
+              <caret line="5" column="48" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/README.md">
+      <file leaf-file-name="contact.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/src/pages/contact.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="45" column="21" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="21" />
+            <state relative-caret-position="335">
+              <caret line="92" column="48" selection-start-line="92" selection-start-column="48" selection-end-line="92" selection-end-column="48" />
+              <folding>
+                <element signature="e#2758#3046#0" />
+                <element signature="e#3081#3121#0" />
+                <element signature="e#3157#3186#0" />
+                <element signature="e#2727#2791#0" />
+                <element signature="e#3209#3355#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,8 +73,8 @@
         <option value="Less File" />
         <option value="CSS File" />
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -60,12 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/work/day07(todolist)/render/index1.html" />
-        <option value="$PROJECT_DIR$/work/day07(todolist)/render/index2.html" />
-        <option value="$PROJECT_DIR$/work/day07(todolist)/render/index3.html" />
-        <option value="$PROJECT_DIR$/work/day07(todolist)/v-model/03_api-表单元素.html" />
-        <option value="$PROJECT_DIR$/work/day07(todolist)/v-model/model的修饰符.html" />
-        <option value="$PROJECT_DIR$/work/day05(vue-base)/07_vue-组件系统-全局组件.html" />
         <option value="$PROJECT_DIR$/work/day07(todolist)/todolist/static/base.css" />
         <option value="$PROJECT_DIR$/work/day07(todolist)/todolist/index.html" />
         <option value="$PROJECT_DIR$/work/day07(todolist)/todolist/src/main.js" />
@@ -109,8 +132,14 @@
         <option value="$PROJECT_DIR$/work/day09(vant_axios)/vant-demo/src/App.vue" />
         <option value="$PROJECT_DIR$/work/day09(vant_axios)/vant-demo/README.md" />
         <option value="$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/七种axios发送请求的形式.md" />
-        <option value="$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/src/App.vue" />
         <option value="$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/README.md" />
+        <option value="$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/build/webpack.base.conf.js" />
+        <option value="$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/src/router/index.js" />
+        <option value="$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/src/routes/index.js" />
+        <option value="$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/src/App.vue" />
+        <option value="$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/src/main.js" />
+        <option value="$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/src/http/index.js" />
+        <option value="$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/src/pages/contact.vue" />
       </list>
     </option>
   </component>
@@ -199,13 +228,6 @@
               <item name="work" type="462c0819:PsiDirectoryNode" />
               <item name="day09(vant_axios)" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day09(vant_axios)" type="462c0819:PsiDirectoryNode" />
-              <item name="axios-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -223,11 +245,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day09(vant_axios)\axios-demo\src\pages" />
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day08(slot_router)" />
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day08(slot_router)\02_router-demo\static" />
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day08(插槽&amp;路由)\01_插槽" />
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day07(todolist)\todolist\src\components" />
-      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day07(todolist)\v-model的修饰符" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day03\01_ECMAScript复习\01_async" />
@@ -281,21 +303,22 @@
       <workItem from="1586132236068" duration="12583000" />
       <workItem from="1586150866774" duration="12677000" />
       <workItem from="1586164205405" duration="118000" />
-      <workItem from="1586218248681" duration="21785000" />
+      <workItem from="1586218248681" duration="25663000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217136000" />
+    <option name="totallyTimeSpent" value="221014000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24306473" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.169749" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -308,7 +331,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,23 +344,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/work/day08(插槽&amp;路由)/01_插槽/js/vue.js" />
-    <entry file="file://$PROJECT_DIR$/work/day08(插槽&amp;路由)/01_插槽/03_作用域插槽.html" />
-    <entry file="file://$PROJECT_DIR$/work/day08(插槽&amp;路由)/01_插槽/01_普通插槽.html" />
-    <entry file="file://$PROJECT_DIR$/work/day08(插槽&amp;路由)/01_插槽/04_边界语法.html" />
-    <entry file="file://$PROJECT_DIR$/work/day08(插槽&amp;路由)/01_插槽/02_具名插槽.html" />
-    <entry file="file://$PROJECT_DIR$/work/day08(插槽&amp;路由)/01_插槽/05_边界语法.html" />
-    <entry file="file://$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/item.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/课件/vue/01_vue-base/10_插槽.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
@@ -580,13 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pre/04_vue/03_vue-ajax-demo/axios-api/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2118">
-          <caret line="93" column="19" lean-forward="true" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day09(vant_axios)/vant-demo/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -614,20 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/七种axios发送请求的形式.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pre/04_vue/03_vue-ajax-demo/axios-api/API.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pre/04_vue/03_vue-ajax-demo/axios-demo/src/components/axiosTest/postTest.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -635,17 +623,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/src/App.vue">
+    <entry file="file://$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/七种axios发送请求的形式.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="11" selection-end-column="22" />
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/build/webpack.base.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/src/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="21" />
+        <state relative-caret-position="438">
+          <caret line="66" column="13" lean-forward="true" selection-start-line="55" selection-start-column="10" selection-end-line="66" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/src/http/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pre/04_vue/03_vue-ajax-demo/axios-api/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="6" selection-start-line="6" selection-end-line="22" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pre/04_vue/03_vue-ajax-demo/axios-api/API.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/src/pages/contact.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="92" column="48" selection-start-line="92" selection-start-column="48" selection-end-line="92" selection-end-column="48" />
+          <folding>
+            <element signature="e#2758#3046#0" />
+            <element signature="e#3081#3121#0" />
+            <element signature="e#3157#3186#0" />
+            <element signature="e#2727#2791#0" />
+            <element signature="e#3209#3355#0" />
+          </folding>
         </state>
       </provider>
     </entry>

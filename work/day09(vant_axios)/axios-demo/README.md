@@ -45,3 +45,29 @@
 
       为一个axios实例配置拦截器; 不管以后这个实例发多少个请求 拦截器都会启作用
       为axios函数 配置拦截器; 不管以后这个axios函数发多少个请求 拦截器都会启作用
+
+      async mounted(){
+          const appAxios = axios.create({
+            baseURL:"http://localhost:9000/api2"
+          });
+
+          //为appAxios定义拦截器
+          // 添加请求拦截器
+          appAxios.interceptors.request.use(function (config) {
+            config.headers.Authorization = "damu";
+            return config;
+          });
+
+          // 添加响应拦截器
+          appAxios.interceptors.response.use(function (response) {
+            return response.data;
+          }, function (error) {
+            console.log(error,"---")
+            return Promise.reject(error);
+          });
+
+
+
+          const body = await appAxios.get("/contactList")
+          console.log(body)
+      }
