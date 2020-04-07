@@ -4,11 +4,8 @@
         <li v-for="(item,index) in list" :key="item.id">
           <!--<a href="javascript:;">{{item.title}}</a>-->
            <router-link :to="`/home/message/${item.id}`">{{item.title}}</router-link>
-           <button @click="pushFn(item.id)">push</button>
-           <button @click="replaceFn(item.id)">replace</button>
         </li>
       </ul>
-      <button @click="backFn">back</button>
       <router-view></router-view>
     </div>
 </template>
@@ -32,20 +29,6 @@
           setTimeout(()=>{
             this.list = list
           },2000)
-        },
-        methods:{
-          pushFn(id){
-            // this.$route 抽象路由的
-            // this.$router 抽象路由器的
-            this.$router.push(`/home/message/${id}`)
-          },
-          replaceFn(id){
-            this.$router.replace(`/home/message/${id}`)
-          },
-          backFn(){
-            this.$router.back()
-            // this.$router.go(-1)
-          }
         }
     }
 </script>
