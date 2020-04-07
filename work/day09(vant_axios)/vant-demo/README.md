@@ -60,5 +60,3 @@
   @save="saveFn"             : 保存事件 参数是contact-info中的内容  而不仅仅是表单的内容
   @delete="deleteFn"         : 删除事件
 
-### axios官网
-  http://www.axios-js.com/zh-cn/docs/
