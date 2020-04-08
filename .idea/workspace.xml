@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pre/04_vue/03_vue-ajax-demo/axios-api/API.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pre/04_vue/03_vue-ajax-demo/axios-api/API.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/src/pages/contact.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/src/pages/contact.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,33 +16,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="API.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pre/04_vue/03_vue-ajax-demo/axios-api/API.txt">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work/day10(vuex)/vuex-demo/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+            <state relative-caret-position="-648">
+              <caret selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/src/pages/contact.vue">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work/day10(vuex)/vuex-demo/src/store/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="140" column="32" selection-start-line="140" selection-start-column="14" selection-end-line="140" selection-end-column="32" />
+            <state relative-caret-position="216">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="9" />
               <folding>
-                <element signature="e#891#1071#0" />
-                <element signature="e#1385#1488#0" />
-                <element signature="e#1525#1628#0" />
-                <element signature="e#1854#1916#0" />
-                <element signature="e#1991#2136#0" />
-                <element signature="e#3227#3359#0" />
-                <element signature="e#2890#3061#0" />
-                <element signature="e#3790#3830#0" />
-                <element signature="e#3866#3895#0" />
-                <element signature="e#3084#3230#0" />
-                <element signature="e#3251#3300#0" />
+                <element signature="e#0#22#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/work/day10(vuex)/vuex-demo/src/pages/demo.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -73,13 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/work/day07(todolist)/todolist/build/webpack.base.conf.js" />
-        <option value="$PROJECT_DIR$/work/day07(todolist)/todolist/src/util/index.js" />
-        <option value="$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/header.vue" />
-        <option value="$PROJECT_DIR$/work/day07(todolist)/day07.md" />
-        <option value="$PROJECT_DIR$/work/day08(插槽&amp;路由)/01_插槽/01_普通插槽.html" />
-        <option value="$PROJECT_DIR$/work/day08(插槽&amp;路由)/01_插槽/03_作用域插槽.html" />
-        <option value="$PROJECT_DIR$/work/day08(插槽&amp;路由)/01_插槽/04_边界语法.html" />
         <option value="$PROJECT_DIR$/work/day08(插槽&amp;路由)/01_插槽/02_具名插槽.html" />
         <option value="$PROJECT_DIR$/work/day08(插槽&amp;路由)/01_插槽/05_边界语法.html" />
         <option value="$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/item.vue" />
@@ -124,6 +114,13 @@
         <option value="$PROJECT_DIR$/work/day09(vant_axios)/day09-axios.md" />
         <option value="$PROJECT_DIR$/pre/04_vue/03_vue-ajax-demo/axios-api/API.txt" />
         <option value="$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/src/pages/contact.vue" />
+        <option value="$PROJECT_DIR$/work/day10(vuex)/vuex-demo/src/router/index.js" />
+        <option value="$PROJECT_DIR$/work/day10(vuex)/vuex-demo/src/routes/index.js" />
+        <option value="$PROJECT_DIR$/work/day10(vuex)/vuex-demo/src/App.vue" />
+        <option value="$PROJECT_DIR$/work/day10(vuex)/vuex-demo/src/main.js" />
+        <option value="$PROJECT_DIR$/work/day10(vuex)/vuex-demo/src/store/index.js" />
+        <option value="$PROJECT_DIR$/work/day10(vuex)/vuex-demo/README.md" />
+        <option value="$PROJECT_DIR$/work/day10(vuex)/vuex-demo/src/pages/demo.vue" />
       </list>
     </option>
   </component>
@@ -139,6 +136,7 @@
     <handled-path value="$PROJECT_DIR$/work/day03/03_Node/node_modules" />
     <handled-path value="$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/node_modules" />
     <handled-path value="$PROJECT_DIR$/work/day09(vant_axios)/vant-demo/node_modules" />
+    <handled-path value="$PROJECT_DIR$/work/day10(vuex)/vuex-demo/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -181,6 +179,7 @@
       <path value="$PROJECT_DIR$/work/day08(slot_router)/02_router-demo/package.json" />
       <path value="$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/package.json" />
       <path value="$PROJECT_DIR$/work/day09(vant_axios)/vant-demo/package.json" />
+      <path value="$PROJECT_DIR$/work/day10(vuex)/vuex-demo/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -211,31 +210,40 @@
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
               <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
               <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day09(vant_axios)" type="462c0819:PsiDirectoryNode" />
+              <item name="day10(vuex)" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
               <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
               <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day09(vant_axios)" type="462c0819:PsiDirectoryNode" />
-              <item name="axios-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="day10(vuex)" type="462c0819:PsiDirectoryNode" />
+              <item name="vuex-demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
               <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
               <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day09(vant_axios)" type="462c0819:PsiDirectoryNode" />
-              <item name="axios-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="day10(vuex)" type="462c0819:PsiDirectoryNode" />
+              <item name="vuex-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
               <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
               <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day09(vant_axios)" type="462c0819:PsiDirectoryNode" />
-              <item name="axios-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="day10(vuex)" type="462c0819:PsiDirectoryNode" />
+              <item name="vuex-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="day10(vuex)" type="462c0819:PsiDirectoryNode" />
+              <item name="vuex-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,12 +320,12 @@
       <workItem from="1586150866774" duration="12677000" />
       <workItem from="1586164205405" duration="118000" />
       <workItem from="1586218248681" duration="26570000" />
-      <workItem from="1586304614196" duration="5003000" />
+      <workItem from="1586304614196" duration="8732000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226924000" />
+    <option name="totallyTimeSpent" value="230653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -330,7 +338,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32107496" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.5304102" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -353,51 +361,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/work/day08(插槽&amp;路由)/02_router-demo/src/App.vue" />
-    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/06_api-插件.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day08(slot_router)/02_router-demo/src/pages/b.vue" />
-    <entry file="file://$PROJECT_DIR$/work/day08(slot_router)/02_router-demo/build/webpack.base.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day08(slot_router)/02_router-demo/src/pages/a.vue" />
-    <entry file="file://$PROJECT_DIR$/work/day08(slot_router)/02_router-demo/static/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day08(slot_router)/02_router-demo/src/pages/news.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day08(slot_router)/02_router-demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/MyPlugin/MyPlugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day08(slot_router)/02_router-demo/src/pages/home.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -476,6 +443,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -483,6 +453,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="8" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -618,13 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/item.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/header.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -694,17 +660,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pre/04_vue/03_vue-ajax-demo/axios-api/API.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/src/pages/contact.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="140" column="32" selection-start-line="140" selection-start-column="14" selection-end-line="140" selection-end-column="32" />
+        <state relative-caret-position="510">
+          <caret line="139" column="9" lean-forward="true" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
           <folding>
             <element signature="e#891#1071#0" />
             <element signature="e#1385#1488#0" />
@@ -718,6 +677,94 @@
             <element signature="e#3084#3230#0" />
             <element signature="e#3251#3300#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pre/04_vue/03_vue-ajax-demo/axios-api/API.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/课件/vue/05_vuex/img/vuex.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day10(vuex)/vuex-demo/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day10(vuex)/vuex-demo/src/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day10(vuex)/vuex-demo/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day10(vuex)/vuex-demo/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#140#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day07(todolist)/todolist/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="13" />
+          <folding>
+            <element signature="n#div#0;n#template#0;n#!!top" />
+            <element signature="e#1580#1624#0" />
+            <element signature="e#1643#1749#0" />
+            <element signature="e#1757#1960#0" />
+            <element signature="e#1974#2081#0" />
+            <element signature="e#2108#2386#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/item.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day10(vuex)/vuex-demo/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-648">
+          <caret selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day10(vuex)/vuex-demo/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day10(vuex)/vuex-demo/src/pages/demo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
         </state>
       </provider>
     </entry>
