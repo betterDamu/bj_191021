@@ -5,4 +5,4 @@ url	                    method	        参数	        备注
 /contact/new/form	    post	        name,tel	    content-type:form-data
 /contact/new/json	    post	        name,tel	    content-type:application/json
 /contact/edit	        put	            name,tel,id	    content-type:application/json
-/contact	            delete	        id	            参数拼接在url上
+/contact	            delete	        id	            参数拼接在url上 ; query
