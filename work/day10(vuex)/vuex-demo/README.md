@@ -47,13 +47,22 @@
         仓库中的配置 都会转绑给仓库这个实例对象
         最安全的读取 应该是要将仓库中的数据 在组件上转成一份计算属性 进行读取
       仓库中的数据怎么修改
+        通过提交mutation来进行修改
+
 
 ### vuex的配置项
 #### state
   仓库中存储数据的地方
-#### mutation
-  仓库中操作数据的工具
+#### mutations
+  仓库中操作数据的工具;
+  vue的调试工具只会记录每一次mutation的执行;
+  mutation中的函数怎么执行?
+    通过仓库来调用commit方法 触发mutation的执行; 提交一个mutation!
+  mutation函数只能同步的修改vue的数据;
+#### actions
+  仓库中操作数据的工具;
+  所有对仓库中数据的异步修改 都有经过action
+  在组件上分发一个action;在action内部显示的去提交一个mutation;在mutation内部同步的修改仓库数据
 #### getters
   仓库中操作数据的工具
-#### action
-  仓库中操作数据的工具
+
