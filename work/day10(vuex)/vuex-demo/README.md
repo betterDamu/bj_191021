@@ -65,4 +65,21 @@
   在组件上分发一个action;在action内部显示的去提交一个mutation;在mutation内部同步的修改仓库数据
 #### getters
   仓库中操作数据的工具
+  getter就是我们仓库里的计算属性
+
+### 组件写法的优化
+    基本规律:
+          vuex中的state 我们在组件中使用时通常需要有对应的computed
+          vuex中的getters 我们在组件中使用时通常需要有对应的computed
+          vuex中的mutations 我们在组件中使用时通常需要有对应的methods(为了流程统一 组件上很少提交mutation)
+          vuex中的actions 我们在组件中使用时通常需要有对应的methods
+
+    mapState(["num","a"])  --->   {num(){return this.$store.state.num},a(){return this.$store.state.a}}
+    mapGetters(["flag"])  --->   {flag(){return this.$store.getters.flag}}
+
+    mapState({key:val})  key:组件上使用的名字  val:仓库里的名字
+         { key(){return this.$store.state.val} }
+
+
+
 

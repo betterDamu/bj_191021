@@ -8,7 +8,17 @@ Vue.use(Vuex);
 export default new Vuex.Store({
     strict:true,
     state:{
-      num:0
+      num:0,
+      firstName:"T",
+      lastName:"Mac"
+    },
+    getters:{
+      fullName(state){
+        return `${state.firstName}-${state.lastName}`
+      },
+      flag(state){
+        return state.num%2 ===0 ? "偶":"奇"
+      }
     },
     mutations:{
       //给函数预定义参数  这种技术一般称为柯里化
@@ -32,6 +42,7 @@ export default new Vuex.Store({
           store.commit("inc",payload)
         },2000)
       }
-    }
+    },
+
 })
 
