@@ -1,21 +1,23 @@
+import {ChaneSerachName,ChangeList,Reqing,
+  ReqSuccessHasData,ReqSuccessHasNoData} from "@/store/mutations_types.js";
 export default {
-  chaneSerachName(state,serachName){
+  [ChaneSerachName](state,serachName){
     state.serachName = serachName;
   },
-  changeList(state,list){
+  [ChangeList](state,list){
     state.list = list;
   },
-  reqing(state){
+  [Reqing](state){
     state.showMsg = false;
     state.showLoading = true;
     state.showNoBody = false;
   },
-  reqSuccessHasData(state){
+  [ReqSuccessHasData](state){
     state.showMsg = false;
     state.showLoading = false;
     state.showNoBody = false;
   },
-  reqSuccessHasNoData(state){
+  [ReqSuccessHasNoData](state){
     state.showMsg = false;
     state.showLoading = false;
     state.showNoBody = true;
