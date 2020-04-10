@@ -13,7 +13,7 @@
     // async函数返回的promise的状态 与async函数的返回值有关
 
     //await 要等一个promise的状态确定之后 才能继续往下执行
-    (async ()=>{
+   /* (async ()=>{
         async function test() {
             await 123;
             console.log(1)
@@ -21,7 +21,7 @@
 
         await test()
         console.log(2)
-    })()
+    })()*/
 
 
     /*
@@ -53,6 +53,9 @@
        console.log(2)
    */
 
-
+    async function test() {
+       return 2;
+    }
+    console.log(test())
 </script>
 </html>

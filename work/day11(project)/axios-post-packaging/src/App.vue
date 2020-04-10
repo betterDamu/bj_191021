@@ -6,7 +6,11 @@
 
 <script>
   export default {
-    name:"app"
+    name:"app",
+    async mounted(){
+      const body = await this.$http.user.getUser();
+      console.log(body,"----");
+    }
   };
 </script>
 

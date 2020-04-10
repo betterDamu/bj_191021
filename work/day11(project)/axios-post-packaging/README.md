@@ -38,5 +38,8 @@
     util
       http.js : 返回对应模块请求方法组成的对象 被每一个模块的index.js文件引用
 
+### 实现util.http.js
+    当前这个js文件 主要是根据axios实例 & config配置对象 来生成对应的请求方法组成的对象
+
 
 

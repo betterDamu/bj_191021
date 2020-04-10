@@ -2,9 +2,13 @@ export default {
   api:{
     getUser:{
       url:"/search/users",
-      methods:"get"
+      method:"get",
+      data:{
+        q:"damu"
+      }
     }
   },
   baseUrl:"https://api.github.com",
-  timeout:8000
+  timeout:8000,
+  name:"user"
 }

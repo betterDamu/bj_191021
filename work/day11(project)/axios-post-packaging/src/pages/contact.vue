@@ -77,23 +77,9 @@
 
         let body = "" ;
         if (this.isEdit) {
-          /*body = await this.$http({
-            url:"/contact/edit",
-            method:"put",
-            data:{name,tel,id}
-          })*/
           body = await this.$http.contact.updateContact({name,tel,id})
         } else {
           //create操作  有两个接口的 一个传的是json 一个传的是form-data
-          /*let data = new FormData();
-          data.append("name",name);
-          data.append("tel",tel);
-          body = await this.$http({
-            url:"/contact/new/form",
-            method:"post",
-            timeout: 3000,
-            data
-          })*/
           body = await this.$http.contact.createContactByForm({name,tel,id})
           body = await this.$http.contact.createContactByJosn({name,tel,id})
         }
@@ -106,14 +92,6 @@
       //contact - del
       async onDelete({id}) {
         this.showEdit = false;
-        /*await this.$http({
-          url:"/contact",
-          method:"delete",
-          //这个最终使用的是query的形式
-          params: {
-            id
-          },
-        });*/
         await this.$http.contact.delContactById({id})
 
         if (this.chosenContactId === id) {
@@ -124,11 +102,7 @@
 
       //contact - Red
       async updateList(){
-        /*const {code,data} = await this.$http({
-          url:"/contactList",
-          method:"get"
-        })*/
-        const {code,data} = this.$http.contact.getContactList();
+        const {code,data} = await this.$http.contact.getContactList();
         if(code === OK)
           this.list = data
       },
@@ -147,8 +121,8 @@
       [ContactEdit.name]:ContactEdit,
       [popup.name]:popup
     },
-    mounted(){
-        this.updateList()
+    async mounted(){
+        await this.updateList();
     }
   };
 </script>
