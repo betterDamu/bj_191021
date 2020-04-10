@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day10(vuex)/vuex-exec/src/store/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day10(vuex)/vuex-exec/src/store/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day10(vuex)/vuex-exec/src/store/mutations.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day10(vuex)/vuex-exec/src/store/mutations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day11(project)/axios-post-packaging/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/work/day11(project)/axios-post-packaging/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/http/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/http/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/pages/contact.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/pages/contact.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,32 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="contact.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/pages/contact.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="96" column="69" lean-forward="true" selection-start-line="96" selection-start-column="56" selection-end-line="96" selection-end-column="69" />
-              <folding>
-                <element signature="n#div#0;n#template#0;n#!!top" />
-                <element signature="e#1385#1488#0" />
-                <element signature="e#1525#1628#0" />
-                <element signature="e#1793#1925#0" />
-                <element signature="e#2476#2640#0" />
-                <element signature="e#2829#2935#0" />
-                <element signature="e#3819#3859#0" />
-                <element signature="e#3895#3924#0" />
-                <element signature="e#3947#4093#0" />
-                <element signature="e#4114#4255#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/work/day11(project)/axios-post-packaging/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+            <state relative-caret-position="240">
+              <caret line="28" column="58" lean-forward="true" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -72,12 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/work/day08(slot_router)/02_router-demo/src/routes/index.js" />
-        <option value="$PROJECT_DIR$/work/day08(slot_router)/02_router-demo/src/pages/messageDetail.vue" />
-        <option value="$PROJECT_DIR$/work/day08(slot_router)/02_router-demo/.babelrc" />
-        <option value="$PROJECT_DIR$/work/day08(slot_router)/02_router-demo/src/main.js" />
-        <option value="$PROJECT_DIR$/work/day08(slot_router)/02_router-demo/src/App.vue" />
-        <option value="$PROJECT_DIR$/work/day08(slot_router)/02_router-demo/package.json" />
         <option value="$PROJECT_DIR$/work/day08(slot_router)/day08.md" />
         <option value="$PROJECT_DIR$/work/day08(slot_router)/day08-路由.md" />
         <option value="$PROJECT_DIR$/work/day08(slot_router)/02_router-demo/src/pages/message.vue" />
@@ -122,6 +95,12 @@
         <option value="$PROJECT_DIR$/work/day11(project)/day11.md" />
         <option value="$PROJECT_DIR$/work/day11(project)/axios-post-packaging/package.json" />
         <option value="$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/pages/contact.vue" />
+        <option value="$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/http/contact/config.js" />
+        <option value="$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/http/contact/axios.js" />
+        <option value="$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/http/contact/index.js" />
+        <option value="$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/http/index.js" />
+        <option value="$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/http/user/config.js" />
+        <option value="$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/util/http.js" />
         <option value="$PROJECT_DIR$/work/day11(project)/axios-post-packaging/README.md" />
       </list>
     </option>
@@ -222,6 +201,52 @@
               <item name="day11(project)" type="462c0819:PsiDirectoryNode" />
               <item name="axios-post-packaging" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="day11(project)" type="462c0819:PsiDirectoryNode" />
+              <item name="axios-post-packaging" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="day11(project)" type="462c0819:PsiDirectoryNode" />
+              <item name="axios-post-packaging" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="day11(project)" type="462c0819:PsiDirectoryNode" />
+              <item name="axios-post-packaging" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="contact" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="day11(project)" type="462c0819:PsiDirectoryNode" />
+              <item name="axios-post-packaging" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="day11(project)" type="462c0819:PsiDirectoryNode" />
+              <item name="axios-post-packaging" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -238,11 +263,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day11(project)\axios-post-packaging\src\http\user" />
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day11(project)" />
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day10(vuex)\vuex-exec\src\store" />
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day10(vuex)\vuex-exec\src\common" />
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day10(vuex)\vuex-exec\static\css" />
-      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day10(vuex)\vuex-exec\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day03\01_ECMAScript复习\01_async" />
@@ -300,12 +325,12 @@
       <workItem from="1586304614196" duration="25346000" />
       <workItem from="1586443681055" duration="682000" />
       <workItem from="1586451107441" duration="714000" />
-      <workItem from="1586477103553" duration="5046000" />
+      <workItem from="1586477103553" duration="8881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253709000" />
+    <option name="totallyTimeSpent" value="257544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -341,81 +366,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/work/day10(vuex)/vuex-demo/src/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day10(vuex)/vuex-demo/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day10(vuex)/vuex-demo/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day07(todolist)/todolist/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day07(todolist)/todolist/src/components/item.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="35" column="43" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day10(vuex)/vuex-demo/src/pages/demo-1.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="43" column="47" lean-forward="true" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day10(vuex)/vuex-exec/src/http/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day10(vuex)/vuex-exec/src/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pre/04_vue/03_vue-ajax-demo/users_page/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day10(vuex)/vuex-exec/static/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pre/04_vue/03_vue-ajax-demo/users_page/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" selection-start-line="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day10(vuex)/vuex-exec/build/webpack.dev.conf.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -530,13 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/src/http/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day09(vant_axios)/day09-axios.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -630,16 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/http/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day11(project)/day11.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day11(project)/axios-post-packaging/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -654,29 +591,125 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/work/vue阶段的课程.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day11(project)/day11.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="34" lean-forward="true" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pre/04_vue/03_vue-ajax-demo/axios-api/API.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/http/user/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/http/user/axios.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day09(vant_axios)/axios-demo/src/http/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/pages/contact.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="96" column="69" lean-forward="true" selection-start-line="96" selection-start-column="56" selection-end-line="96" selection-end-column="69" />
+        <state relative-caret-position="200">
+          <caret line="96" column="10" selection-start-line="96" selection-start-column="10" selection-end-line="97" selection-end-column="76" />
           <folding>
             <element signature="n#div#0;n#template#0;n#!!top" />
-            <element signature="e#1385#1488#0" />
-            <element signature="e#1525#1628#0" />
             <element signature="e#1793#1925#0" />
-            <element signature="e#2476#2640#0" />
-            <element signature="e#2829#2935#0" />
-            <element signature="e#3819#3859#0" />
-            <element signature="e#3895#3924#0" />
-            <element signature="e#3947#4093#0" />
-            <element signature="e#4114#4255#0" />
+            <element signature="e#2078#2335#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/http/user/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/http/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/http/contact/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="e#44#97#0" />
+            <element signature="e#118#170#0" />
+            <element signature="e#190#244#0" />
+            <element signature="e#270#348#0" />
+            <element signature="e#374#433#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/http/contact/axios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/http/contact/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/util/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/work/day11(project)/axios-post-packaging/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        <state relative-caret-position="240">
+          <caret line="28" column="58" lean-forward="true" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,27 @@
+export default {
+  api:{
+    getContactList:{
+      url:"/contactList",
+      methods:"get"
+    },
+    delContactById:{
+      url:"/contact",
+      methods:"delete"
+    },
+    updateContact:{
+      url:"/contact/edit",
+      methods:"put"
+    },
+    createContactByForm:{
+      url:"/contact/new/form",
+      methods:"post",
+      isForm:true
+    },
+    createContactByJosn:{
+      url:"/contact/new/json",
+      methods:"post"
+    }
+  },
+  baseUrl:"http://localhost:9000/api",
+  timeout:5000
+}

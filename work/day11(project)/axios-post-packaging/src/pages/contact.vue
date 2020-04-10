@@ -94,7 +94,8 @@
             timeout: 3000,
             data
           })*/
-          body = await this.$http.contact.createContact({name,tel,id})
+          body = await this.$http.contact.createContactByForm({name,tel,id})
+          body = await this.$http.contact.createContactByJosn({name,tel,id})
         }
 
         await this.updateList()

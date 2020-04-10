@@ -13,3 +13,30 @@
       请求是配置化的;自动化的;
       可以抹平传参的差异;不管你接口要什么参数;组件上发请求时只传对象
 
+### axios二次封装的目录设计
+    body = await this.$http.contact.createContactByForm({name,tel,id})
+    body = await this.$http.user.getUsers()
+        //$http对象代表的是项目中所有模块请求需要的方法
+        this.$http:{      contact:{                       user:{
+          contact,          createContactByForm(){}         getUsers(){}
+          user            }                               }
+        }
+
+
+    http
+      contact
+        axios.js : 提供发送请求的工具给util.http.js  被util.http.js引用
+        config.js: 提供发送请求的配置给util.http.js  被util.http.js引用
+        index.js : 暴露contact模块所需要的请求方法组成的对象 被http.index.js引用
+      user
+        axios.js
+        config.js
+        index.js : 暴露user模块所需要的请求方法组成的对象 被http.index.js引用
+    index.js : 暴露整个项目所需要的请求方法组成的对象
+
+
+    util
+      http.js : 返回对应模块请求方法组成的对象 被每一个模块的index.js文件引用
+
+
+
