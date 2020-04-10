@@ -3,9 +3,12 @@ export default {
     getUser:{
       url:"/search/users",
       method:"get",
-      data:{
-        q:"damu"
-      }
+      data:{q:"damu"}
+    },
+    getRep:{
+      url:"/search/repositories",
+      method:"get",
+      data:{q:"vue"}
     }
   },
   baseUrl:"https://api.github.com",

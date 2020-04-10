@@ -2,7 +2,15 @@ export default {
   api:{
     getContactList:{
       url:"/contactList",
-      method:"get"
+      method:"get",
+      toast:true,
+      data:{a:"a"},
+      // 单个请求级别的钩子
+      hooks:{
+        beforeReq(){},
+        afterReqSuccess(body){body.xxx = "请求级别的处理";},
+        afterReqFail(){},
+      }
     },
     delContactById:{
       url:"/contact",
@@ -24,5 +32,11 @@ export default {
   },
   baseUrl:"http://localhost:9000/api",
   timeout:5000,
-  name:"contact"
+  name:"contact",
+  //模块级别的钩子
+  hooks:{
+    beforeReq(){},
+    afterReqSuccess(data){data.xxx="模块级别的处理";},
+    afterReqFail(){},
+  }
 }

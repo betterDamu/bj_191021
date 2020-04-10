@@ -102,7 +102,8 @@
 
       //contact - Red
       async updateList(){
-        const {code,data} = await this.$http.contact.getContactList();
+        const {code,data,xxx} = await this.$http.contact.getContactList();
+        console.log(xxx);
         if(code === OK)
           this.list = data
       },

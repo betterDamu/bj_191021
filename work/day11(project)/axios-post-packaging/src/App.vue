@@ -8,8 +8,9 @@
   export default {
     name:"app",
     async mounted(){
-      const body = await this.$http.user.getUser();
-      console.log(body,"----");
+      // const body = await this.$http.user.getUser();
+      // const body = await this.$http.user.getRep();
+      // console.log(body);
     }
   };
 </script>
