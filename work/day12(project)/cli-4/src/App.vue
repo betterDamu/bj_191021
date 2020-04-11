@@ -5,13 +5,17 @@
 </template>
 
 <script>
-export default {
-  name: 'App',
-  mounted(){
-      var a = "a";
-      var b = "b";
+  import axios from "axios";
+  export default {
+    name: 'App',
+    async mounted(){
+      const body = await axios({
+          url:"/api/seller",
+          method:"get"
+      })
+      console.log(body.data.data.score,body.data.data.address);
+    }
   }
-}
 </script>
 
 <style>
