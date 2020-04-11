@@ -15,7 +15,8 @@
             // vue.config.js
             module.exports = {
               // 选项...
-            } 
+            }
+
 ## 选项 - @vue/cli自定义配置
     outputDir 
         Type: string
@@ -35,6 +36,7 @@
     devServer
         Type: Object
         所有 webpack-dev-server 的选项都支持
+
 ## 选项 - webpack原生配置
     configureWebpack
         Type: Object 

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day12(project)/cli-4/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day12(project)/cli-4/vue.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/课件/vue/02_vue-cli/vue-cli4.0.md" beforeDir="false" afterPath="$PROJECT_DIR$/课件/vue/02_vue-cli/vue-cli4.0.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,26 +20,17 @@
       <file leaf-file-name="vue-cli4.0.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/课件/vue/02_vue-cli/vue-cli4.0.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="32" column="81" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="81" />
+            <state relative-caret-position="424">
+              <caret line="40" column="20" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vue.config.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="vue.config.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/work/day12(project)/cli-4/vue.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/work/day12(project)/cli-4/src/App.vue">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -122,9 +113,9 @@
         <option value="$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/.eslintignore" />
         <option value="$PROJECT_DIR$/work/day12(project)/editconfig-demo/.editorconfig" />
         <option value="$PROJECT_DIR$/work/day12(project)/editconfig-demo/index.html" />
+        <option value="$PROJECT_DIR$/work/day12(project)/cli-4/src/App.vue" />
         <option value="$PROJECT_DIR$/课件/vue/02_vue-cli/vue-cli4.0.md" />
         <option value="$PROJECT_DIR$/work/day12(project)/cli-4/vue.config.js" />
-        <option value="$PROJECT_DIR$/work/day12(project)/cli-4/src/App.vue" />
       </list>
     </option>
   </component>
@@ -231,10 +222,20 @@
             <path>
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
               <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day12(project)" type="462c0819:PsiDirectoryNode" />
-              <item name="cli-4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="课件" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="课件" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="课件" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="02_vue-cli" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -316,18 +317,18 @@
       <workItem from="1586451107441" duration="714000" />
       <workItem from="1586477103553" duration="26083000" />
       <workItem from="1586527168459" duration="4101000" />
-      <workItem from="1586563877414" duration="20133000" />
+      <workItem from="1586563877414" duration="21300000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="298980000" />
+    <option name="totallyTimeSpent" value="300147000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21070014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19022457" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -361,13 +362,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/work/day11(project)/axios-post-packaging/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day03/01_ECMAScript复习/01_async/03_async&amp;await.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-144" />
@@ -683,24 +677,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/work/day12(project)/cli-4/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/build/webpack.dev.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="35" column="37" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="35" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/课件/vue/02_vue-cli/vue-cli4.0.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="32" column="81" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="81" />
+        <state relative-caret-position="424">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/work/day12(project)/cli-4/vue.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day12(project)/cli-4/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>
