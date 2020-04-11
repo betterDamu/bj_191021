@@ -24,10 +24,14 @@
     lintOnSave
         Type: boolean | 'error'
         Default: true
-        是否在开发环境下通过 eslint-loader 在每次保存时 lint 代码。这个值会在 @vue/cli-plugin-eslint 被安装之后生效。
+        @vue/cli4.0 的脚手架 默认选用的eslint的配置是recommended级别的
+        是否在开发环境下通过 eslint-loader 在每次保存时 lint 代码。
+        这个值会在 @vue/cli-plugin-eslint 被安装之后生效。
+
         设置为 true 时，eslint-loader 会将 lint 错误输出为编译警告。默认情况下，警告仅仅会被输出到命令行，且不会使得编译失败。
         设置为 false 时，关闭eslint校验
         设置为 "error" 时: 这会强制 eslint-loader 将 lint 错误输出为编译错误，同时也意味着 lint 错误将会导致编译失败。
+
     devServer
         Type: Object
         所有 webpack-dev-server 的选项都支持
