@@ -3,6 +3,3 @@
     editconfig
     @vue/cli4.0版本的使用
     mock数据
-    vue-router的基本使用结构
-    vuex的基本使用结构
-    axios的基本使用结构
