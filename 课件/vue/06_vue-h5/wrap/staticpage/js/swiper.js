@@ -4468,7 +4468,7 @@ var Mousewheel = {
 
       // Stop autoplay
       if (swiper.params.autoplay && swiper.params.autoplayDisableOnInteraction) { swiper.stopAutoplay(); }
-      // Return page scroll on edge positions
+      // Return pages scroll on edge positions
       if (position === swiper.minTranslate() || position === swiper.maxTranslate()) { return true; }
     }
 

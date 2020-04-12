@@ -2,190 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/work/day13(H5)/layout/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/day13(H5)/layout/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/day13(H5)/layout/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/day13(H5)/layout/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/day13(H5)/layout/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/day13(H5)/layout/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/day13(H5)/layout/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/day13(H5)/layout/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/day13(H5)/layout/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work/day13(H5)/layout/vue.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/02_vue-cli/mock.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/SVG/add_circle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/SVG/arrow_lift.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/SVG/check_circle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/SVG/close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/SVG/favorite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/SVG/keyboard_arrow_right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/SVG/remove_circle_outline.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/SVG/shopping_cart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/SVG/thumb_down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/SVG/thumb_up.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/SVG/wifi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/brand@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/brand@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/bulletin@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/bulletin@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/decrease_1@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/decrease_1@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/decrease_2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/decrease_2@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/decrease_3@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/decrease_3@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/decrease_4@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/decrease_4@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/discount_1@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/discount_1@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/discount_2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/discount_2@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/discount_3@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/discount_3@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/discount_4@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/discount_4@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/guarantee_1@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/guarantee_1@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/guarantee_2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/guarantee_2@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/guarantee_3@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/guarantee_3@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/guarantee_4@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/guarantee_4@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/invoice_1@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/invoice_1@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/invoice_2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/invoice_2@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/invoice_3@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/invoice_3@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/invoice_4@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/invoice_4@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/special_1@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/special_1@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/special_2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/special_2@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/special_3@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/special_3@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/special_4@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/special_4@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/star24_half@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/star24_half@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/star24_off@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/star24_off@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/star24_on@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/star24_on@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/star36_half@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/star36_half@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/star36_off@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/star36_off@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/star36_on@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/star36_on@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/star48_half@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/star48_half@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/star48_off@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/star48_off@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/star48_on@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/img/star48_on@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/js/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/layout.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/原图/外卖01_商品页.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/原图/外卖02_商品页_公告及优惠信息.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/原图/外卖03_商品页_购物车详情.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/标注/外卖01_商品页_spec.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/标注/外卖02_商品页_公告及优惠信息_spec.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/标注/外卖03_商品页_购物车详情_spec.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/api/ajax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/data/index_category.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/data/shops.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/models/UserModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/public/css/app.6c59ec51.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/public/css/chunk-vendors.b38b46ed.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/public/css/goods.bfd4ce0b.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/public/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/public/fonts/damu.233f2837.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/public/fonts/damu.5f04adf5.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/public/fonts/damu.d1e9c184.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/public/img/brand@3x.aa6d1a02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/public/img/damu.49479bbb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/public/img/person.d6070008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/public/js/app.363a7c7c.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/public/js/app.363a7c7c.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/public/js/app.724a5690.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/public/js/app.724a5690.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/public/js/chunk-vendors.7fc46535.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/public/js/chunk-vendors.7fc46535.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/public/js/goods.d83c5f57.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/public/js/goods.d83c5f57.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/public/js/ratings.751ee552.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/public/js/ratings.751ee552.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/public/js/sellers.d90bf8be.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/public/js/sellers.d90bf8be.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/routers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/routers/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/token/checkToken.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/token/createToken.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/token/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/util/sms_util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/css/swiper.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/captcha.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/msite_back.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/nav/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/nav/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/nav/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/nav/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/nav/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/nav/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/nav/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/nav/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/nav/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/nav/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/nav/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/nav/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/nav/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/nav/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/order/person.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/shop/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/shop/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/shop/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/shop/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/shop_back.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/stars/star24_half@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/stars/star24_half@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/stars/star24_off@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/stars/star24_off@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/stars/star24_on@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/stars/star24_on@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/stars/star36_half@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/stars/star36_half@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/stars/star36_off@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/stars/star36_off@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/stars/star36_on@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/stars/star36_on@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/stars/star48_half@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/stars/star48_half@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/stars/star48_off@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/stars/star48_off@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/stars/star48_on@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/images/stars/star48_on@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/js/swiper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/stylus/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/stylus/index.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/stylus/mixins.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/wrap.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/接口文档/接口文档.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/接口文档/硅谷外卖-vue项目.postman_collection.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day12(project)/day12.md" beforeDir="false" afterPath="$PROJECT_DIR$/work/day12(project)/day12.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day13(H5)/layout/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/work/day13(H5)/layout/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day13(H5)/layout/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day13(H5)/layout/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day13(H5)/layout/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/work/day13(H5)/layout/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day13(H5)/layout/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/work/day13(H5)/layout/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day13(H5)/layout/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day13(H5)/layout/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day13(H5)/layout/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day13(H5)/layout/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/js/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/js/swiper.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -199,20 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/README.md">
+      <file leaf-file-name="test.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/pages/test.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vue.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/vue.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="21" />
+            <state relative-caret-position="48">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -224,8 +39,8 @@
       <list>
         <option value="Less File" />
         <option value="CSS File" />
-        <option value="Vue Single File Component" />
         <option value="HTML File" />
+        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -236,6 +51,7 @@
       <find>methods</find>
       <find>eslint</find>
       <find>@vue/cli-plugin-eslint</find>
+      <find>babel</find>
     </findStrings>
     <replaceStrings>
       <replace>method</replace>
@@ -247,19 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pre/04_vue/03_vue-ajax-demo/users_page/index.html" />
-        <option value="$PROJECT_DIR$/work/day10(vuex)/vuex-exec/README.md" />
-        <option value="$PROJECT_DIR$/work/day10(vuex)/vuex-exec/src/pages/github.vue" />
-        <option value="$PROJECT_DIR$/work/day10(vuex)/vuex-exec/index.html" />
-        <option value="$PROJECT_DIR$/work/day10(vuex)/vuex-exec/src/main.js" />
-        <option value="$PROJECT_DIR$/work/day10(vuex)/vuex-exec/src/store/index.js" />
-        <option value="$PROJECT_DIR$/work/day10(vuex)/vuex-exec/src/store/state.js" />
-        <option value="$PROJECT_DIR$/work/day10(vuex)/vuex-exec/src/components/list.vue" />
-        <option value="$PROJECT_DIR$/work/day10(vuex)/day10-vuex.md" />
-        <option value="$PROJECT_DIR$/work/day10(vuex)/vuex-exec/src/store/mutations_types.js" />
-        <option value="$PROJECT_DIR$/work/day10(vuex)/vuex-exec/src/store/mutations.js" />
-        <option value="$PROJECT_DIR$/work/day10(vuex)/vuex-exec/src/components/search.vue" />
-        <option value="$PROJECT_DIR$/work/day10(vuex)/vuex-exec/src/store/actions.js" />
         <option value="$PROJECT_DIR$/work/day11(project)/axios-post-packaging/package.json" />
         <option value="$PROJECT_DIR$/work/day02/03_ECMAScript复习/02_async&amp;await/index.html" />
         <option value="$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/http/user/config.js" />
@@ -294,10 +97,23 @@
         <option value="$PROJECT_DIR$/work/day12(project)/cli-4/src/App.vue" />
         <option value="$PROJECT_DIR$/work/day12(project)/cli-4/src/mock/data.json" />
         <option value="$PROJECT_DIR$/work/day12(project)/day12.md" />
-        <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/App.vue" />
         <option value="$PROJECT_DIR$/work/day13(H5)/layout/vue.config.js" />
         <option value="$PROJECT_DIR$/work/day13(H5)/layout/package.json" />
+        <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/mock/index.js" />
+        <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/http/seller/axios.js" />
+        <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/http/seller/config.js" />
+        <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/http/index.js" />
+        <option value="$PROJECT_DIR$/work/day13(H5)/layout/babel.config.js" />
+        <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/routes/index.js" />
+        <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/router/index.js" />
+        <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/App.vue" />
         <option value="$PROJECT_DIR$/work/day13(H5)/layout/README.md" />
+        <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/store/state.js" />
+        <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/store/index.js" />
+        <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/store/getters.js" />
+        <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/store/mutation_types.js" />
+        <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/main.js" />
+        <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/pages/test.vue" />
       </list>
     </option>
   </component>
@@ -403,6 +219,37 @@
               <item name="day13(H5)" type="462c0819:PsiDirectoryNode" />
               <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="day13(H5)" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="day13(H5)" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="day13(H5)" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="课件" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -423,11 +270,11 @@
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day03\01_ECMAScript复习" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day13(H5)\layout\src\store" />
+      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day13(H5)\layout\src\http" />
+      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day13(H5)\layout\src" />
+      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day13(H5)\layout\src\mock" />
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\课件\vue\02_vue-cli" />
-      <recent name="C:\Users\alienware\Desktop\bj_19_1021\课件\vue\06_vue-h5\layout" />
-      <recent name="C:\Users\alienware\Desktop\bj_19_1021\课件\vue" />
-      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day12(project)\cli-4\src\mock" />
-      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day12(project)\cli-4" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -484,25 +331,26 @@
       <workItem from="1586477103553" duration="26083000" />
       <workItem from="1586527168459" duration="4101000" />
       <workItem from="1586563877414" duration="27707000" />
-      <workItem from="1586649838180" duration="3165000" />
+      <workItem from="1586649838180" duration="5647000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="309719000" />
+    <option name="totallyTimeSpent" value="312201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2344782" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28269485" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.51768035" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3550212" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -511,7 +359,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,127 +376,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/work/day08(slot_router)/day08-路由.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/util/http.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1128">
-          <caret line="64" column="24" lean-forward="true" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day11(project)/axios-post-packaging/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/课件/vue/02_vue-cli/vue-cli2.0.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day12(project)/eslint-demo/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="242" column="23" selection-start-line="242" selection-start-column="18" selection-end-line="242" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day12(project)/eslint-demo/src/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day12(project)/eslint-demo/.eslintignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day12(project)/eslint-demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day12(project)/eslint-demo/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="12" selection-start-line="1" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/.eslintrc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" lean-forward="true" selection-start-column="11" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/.eslintignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day12(project)/editconfig-demo/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/.babelrc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day06(vue-cli)/vue-cli-demo/.postcssrc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day12(project)/eslint-demo/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/课件/vue/02_vue-cli/npm.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="46" column="15" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day11(project)/day11.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -736,30 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day12(project)/cli-4/src/mock/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day12(project)/cli-4/src/mock/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day12(project)/cli-4/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/接口文档/接口文档.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -803,13 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/课件/vue/02_vue-cli/mock.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="54" column="7" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day12(project)/cli-4/vue.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -820,33 +515,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/vue阶段的课程.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -857,10 +529,196 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/README.md">
+    <entry file="file://$PROJECT_DIR$/课件/vue/02_vue-cli/mock.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day12(project)/cli-4/src/mock/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day12(project)/cli-4/src/mock/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="1139" column="10" selection-start-line="1139" selection-start-column="3" selection-end-line="1139" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!block;n#seller#0;n#!!top" />
+            <element signature="e#1898#40371#0" />
+            <element signature="e#40386#47045#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day12(project)/cli-4/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/mock/data.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/mock/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/http/user/axios.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/http/seller/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/http/seller/axios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/http/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/http/seller/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/util/toast.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="20" column="18" selection-start-line="19" selection-start-column="6" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="32" />
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/babel.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/store/mutation_types.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/store/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/store/getters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/store/mutations.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/store/state.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/pages/test.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>

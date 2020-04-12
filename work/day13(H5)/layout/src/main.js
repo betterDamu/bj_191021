@@ -1,8 +1,22 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-Vue.config.productionTip = false
 
+//1. 配置mock
+import "@/mock";
+//2. 注册axios
+import http from "@/http";
+Vue.prototype.$http = http;
+//3. 注册router
+import router from "@/router";
+//4. 注册vuex
+import store from "@/store";
+
+
+
+Vue.config.productionTip = false
 new Vue({
-  render: h => h(App),
+  router,
+  store,
+  render: h => h(App)
 }).$mount('#app')
