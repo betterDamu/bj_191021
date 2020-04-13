@@ -6,7 +6,7 @@
     export default {
         name: "ele-icon",
         props:{
-            size:Number,
+            size:String,
             type:String
         }
     }

@@ -15,7 +15,7 @@
                     <span>硅谷专送/38分钟送达</span>
                 </div>
                 <div class="support">
-                    <ele-icon class="icon" :size="1" type="special"></ele-icon>
+                    <ele-icon class="icon" size="1" type="special"></ele-icon>
                     <span class="text">在线支付满100送老板,满200送店</span>
                 </div>
             </div>
