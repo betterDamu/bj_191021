@@ -144,8 +144,6 @@
                 .text
                     position relative
                     top -2px;
-
-
             .arrow
                 position absolute
                 right 12px
