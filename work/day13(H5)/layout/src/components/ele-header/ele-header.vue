@@ -15,7 +15,7 @@
                     <span>硅谷专送/38分钟送达</span>
                 </div>
                 <div class="support">
-                    <i class="icon decrease"></i>
+                    <ele-icon class="icon" :size="1" type="special"></ele-icon>
                     <span class="text">在线支付满100送老板,满200送店</span>
                 </div>
             </div>
@@ -24,8 +24,12 @@
 </template>
 
 <script>
+    import icon from "components/ele-icon/ele-icon.vue"
     export default {
-        name: "ele-header"
+        name: "ele-header",
+        components:{
+            "ele-icon":icon
+        }
     }
 </script>
 
@@ -76,18 +80,5 @@
                     margin-top 10px
                     margin-bottom 2px
                     .icon
-                        display inline-block
-                        width 12px
-                        height 12px
-                        background-repeat no-repeat
-                        background-size 100%
                         margin-right 4px
-                        &.decrease
-                            bg-image(decrease_1)
-                        &.discount
-                            bg-image(discount_1)
-                        &.guarantee
-                            bg-image(guarantee_1)
-                        &.invoice
-                            bg-image(invoice_1)
 </style>
