@@ -17,7 +17,7 @@
 </template>
 
 <script>
-  import header from "components/ele-header.vue"
+  import header from "components/ele-header/ele-header.vue"
   export default {
     name: 'App',
     components:{
@@ -26,7 +26,7 @@
   }
 </script>
 
-<style lang="stylus" rel="stylesheet/stylus">
+<style scoped lang="stylus" rel="stylesheet/stylus">
   @import "./common/stylus/mixin.styl";
   #app
     .navs
@@ -36,9 +36,7 @@
       & > .item
         flex 1
         a
-          display flex
-          justify-content center
-          align-items center
+          center()
           width 100%
           height 100%
           font-size 14px
