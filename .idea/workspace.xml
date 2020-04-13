@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day13(H5)/layout/src/common/stylus/extend.styl" beforeDir="false" afterPath="$PROJECT_DIR$/work/day13(H5)/layout/src/common/stylus/extend.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/ele-header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/ele-header.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,8 +27,8 @@
       <file leaf-file-name="ele-header.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/ele-header.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+            <state relative-caret-position="400">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
@@ -34,9 +36,14 @@
                 <element signature="n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#template#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#template#0;n#!!top" />
-                <element signature="e#1931#3906#0" />
-                <element signature="e#3941#4902#0" />
-                <element signature="e#4931#5151#0" />
+                <element signature="n#ele-line#0;n#div#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#ele-line#1;n#div#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#1;n#div#3;n#div#0;n#template#0;n#!!top" />
+                <element signature="e#2322#2373#0" expanded="true" />
+                <element signature="e#2395#4370#0" />
+                <element signature="e#4405#5366#0" />
+                <element signature="e#5395#5615#0" />
+                <element signature="e#6057#6242#0" />
               </folding>
             </state>
           </provider>
@@ -50,9 +57,9 @@
         <option value="Less File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="Vue Single File Component" />
         <option value="HTML File" />
         <option value="Stylus File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -74,9 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/pages/contact.vue" />
-        <option value="$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/http/contact/config.js" />
-        <option value="$PROJECT_DIR$/work/day11(project)/day11.md" />
         <option value="$PROJECT_DIR$/课件/vue/02_vue-cli/vue-cli2.0.md" />
         <option value="$PROJECT_DIR$/课件/vue/02_vue-cli/npm.md" />
         <option value="$PROJECT_DIR$/work/day12(project)/eslint-demo/.eslintrc.js" />
@@ -124,6 +128,9 @@
         <option value="$PROJECT_DIR$/work/day13(H5)/粘连布局/index.html" />
         <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/App.vue" />
         <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/common/stylus/extend.styl" />
+        <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-list.vue" />
+        <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-list/ele-list.vue" />
+        <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-line/ele-line.vue" />
         <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/ele-header.vue" />
       </list>
     </option>
@@ -245,36 +252,7 @@
               <item name="day13(H5)" type="462c0819:PsiDirectoryNode" />
               <item name="layout" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day13(H5)" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="stylus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day13(H5)" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day13(H5)" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ele-header" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
@@ -394,12 +372,12 @@
       <workItem from="1586563877414" duration="27707000" />
       <workItem from="1586649838180" duration="7610000" />
       <workItem from="1586689145726" duration="2437000" />
-      <workItem from="1586735915652" duration="20807000" />
+      <workItem from="1586735915652" duration="24379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="337408000" />
+    <option name="totallyTimeSpent" value="340980000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -435,27 +413,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="22" />
+      <option name="time" value="23" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/store/actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/store/getters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/store/mutations.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/store/state.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -607,20 +568,6 @@
     <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-icon/discount_2@2x.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/common/stylus/mixin.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="6" selection-start-line="25" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-icon/ele-icon.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="55" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/05_字体图标/icomoon_demo/icommon/demo.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -660,19 +607,6 @@
     <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/bulletin@2x.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/mock/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="86" />
-          <folding>
-            <element signature="e#402#1170#0" />
-            <element signature="e#1359#1770#0" />
-            <element signature="e#1905#40378#0" />
-            <element signature="e#40393#47052#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/layout/标注/外卖03_商品页_购物车详情_spec.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -706,16 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/common/stylus/style.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/layout/标注/外卖02_商品页_公告及优惠信息_spec.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pre/02_css复习/08_less/04_继承/css/index.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -723,17 +647,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/common/stylus/extend.styl">
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/common/stylus/mixin.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="167">
+          <caret line="25" column="6" selection-start-line="25" selection-end-line="25" selection-end-column="6" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/common/stylus/style.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/common/stylus/extend.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-icon/ele-icon.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="33" lean-forward="true" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-list.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-list/ele-list.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-line/ele-line.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/mock/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="86" />
+          <folding>
+            <element signature="e#402#1170#0" />
+            <element signature="e#1359#1770#0" />
+            <element signature="e#1905#40378#0" />
+            <element signature="e#40393#47052#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/layout/标注/外卖02_商品页_公告及优惠信息_spec.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/ele-header.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+        <state relative-caret-position="400">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
@@ -741,9 +723,14 @@
             <element signature="n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#template#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#template#0;n#!!top" />
-            <element signature="e#1931#3906#0" />
-            <element signature="e#3941#4902#0" />
-            <element signature="e#4931#5151#0" />
+            <element signature="n#ele-line#0;n#div#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#ele-line#1;n#div#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#1;n#div#3;n#div#0;n#template#0;n#!!top" />
+            <element signature="e#2322#2373#0" expanded="true" />
+            <element signature="e#2395#4370#0" />
+            <element signature="e#4405#5366#0" />
+            <element signature="e#5395#5615#0" />
+            <element signature="e#6057#6242#0" />
           </folding>
         </state>
       </provider>

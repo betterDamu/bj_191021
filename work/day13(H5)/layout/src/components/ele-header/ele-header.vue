@@ -44,7 +44,19 @@
                     <!--真正存放那内容的地方 在这个内部要清除浮动-->
                     <!--因为main的高度对整个css sticky footer 有着至关重要的作用-->
                     <!--不能让main中浮动的元素影响main的高度-->
-
+                    <h2 class="title">嘉禾一品（温都水城）</h2>
+                    <div class="stars"></div>
+                    <ele-line class="line">
+                        <span class="text">优惠信息</span>
+                    </ele-line>
+                    <ele-list class="list"></ele-list>
+                    <ele-line class="line">
+                        <span class="text">商家公告</span>
+                    </ele-line>
+                    <p class="bulletin">
+                        是以粥为特色的中式营养快餐，自2004年10月18日创立“嘉和一品”品牌至今，不断优化管理，积极创新，立足于“贴近百姓生活，服务千家万户”
+                        是以粥为特色的中式营养快餐，自2004年10月18日创立“嘉和一品”品牌至今，不断优化管理，积极创新，立足于“贴近百姓生活，服务千家万户”
+                    </p>
                 </div>
             </div>
             <div class="footer">
@@ -56,10 +68,14 @@
 
 <script>
     import icon from "components/ele-icon/ele-icon.vue"
+    import line from "components/ele-line/ele-line.vue"
+    import list from "components/ele-list/ele-list.vue"
     export default {
         name: "ele-header",
         components:{
-            "ele-icon":icon
+            "ele-icon":icon,
+            "ele-line":line,
+            "ele-list":list
         }
     }
 </script>
@@ -188,8 +204,40 @@
             .mainWrap
                 min-height 100%
                 .main
-                    @extend .clearfix;
+                    @extend .clearfix
                     padding-bottom 96px
+                    padding-top 64px
+                    .title
+                        font-size 16px
+                        line-height 16px
+                        font-weight 700
+                        color rgba(255,255,255,1)
+                        text-align center
+                    .stars
+                        height 24px
+                        margin-top 16px
+                        margin-bottom 28px
+                    .line
+                        width 80%
+                        margin 0 auto
+                        .text
+                            margin 0 12px
+                    .list
+                        box-sizing border-box
+                        width 80%
+                        padding 0 12px
+                        margin 0 auto
+                        margin-top 24px
+                        margin-bottom 28px
+                    .bulletin
+                        box-sizing border-box
+                        width 80%
+                        margin 0 auto
+                        margin-top 24px
+                        font-size 12px
+                        line-height 24px
+                        color rgba(255,255,255,1)
+                        padding 0 12px
             .footer
                 margin-top -96px
                 height 96px
