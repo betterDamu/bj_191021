@@ -38,6 +38,19 @@
                     src="https://fuss10.elemecdn.com/8/40/02872ce8aefe75c16d3190e75ad61jpeg.jpeg"
                     class="avatar">
         </div>
+        <div class="mask">
+            <div class="mainWrap">
+                <div class="main">
+                    <!--真正存放那内容的地方 在这个内部要清除浮动-->
+                    <!--因为main的高度对整个css sticky footer 有着至关重要的作用-->
+                    <!--不能让main中浮动的元素影响main的高度-->
+
+                </div>
+            </div>
+            <div class="footer">
+                <i class="layout-close"></i>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -53,6 +66,7 @@
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
     @import "../../common/stylus/mixin.styl"
+    @import "../../common/stylus/extend.styl"
     .header
         position relative
         background rgba(7,17,27,.5)
@@ -161,4 +175,26 @@
                 height 100%
 
 
+        & > .mask
+            z-index 9
+            position fixed
+            left 0
+            right 0
+            top 0
+            bottom 0
+            backdrop-filter:blur(10px)
+            background rgba(7,17,27,.8)
+            overflow auto
+            .mainWrap
+                min-height 100%
+                .main
+                    @extend .clearfix;
+                    padding-bottom 96px
+            .footer
+                margin-top -96px
+                height 96px
+                line-height 96px
+                text-align center
+                font-size 32px
+                color rgba(255,255,255,.5)
 </style>

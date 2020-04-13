@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/ele-header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/ele-header.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,11 +17,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/work/day13(H5)/粘连布局/index.html">
+      <file leaf-file-name="外卖02_商品页_公告及优惠信息_spec.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/layout/标注/外卖02_商品页_公告及优惠信息_spec.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="ele-header.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/ele-header.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="56" column="81" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="56" selection-end-column="81" />
+            <state relative-caret-position="222">
+              <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#template#0;n#!!top" />
+                <element signature="e#1931#3906#0" />
+                <element signature="e#3941#4902#0" />
+                <element signature="e#4931#5151#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,9 +50,9 @@
         <option value="Less File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="Stylus File" />
         <option value="Vue Single File Component" />
         <option value="HTML File" />
+        <option value="Stylus File" />
       </list>
     </option>
   </component>
@@ -57,7 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/util/http.js" />
         <option value="$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/pages/contact.vue" />
         <option value="$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/http/contact/config.js" />
         <option value="$PROJECT_DIR$/work/day11(project)/day11.md" />
@@ -105,9 +121,10 @@
         <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-icon/ele-icon.vue" />
         <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/common/stylus/style.styl" />
         <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/main.js" />
-        <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/App.vue" />
-        <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/ele-header.vue" />
         <option value="$PROJECT_DIR$/work/day13(H5)/粘连布局/index.html" />
+        <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/App.vue" />
+        <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/common/stylus/extend.styl" />
+        <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/ele-header.vue" />
       </list>
     </option>
   </component>
@@ -219,14 +236,45 @@
               <item name="work" type="462c0819:PsiDirectoryNode" />
               <item name="day13(H5)" type="462c0819:PsiDirectoryNode" />
               <item name="layout" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
               <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
               <item name="work" type="462c0819:PsiDirectoryNode" />
               <item name="day13(H5)" type="462c0819:PsiDirectoryNode" />
-              <item name="粘连布局" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="day13(H5)" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="stylus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="day13(H5)" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="day13(H5)" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="ele-header" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
@@ -253,6 +301,15 @@
               <item name="vue" type="462c0819:PsiDirectoryNode" />
               <item name="06_vue-h5" type="462c0819:PsiDirectoryNode" />
               <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="课件" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="06_vue-h5" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="标注" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -337,12 +394,12 @@
       <workItem from="1586563877414" duration="27707000" />
       <workItem from="1586649838180" duration="7610000" />
       <workItem from="1586689145726" duration="2437000" />
-      <workItem from="1586735915652" duration="19133000" />
+      <workItem from="1586735915652" duration="20807000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="335734000" />
+    <option name="totallyTimeSpent" value="337408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -356,7 +413,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.35077792" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3493635" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -382,20 +439,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/store/mutation_types.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/store/actions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -611,23 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/common/stylus/style.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="56" column="12" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/brand@2x.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -647,29 +673,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/ele-header.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="132" column="31" lean-forward="true" selection-start-line="132" selection-start-column="31" selection-end-line="132" selection-end-column="31" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#template#0;n#!!top" />
-            <element signature="e#1931#3906#0" />
-            <element signature="e#4933#5153#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/layout/标注/外卖03_商品页_购物车详情_spec.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/layout/标注/外卖01_商品页_spec.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/layout/标注/外卖02_商品页_公告及优惠信息_spec.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/public/index.html">
@@ -681,8 +688,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/work/day13(H5)/粘连布局/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="56" column="81" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="56" selection-end-column="81" />
+        <state relative-caret-position="376">
+          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/common/stylus/style.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/layout/标注/外卖02_商品页_公告及优惠信息_spec.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pre/02_css复习/08_less/04_继承/css/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/common/stylus/extend.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/ele-header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#template#0;n#!!top" />
+            <element signature="e#1931#3906#0" />
+            <element signature="e#3941#4902#0" />
+            <element signature="e#4931#5151#0" />
+          </folding>
         </state>
       </provider>
     </entry>
