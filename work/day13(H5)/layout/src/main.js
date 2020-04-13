@@ -11,7 +11,8 @@ Vue.prototype.$http = http;
 import router from "@/router";
 //4. 注册vuex
 import store from "@/store";
-
+//5. 引用字体图标
+import "@/common/stylus/style.styl"
 
 
 Vue.config.productionTip = false

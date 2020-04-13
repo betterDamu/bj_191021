@@ -19,6 +19,24 @@
                     <span class="text">在线支付满100送老板,满200送店</span>
                 </div>
             </div>
+            <div class="btns">
+                <div>
+                    <span class="text">5个</span>
+                    <i class="layout-keyboard_arrow_right"></i>
+                </div>
+            </div>
+        </div>
+        <div class="bulletin">
+            <div class="content">
+                <i class="icon"></i>
+                <span class="text">是以粥为特色的中式营养快餐，自2004年10月18日创立“嘉和一品”品牌至今，不断优化管理，积极创新，立足于“贴近百姓生活，服务千家万户”</span>
+            </div>
+            <i class="layout-keyboard_arrow_right arrow"></i>
+        </div>
+        <div class="bg">
+            <img
+                    src="https://fuss10.elemecdn.com/8/40/02872ce8aefe75c16d3190e75ad61jpeg.jpeg"
+                    class="avatar">
         </div>
     </div>
 </template>
@@ -36,11 +54,13 @@
 <style scoped lang="stylus" rel="stylesheet/stylus">
     @import "../../common/stylus/mixin.styl"
     .header
+        position relative
         background rgba(7,17,27,.5)
-        .top
+        & > .top
             display flex
             padding 24px 0 18px 24px
-            .left
+            position relative
+            & > .left
                 width 64px
                 height 64px
                 margin-right 16px
@@ -48,7 +68,7 @@
                     width 100%
                     height 100%
                     border-radius 2px
-            .right
+            & > .right
                 .title
                     center()
                     font-size 16px
@@ -81,4 +101,66 @@
                     margin-bottom 2px
                     .icon
                         margin-right 4px
+            & > .btns
+                center()
+                position absolute
+                right 4px
+                bottom 5px
+                width 48px
+                height 24px
+                background rgba(0,0,0,.2)
+                border-radius 16px
+                color rgba(255,255,255,1)
+                font-size 10px
+                font-weight 200
+                line-height 12px
+                .text
+                    margin-right 2px
+
+        & > .bulletin
+            center()
+            position relative
+            padding-left 12px
+            padding-right 26px
+            height 28px
+            background rgba(7,17,27,.2)
+            .content
+                width 100%
+                overflow hidden
+                text-overflow ellipsis
+                white-space nowrap
+                font-size 10px
+                font-weight 200
+                color rgba(255,255,255,1)
+                .icon
+                    bg-image(bulletin)
+                    display inline-block
+                    width 22px
+                    height 12px
+                    background-repeat no-repeat
+                    background-size 100%
+                    margin-right 4px
+                    flex-basis 22px
+                .text
+                    position relative
+                    top -2px;
+
+
+            .arrow
+                position absolute
+                right 12px
+                color rgba(255,255,255,1)
+        & > .bg
+            z-index -1
+            position absolute
+            left 0
+            right 0
+            top 0
+            bottom 0
+            filter blur(6px)
+            img
+                width 100%
+                height 100%
+
+
 </style>

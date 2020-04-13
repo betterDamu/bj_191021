@@ -3,16 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/decrease_1@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/decrease_1@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/discount_1@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/discount_1@3x.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/ele-header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/ele-header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/guarantee_1@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/guarantee_1@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/invoice_1@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/invoice_1@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-icon/ele-icon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-icon/ele-icon.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day13(H5)/layout/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day13(H5)/layout/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/icomoon/Read Me.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/icomoon/demo-files/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/icomoon/demo-files/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/icomoon/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/icomoon/fonts/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/icomoon/fonts/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/icomoon/fonts/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/icomoon/fonts/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/icomoon/selection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/vue/06_vue-h5/layout/icomoon/style.css" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,7 +27,45 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/mock/data.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="86" />
+              <folding>
+                <element signature="e#402#1170#0" />
+                <element signature="e#1359#1770#0" />
+                <element signature="e#1905#40378#0" />
+                <element signature="e#40393#47052#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ele-header.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/ele-header.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="153" column="22" selection-start-line="153" selection-start-column="22" selection-end-line="153" selection-end-column="22" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#template#0;n#!!top" />
+                <element signature="e#1433#3396#0" />
+                <element signature="e#1276#1473#0" />
+                <element signature="e#1509#2665#0" />
+                <element signature="e#2885#3310#0" />
+                <element signature="e#3724#4674#0" />
+                <element signature="e#3821#4492#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,7 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/util/toast.js" />
         <option value="$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/http/contact/axios.js" />
         <option value="$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/util/http.js" />
         <option value="$PROJECT_DIR$/work/day11(project)/axios-post-packaging/src/pages/contact.vue" />
@@ -92,7 +131,6 @@
         <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/store/index.js" />
         <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/store/getters.js" />
         <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/store/mutation_types.js" />
-        <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/main.js" />
         <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/pages/test.vue" />
         <option value="$PROJECT_DIR$/work/day13(H5)/layout/public/index.html" />
         <option value="$PROJECT_DIR$/work/day13(H5)/h5-demo/index.html" />
@@ -105,8 +143,10 @@
         <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/router/index.js" />
         <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/common/stylus/mixin.styl" />
         <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header.vue" />
-        <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/App.vue" />
         <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-icon/ele-icon.vue" />
+        <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/common/stylus/style.styl" />
+        <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/main.js" />
+        <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/App.vue" />
         <option value="$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/ele-header.vue" />
       </list>
     </option>
@@ -228,7 +268,35 @@
               <item name="day13(H5)" type="462c0819:PsiDirectoryNode" />
               <item name="layout" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="day13(H5)" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="day13(H5)" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="ele-header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="day13(H5)" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
@@ -281,11 +349,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day13(H5)\layout\src\components\ele-icon" />
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day13(H5)\layout\src\components\ele-header" />
-      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day13(H5)\layout\src\components" />
-      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day13(H5)\layout\public\css" />
+      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day13(H5)\layout\src\common\stylus" />
+      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day13(H5)\layout\src\common" />
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\课件\vue\06_vue-h5\layout" />
+      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day13(H5)\layout\src\components\ele-icon" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day03\01_ECMAScript复习\01_async" />
@@ -348,15 +416,16 @@
       <workItem from="1586563877414" duration="27707000" />
       <workItem from="1586649838180" duration="7610000" />
       <workItem from="1586689145726" duration="2437000" />
-      <workItem from="1586735915652" duration="13246000" />
+      <workItem from="1586735915652" duration="17019000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="329847000" />
+    <option name="totallyTimeSpent" value="333620000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24570674" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -388,56 +457,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="21" />
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/work/day12(project)/cli-4/src/mock/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="1139" column="10" selection-start-line="1139" selection-start-column="3" selection-end-line="1139" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day12(project)/cli-4/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/mock/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/http/user/axios.js" />
-    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/http/seller/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/http/seller/axios.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/http/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/http/seller/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/util/toast.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -487,16 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -642,23 +655,6 @@
     <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/decrease_1@2x.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/common/stylus/mixin.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="25" column="6" selection-start-line="25" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-icon/decrease_4@2x.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -674,32 +670,105 @@
     <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-icon/discount_2@2x.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/mock/data.json">
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/common/stylus/mixin.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="24" />
-          <folding>
-            <element signature="e#1905#40378#0" />
-            <element signature="e#40393#47052#0" />
-          </folding>
+        <state relative-caret-position="600">
+          <caret line="25" column="6" selection-start-line="25" selection-end-line="25" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-icon/ele-icon.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="18" />
+          <caret line="1" column="55" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/05_字体图标/icomoon_demo/icommon/demo.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day02/02_css复习/05_字体图标/icomoon_demo/demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/layout/iconmoon/fonts/layout.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/common/fonts/layout.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/layout/iconmoon/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="6" selection-start-line="14" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/common/stylus/style.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="56" column="12" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/brand@2x.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/bulletin@2x.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/mock/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="86" />
+          <folding>
+            <element signature="e#402#1170#0" />
+            <element signature="e#1359#1770#0" />
+            <element signature="e#1905#40378#0" />
+            <element signature="e#40393#47052#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/work/day13(H5)/layout/src/components/ele-header/ele-header.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="41" />
+        <state relative-caret-position="304">
+          <caret line="153" column="22" selection-start-line="153" selection-start-column="22" selection-end-line="153" selection-end-column="22" />
           <folding>
-            <element signature="e#1277#1474#0" />
-            <element signature="e#1510#2666#0" />
-            <element signature="e#1825#2094#0" />
+            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#template#0;n#!!top" />
+            <element signature="e#1433#3396#0" />
+            <element signature="e#1276#1473#0" />
+            <element signature="e#1509#2665#0" />
+            <element signature="e#2885#3310#0" />
+            <element signature="e#3724#4674#0" />
+            <element signature="e#3821#4492#0" />
           </folding>
         </state>
       </provider>
