@@ -1,6 +1,6 @@
 <template>
     <div class="goods">
-        <div class="typeWrap" ref="typeList">
+        <div class="typeWrap" ref="typeWrap">
             <ul class="typeList">
                 <li class="type" :class="{active:index===currentIndex}"
                     v-for="(good,index) in goods" :key="index">
@@ -9,7 +9,7 @@
                 </li>
             </ul>
         </div>
-        <div class="goodWrap">
+        <div class="goodWrap" ref="goodWrap">
             <ul class="goodList">
                 <li class="good" v-for="(good,index) in goods" :key="index">
                     <h2 class="goodName">{{good.name}}</h2>
@@ -45,7 +45,8 @@
         mounted(){
             this[GETGOODS]();
             //初始化滑屏
-            new BScroll(this.$refs.typeList)
+            new BScroll(this.$refs.typeWrap)
+            new BScroll(this.$refs.goodWrap)
         },
         components:{
             "ele-food":food
@@ -88,6 +89,7 @@
                         border-none()
         .goodWrap
             flex 1
+            overflow hidden
             .goodList
                 .good
                     .goodName
@@ -101,5 +103,19 @@
                         color rgba(147,153,159,1)
                     .foodlist
                         .food
+                            one-px(rgba(7,17,27,.1))
                             padding 18px
+                            &:after
+                                width 80%
+                                left 0
+                                right 0
+                                margin auto
+                            &:last-child
+                                border-none()
+
+
+
+
+
+
 </style>

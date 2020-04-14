@@ -12,7 +12,7 @@
             </span>
             <span class="prices">
                 <span class="newPrice">￥{{food.price}}</span>
-                <span class="oldPrice">￥{{food.oldPrice}}</span>
+                <span class="oldPrice" v-show="food.oldPrice">￥{{food.oldPrice}}</span>
             </span>
         </div>
     </div>
@@ -40,17 +40,31 @@
                 height 100%
         .info
             font-size 10px
+            line-height 10px
             color rgba(147,153,159,1)
             flex 1
             display flex
             flex-direction column
             .foodName
+                font-size 14px
+                line-height 14px
+                color rgba(7,17,27,1)
+                margin-top 2px
                 margin-bottom 8px
             .desc
                 margin-bottom 8px
             .ratings
                 margin-bottom 8px
+                .count
+                    margin-right 12px
             .prices
                 margin-bottom 8px
+                .newPrice
+                    color red
+                    font-size 14px
+                    font-weight 700
+                    margin-right 8px
+                .oldPrice
+                    text-decoration line-through
 
 </style>
