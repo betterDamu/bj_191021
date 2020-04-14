@@ -45,9 +45,6 @@
                while (arr.length < Lenght)
                     arr.push("off")
 
-               console.log(this.score)
-               console.log(arr);
-
                return arr;
             }
         }

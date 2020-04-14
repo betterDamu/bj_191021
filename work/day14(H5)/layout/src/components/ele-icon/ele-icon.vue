@@ -3,16 +3,17 @@
 </template>
 
 <script>
-    import {mapState} from "vuex";
     export default {
         name: "ele-icon",
+        data(){
+          return {
+              iconTypes:["decrease","discount","guarantee","invoice","special"]
+          }
+        },
         props:{
             size:String,
             type:Number
         },
-        computed:{
-            ...mapState(["iconTypes"])
-        }
     }
 </script>
 

@@ -11,10 +11,12 @@ Vue.prototype.$http = http;
 import router from "@/router";
 //4. 注册vuex
 import store from "@/store";
-//5. 引用字体图标
+//5. 引用字体图标 过渡相关的样式
 import "@/common/stylus/style.styl"
 import "@/common/stylus/transition.styl"
-
+//6. 引入全局组件(icon)
+import icon from "components/ele-icon/ele-icon"
+Vue.component("ele-icon",icon)
 
 Vue.config.productionTip = false
 new Vue({

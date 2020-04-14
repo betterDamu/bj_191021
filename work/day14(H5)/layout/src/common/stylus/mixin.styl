@@ -1,10 +1,15 @@
+border-none()
+  &:after
+    display none
+    content ""
+
 //1物理像素的下边框
 one-px($color)
   position relative
   &:after
     position absolute
-    left 0
-    bottom 0
+    left 0px
+    bottom 0px
     display block
     content ""
     width 100%

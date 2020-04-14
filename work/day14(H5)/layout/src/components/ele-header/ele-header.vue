@@ -69,7 +69,6 @@
 
 <script>
     import {mapState} from "vuex";
-    import icon from "components/ele-icon/ele-icon.vue"
     import line from "components/ele-line/ele-line.vue"
     import list from "components/ele-list/ele-list.vue"
     import stars from "components/ele-stars/ele-stars.vue"
@@ -84,7 +83,6 @@
             ...mapState(["seller"])
         },
         components:{
-            "ele-icon":icon,
             "ele-line":line,
             "ele-list":list,
             "ele-stars":stars
