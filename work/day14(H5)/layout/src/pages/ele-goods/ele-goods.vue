@@ -1,7 +1,7 @@
 <template>
     <div class="goods">
-        <div class="typeList" ref="typeList">
-            <ul class="list">
+        <div class="typeWrap" ref="typeList">
+            <ul class="typeList">
                 <li class="type" :class="{active:index===currentIndex}"
                     v-for="(good,index) in goods" :key="index">
                     <ele-icon class="icon" v-show="good.type >= 0" size="3" :type="good.type"></ele-icon>
@@ -9,7 +9,18 @@
                 </li>
             </ul>
         </div>
-        <div class="foodList"></div>
+        <div class="goodWrap">
+            <ul class="goodList">
+                <li class="good" v-for="(good,index) in goods" :key="index">
+                    <h2 class="goodName">{{good.name}}</h2>
+                    <ul class="foodlist">
+                        <li class="food" v-for="(food,index) in good.foods" :key="index">
+                            <ele-food :food="food"></ele-food>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </div>
 </template>
 
@@ -17,6 +28,7 @@
     import BScroll from 'better-scroll'
     import {mapActions,mapState} from "vuex";
     import {GETGOODS} from "store/mutation_types";
+    import food from "components/ele-food/ele-food"
     export default {
         name: "ele-goods",
         data(){
@@ -34,6 +46,9 @@
             this[GETGOODS]();
             //初始化滑屏
             new BScroll(this.$refs.typeList)
+        },
+        components:{
+            "ele-food":food
         }
     }
 </script>
@@ -47,10 +62,10 @@
         bottom 50px
         left 0
         right 0
-        .typeList
+        .typeWrap
             flex 0 0 80px
             overflow hidden
-            .list
+            .typeList
                 .type
                     center()
                     one-px(rgba(7,17,27,.1))
@@ -71,6 +86,20 @@
                         margin auto
                     &:last-child
                         border-none()
-        .foodList
+        .goodWrap
             flex 1
+            .goodList
+                .good
+                    .goodName
+                        height 26px
+                        line-height 26px
+                        font-size 12px
+                        font-weight 800
+                        background #f3f5f7
+                        border-left 3px solid #d9dde1
+                        padding-left 14px
+                        color rgba(147,153,159,1)
+                    .foodlist
+                        .food
+                            padding 18px
 </style>
