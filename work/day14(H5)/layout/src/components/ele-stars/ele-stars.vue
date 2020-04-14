@@ -11,17 +11,45 @@
 </template>
 
 <script>
+    const Lenght = 5;
     export default {
         name: "ele-stars",
-        data(){
-          return {
-              //根据分数得到下面这样的数组
-              scoreArr:["on","on","on","half","off"]
-          }
-        },
         props:{
             size:String,
             score:Number
+        },
+        computed:{
+            scoreArr(){
+                //根据分数 得到 分数对应的数组
+                let arr =[];
+               //分数的两个边界情况
+               if(this.score === undefined)
+                  return ["off","off","off","off","off"];
+               if(this.score < 0)
+                   return ["off","off","off","off","off"];
+               if(this.score > Lenght)
+                   return ["on","on","on","on","on"];
+
+               //根据分数 得到星星的数量 (逢.5给半颗星)
+               let stars = Math.floor(this.score * 2)/2;
+               //满星的数量
+               let fullStars = Math.floor(stars);
+               //是否需要半星
+               let needHalf =  (stars % 1) === 0 ? false:true;
+
+               //构建评星数组
+               for(let i=0;i<fullStars;i++){
+                   arr.push("on")
+               }
+               needHalf?arr.push("half"):"";
+               while (arr.length < Lenght)
+                    arr.push("off")
+
+               console.log(this.score)
+               console.log(arr);
+
+               return arr;
+            }
         }
     }
 </script>
