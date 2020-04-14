@@ -13,6 +13,7 @@ import router from "@/router";
 import store from "@/store";
 //5. 引用字体图标
 import "@/common/stylus/style.styl"
+import "@/common/stylus/transition.styl"
 
 
 Vue.config.productionTip = false
