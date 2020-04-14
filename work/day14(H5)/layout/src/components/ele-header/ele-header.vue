@@ -2,26 +2,26 @@
     <div class="header">
         <div class="top">
             <div class="left">
-                <img
-                        src="https://fuss10.elemecdn.com/8/40/02872ce8aefe75c16d3190e75ad61jpeg.jpeg"
-                        class="avatar">
+                <img :src="seller.avatar" class="avatar">
             </div>
             <div class="right">
                 <div class="title">
                     <i class="brand"></i>
-                    <span class="name">嘉禾一品（温都水城）</span>
+                    <span class="name">{{seller.name}}</span>
                 </div>
                 <div class="info">
-                    <span>硅谷专送/38分钟送达</span>
+                    <span>{{seller.description}}/{{seller.deliveryTime}}分钟送达</span>
                 </div>
-                <div class="support">
-                    <ele-icon class="icon" size="1" type="special"></ele-icon>
-                    <span class="text">在线支付满100送老板,满200送店</span>
+                <div class="support" v-if="seller.supports && seller.supports[0]">
+                    <ele-icon class="icon" size="1" :type="seller.supports[0].type"></ele-icon>
+                    <span class="text">{{seller.supports[0].content}}</span>
                 </div>
             </div>
             <div class="btns">
                 <div>
-                    <span class="text">5个</span>
+                    <span v-if="seller.supports" class="text">
+                        {{seller.supports.length}}个
+                    </span>
                     <i class="layout-keyboard_arrow_right"></i>
                 </div>
             </div>
@@ -29,14 +29,12 @@
         <div class="bulletin">
             <div class="content">
                 <i class="icon"></i>
-                <span class="text">是以粥为特色的中式营养快餐，自2004年10月18日创立“嘉和一品”品牌至今，不断优化管理，积极创新，立足于“贴近百姓生活，服务千家万户”</span>
+                <span class="text">{{seller.bulletin}}</span>
             </div>
             <i class="layout-keyboard_arrow_right arrow"></i>
         </div>
         <div class="bg">
-            <img
-                    src="https://fuss10.elemecdn.com/8/40/02872ce8aefe75c16d3190e75ad61jpeg.jpeg"
-                    class="avatar">
+            <img :src="seller.bgImg" class="avatar">
         </div>
         <div class="mask" v-show="false">
             <div class="mainWrap">
@@ -67,11 +65,15 @@
 </template>
 
 <script>
+    import {mapState} from "vuex";
     import icon from "components/ele-icon/ele-icon.vue"
     import line from "components/ele-line/ele-line.vue"
     import list from "components/ele-list/ele-list.vue"
     export default {
         name: "ele-header",
+        computed:{
+            ...mapState(["seller"])
+        },
         components:{
             "ele-icon":icon,
             "ele-line":line,
@@ -86,6 +88,7 @@
     .header
         position relative
         background rgba(7,17,27,.5)
+        overflow hidden
         & > .top
             display flex
             padding 24px 0 18px 24px
@@ -185,7 +188,7 @@
             right 0
             top 0
             bottom 0
-            filter blur(6px)
+            filter blur(3px)
             img
                 width 100%
                 height 100%

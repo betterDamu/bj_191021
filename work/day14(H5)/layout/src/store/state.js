@@ -1,5 +1,6 @@
 export default {
     seller:{},
     goods:[],
-    ratings:[]
+    ratings:[],
+    iconTypes:["decrease","discount","guarantee","invoice","special"]
 }

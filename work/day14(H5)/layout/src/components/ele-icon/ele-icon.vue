@@ -1,13 +1,17 @@
 <template>
-    <i class="icon" :class="[`icon-${size}`,type]"></i>
+    <i class="icon" :class="[`icon-${size}`,iconTypes[type]]"></i>
 </template>
 
 <script>
+    import {mapState} from "vuex";
     export default {
         name: "ele-icon",
         props:{
             size:String,
-            type:String
+            type:Number
+        },
+        computed:{
+            ...mapState(["iconTypes"])
         }
     }
 </script>
