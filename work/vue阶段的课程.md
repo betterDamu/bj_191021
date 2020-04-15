@@ -15,7 +15,6 @@
         vue的路由
             vue-router
         vue的请求
-            vue-resource
             axios
         vue的数据仓库
             vuex
