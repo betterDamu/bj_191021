@@ -15,14 +15,19 @@
                 <span class="oldPrice" v-show="food.oldPrice">￥{{food.oldPrice}}</span>
             </span>
         </div>
+        <ele-contorl class="contorl" :food="food"></ele-contorl>
     </div>
 </template>
 
 <script>
+    import contorl from "components/ele-contorl/ele-contorl";
     export default {
         name: "ele-food",
         props:{
             food:Object
+        },
+        components:{
+            "ele-contorl":contorl
         }
     }
 </script>
@@ -67,4 +72,9 @@
                 .oldPrice
                     text-decoration line-through
 
+        .contorl
+            flex 0 0 0
+            position absolute
+            right 18px
+            bottom 10px
 </style>

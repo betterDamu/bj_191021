@@ -17,6 +17,8 @@ import "@/common/stylus/transition.styl"
 //6. 引入全局组件(icon)
 import icon from "components/ele-icon/ele-icon"
 Vue.component("ele-icon",icon)
+//定义数据通信需要的总线
+Vue.prototype.$bus=new Vue()
 
 Vue.config.productionTip = false
 new Vue({

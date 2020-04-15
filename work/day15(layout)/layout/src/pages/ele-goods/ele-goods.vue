@@ -40,6 +40,7 @@
         },
         computed:{
             ...mapState(["goods"]),
+            //列表左右联动的功能
             currentIndex(){
                 //根据tops & scrollY 来确定左侧列表谁该选中
                 let {tops,scrollY} = this;
@@ -51,7 +52,7 @@
                 //让左侧列表滑动到选中的li节点上
                 if(this.oldIndex !== index){
                     this.oldIndex=index;
-                    let targetLi = this.$refs.typeList.children[index];
+                    let targetLi = this.$refs.typeList && this.$refs.typeList.children[index];
                     this.typeWrapBS && this.typeWrapBS.scrollToElement(targetLi,300)
                 }
 
@@ -60,6 +61,7 @@
         },
         methods:{
             ...mapActions([GETGOODS]),
+            //列表左右联动的功能
             initTops(){
                 /*
                     注意 mounted 不会保证所有的子组件也都一起被挂载。
@@ -96,8 +98,24 @@
                 })
             },
             handleCForType(index){
+                //index 代表左侧列表的下标
                 let scrollY = this.tops[index];
                 this.goodWrapBS.scrollTo(0,-scrollY,300) //会让scrollY得到更新
+            },
+
+            //购物车控制组件的功能
+            add(food){
+                if(!food.count){
+                    this.$set(food,"count",1)
+                }else {
+                    food.count++
+                }
+            },
+            remove(food){
+                if(food.count >0){
+                    console.log("----")
+                    food.count--
+                }
             }
         },
         async mounted(){
@@ -106,6 +124,14 @@
             await this[GETGOODS]();
             this.initScrollY();
             this.initTops();
+
+            //购物车控制组件的功能
+            this.$bus.$on("add",(food)=>{
+                this.add(food)
+            })
+            this.$bus.$on("remove",(food)=>{
+                this.remove(food)
+            })
         },
         components:{
             "ele-food":food
@@ -164,6 +190,7 @@
                         .foodWrap
                             one-px(rgba(7,17,27,.1))
                             padding 18px
+                            position relative
                             &:after
                                 width 80%
                                 left 0
