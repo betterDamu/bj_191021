@@ -3,20 +3,20 @@
         <div class="cart">
             <div  class="left" style="color: white">
                 <div class="icon">
-                    <div class="logo active">
+                    <div class="logo" :class="{active:totalPrice>0}">
                         <i class="layout-shopping_cart"></i>
                     </div>
-                    <span class="qipao">99</span>
+                    <span class="qipao" v-show="totalCount>0">{{totalCount}}</span>
                 </div>
-                <div class="totalPrice active">
-                    <span>¥100</span>
+                <div class="totalPrice" :class="{active:totalPrice>0}">
+                    <span>¥{{totalPrice}}</span>
                 </div>
                 <div class="deliveryPrice">
-                    <span>另需配送费¥4元</span>
+                    <span>另需配送费¥{{seller.deliveryPrice}}元</span>
                 </div>
             </div>
-            <div class="right active">
-                <span>去结算</span>
+            <div class="right" :class="{active:totalPrice > seller.minPrice}">
+                <span>{{rightText}}</span>
             </div>
         </div>
         <div class="list" v-show="false">
@@ -41,11 +41,37 @@
 </template>
 
 <script>
+    import {mapState} from "vuex";
     import contorl from "components/ele-contorl/ele-contorl";
     export default {
         name: "ele-cart",
         props:{
             selectedFoods:Array
+        },
+        computed:{
+            ...mapState(["seller"]),
+            //购物车中食物的总数量
+            totalCount(){
+                return this.selectedFoods.reduce((adder,item)=>{
+                    return adder += item.count
+                },0)
+            },
+            //购物车的总价格
+            totalPrice(){
+                return this.selectedFoods.reduce((adder,item)=>{
+                    return adder += item.count*item.price
+                },0)
+            },
+            //购物车结算按钮的文案
+            rightText(){
+                if(this.totalPrice === 0){
+                    return `¥${this.seller.minPrice}起送`
+                }else if (this.totalPrice < this.seller.minPrice){
+                    return `还差¥${this.seller.minPrice - this.totalPrice}起送`
+                }else {
+                    return `去结算`
+                }
+            }
         },
         components:{
             "ele-contorl":contorl

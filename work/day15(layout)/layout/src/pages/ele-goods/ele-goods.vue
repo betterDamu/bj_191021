@@ -161,7 +161,7 @@
         display flex
         position absolute
         top 174px
-        bottom 50px
+        bottom 46px
         left 0
         right 0
         .typeWrap
