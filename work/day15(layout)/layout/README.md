@@ -10,3 +10,4 @@
     4. 让左侧列表中选中的那个li出现在视口区域中(尽量往头上顶)
             var test = new BScroll(dom);
             test.scrollToElement(el, time)
+    5. 点击左侧列表 让右侧列表滑动到指定区域

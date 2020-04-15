@@ -3,6 +3,7 @@
         <div class="typeWrap" ref="typeWrap">
             <ul class="typeList" ref="typeList">
                 <li class="type" :class="{active:index===currentIndex}"
+                    @click="handleCForType(index)"
                     v-for="(good,index) in goods" :key="index">
                     <ele-icon class="icon" v-show="good.type >= 0" size="3" :type="good.type"></ele-icon>
                     <span>{{good.name}}</span>
@@ -46,9 +47,13 @@
                     return scrollY >= top && scrollY < tops[index+1]
                 });
 
+                //如果index没有产生改变 下述两行是不用执行的
                 //让左侧列表滑动到选中的li节点上
-                let targetLi = this.$refs.typeList.children[index];
-                this.typeWrapBS && this.typeWrapBS.scrollToElement(targetLi,300)
+                if(this.oldIndex !== index){
+                    this.oldIndex=index;
+                    let targetLi = this.$refs.typeList.children[index];
+                    this.typeWrapBS && this.typeWrapBS.scrollToElement(targetLi,300)
+                }
 
                 return index;
             }
@@ -80,7 +85,7 @@
                     this.tops = tops;
                 })
             },
-            initScroll(){
+            initScrollY(){
                 //初始化滑屏
                 this.$nextTick(()=>{
                     this.typeWrapBS =new BScroll(this.$refs.typeWrap);
@@ -89,13 +94,17 @@
                         this.scrollY = Math.abs(y)
                     })
                 })
+            },
+            handleCForType(index){
+                let scrollY = this.tops[index];
+                this.goodWrapBS.scrollTo(0,-scrollY,300) //会让scrollY得到更新
             }
         },
         async mounted(){
             //这个action是用来发送请求 拿回goods相关的数据 进行界面更新的
             //整个action中的流程走完 action转发所返回的promise的状态才会确定
             await this[GETGOODS]();
-            this.initScroll();
+            this.initScrollY();
             this.initTops();
         },
         components:{
