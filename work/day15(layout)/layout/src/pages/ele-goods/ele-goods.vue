@@ -24,7 +24,7 @@
         </div>
         <!--购物车组件-->
         <!--当前这个组件化不是用来复用的 是为了优化代码结构的 所以样式什么的可以全部写在组件内部-->
-        <ele-cart :selectedFoods="selectedFoods"></ele-cart>
+        <ele-cart :selectedFoods="selectedFoods" @clear="clear"></ele-cart>
     </div>
 </template>
 
@@ -131,6 +131,17 @@
                 if(food.count >0){
                     food.count--
                 }
+            },
+
+            //清空购物车数据
+            clear(){
+                this.goods.forEach((good)=>{
+                    good.foods.forEach((food)=>{
+                        if(food.count > 0){
+                            food.count = 0
+                        }
+                    })
+                })
             }
         },
         async mounted(){

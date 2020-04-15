@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="cart">
-            <div  class="left" style="color: white">
+            <div class="left" style="color: white" @click="foldFn">
                 <div class="icon">
                     <div class="logo" :class="{active:totalPrice>0}">
                         <i class="layout-shopping_cart"></i>
@@ -19,24 +19,24 @@
                 <span>{{rightText}}</span>
             </div>
         </div>
-        <div class="list" v-show="false">
+        <div class="list" v-show="showList">
             <div class="header">
                 <span class="cartText">购物车</span>
-                <span class="clear">清空</span>
+                <span class="clear" @click="clear">清空</span>
             </div>
             <div class="content">
                 <ul>
-                    <li class="item">
-                        <span class="left"> xxx </span>
+                    <li class="item" v-for="selectedFood in selectedFoods">
+                        <span class="left"> {{selectedFood.name}} </span>
                         <div class="right">
-                            <span class="price">1</span>
-                            <ele-contorl class="contorl" :food="{count:1}" ></ele-contorl>
+                            <span class="price">{{selectedFood.price * selectedFood.count}}</span>
+                            <ele-contorl class="contorl" :food="selectedFood" ></ele-contorl>
                         </div>
                     </li>
                 </ul>
             </div>
         </div>
-        <div class="mask" v-show="false"></div>
+        <div class="mask" v-show="showList" ></div>
     </div>
 </template>
 
@@ -47,6 +47,11 @@
         name: "ele-cart",
         props:{
             selectedFoods:Array
+        },
+        data(){
+          return {
+              fold:true //购物车列表是否折叠
+          }
         },
         computed:{
             ...mapState(["seller"]),
@@ -71,10 +76,67 @@
                 }else {
                     return `去结算`
                 }
+            },
+            //代表list & mask 是否需要显示
+            showList(){
+               /* list 和 mask显示与隐藏 是由两个因素来控制的
+                    1. 用户是否点击了购物车 (fold 折叠)
+                    2. 购物车中是否拥有数据 (totalCount)
+                        showList的状态 应该要与 fold相反
+                            fold:true  折叠  --> 不该显示list&mask --> showList:false
+                            fold:false 折叠  --> 应该显示list&mask --> showList:true
+
+                   用户正常操作:
+                        先点击购物车控制组件的＋号按钮 往购物车中加入数据
+                        如果用户想看自己选择的所有食物 点击购物车展开列表
+
+                   防止的一种操作
+                        用户点击+号时 直接打开列表!!! 这种操作 是要规避的!!
+              */
+                if(this.totalCount <= 0){
+                    //一定要处于折叠状态
+                    // 不要去想一些复杂的情况 , 不管怎么样 showlist的值 与 fold的值就应该是互斥的
+                    // 当showlist变为 false  fold想都不要想了 一定得是true!!!
+                    // 这就是数据驱动的编程思想 掌握这种编程思想 会让你的代码 出bug的几率降低很多
+                    // 减少程序员对用户复杂 无意义的操作进行维护
+
+
+                    //下述代码 具体有什么意义?
+                   /* 细节:
+                        正常操作 用户打开了列表 fold=false
+                        我们通过清空按钮 导致totalCount变为0
+                        showlist就会变为false;如果不把fold置为true
+                        下次用户直接点+号按钮 会直接打开列表(bug)*/
+                    this.fold = true;
+                    return false;
+                }
+
+                return !this.fold;
             }
         },
         components:{
             "ele-contorl":contorl
+        },
+        methods:{
+            clear(){
+                //清空购物车数据
+                this.$emit("clear")
+            },
+            foldFn(){
+                /*
+                    当购物车中数据为0时;我们在点击购物车按钮时 不应该让fold产生变化
+                    限制当前这个细节:
+                        用户点击了购物车 让fold状态变为false(未折叠)
+                        用户点击了+号按钮
+                */
+
+                //在这种方法中 我们只是单方面的修改fold 那一定要长个心眼
+                //维护好fold 与 showlist互拆关系
+                if(this.totalCount <= 0){
+                    return
+                }
+                this.fold = !this.fold
+            }
         }
     }
 </script>
