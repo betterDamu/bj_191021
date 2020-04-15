@@ -7,7 +7,7 @@
                    @click="remove(food)" ></i>
             </transition>
             <transition name="contorlRemove">
-                <span v-show="food.count">{{food.count}}</span>
+                <span v-show="food.count" class="remove">{{food.count}}</span>
             </transition>
             <i class="layout-add_circle add" @click="add(food)"></i>
         </div>
@@ -34,6 +34,7 @@
         center()
         display inline-flex
         i
+            display inline-block
             font-size 24px
             vertical-align middle
             color rgba(0,160,220,1)
@@ -50,4 +51,7 @@
             font-size 10px
             vertical-align middle
             color rgba(147,153,159,1)
+            &.remove
+                opacity 1
+                transform translate3d(0,0,0) rotate(-360deg)
 </style>

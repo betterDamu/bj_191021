@@ -22,6 +22,9 @@
                 </li>
             </ul>
         </div>
+        <!--购物车组件-->
+        <!--当前这个组件化不是用来复用的 是为了优化代码结构的 所以样式什么的可以全部写在组件内部-->
+        <ele-cart :selectedFoods="selectedFoods"></ele-cart>
     </div>
 </template>
 
@@ -30,6 +33,7 @@
     import {mapActions,mapState} from "vuex";
     import {GETGOODS} from "store/mutation_types";
     import food from "components/ele-food/ele-food"
+    import cart from "components/ele-cart/ele-cart"
     export default {
         name: "ele-goods",
         data(){
@@ -57,6 +61,18 @@
                 }
 
                 return index;
+            },
+            //购物车中的食品
+            selectedFoods(){
+                let selectedFoods =[];
+                this.goods.forEach((good)=>{
+                    good.foods.forEach((food)=>{
+                        if(food.count > 0){
+                            selectedFoods.push(food)
+                        }
+                    })
+                })
+                return selectedFoods;
             }
         },
         methods:{
@@ -113,7 +129,6 @@
             },
             remove(food){
                 if(food.count >0){
-                    console.log("----")
                     food.count--
                 }
             }
@@ -134,7 +149,8 @@
             })
         },
         components:{
-            "ele-food":food
+            "ele-food":food,
+            "ele-cart":cart
         }
     }
 </script>
@@ -198,10 +214,4 @@
                                 margin auto
                             &:last-child
                                 border-none()
-
-
-
-
-
-
 </style>

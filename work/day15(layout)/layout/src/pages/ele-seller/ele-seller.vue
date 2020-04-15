@@ -12,6 +12,9 @@
         },
         mounted(){
             this[GETSELLER]()
+        },
+        created(){
+            console.log("created ele-seller.vue")
         }
     }
 </script>

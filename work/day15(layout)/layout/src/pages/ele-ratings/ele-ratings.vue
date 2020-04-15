@@ -14,7 +14,10 @@
         },
         mounted(){
             this[GETRATINGS]()
-        }
+        },
+        created(){
+            console.log("created ele-ratings")
+        },
     }
 </script>
 
