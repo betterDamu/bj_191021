@@ -1,7 +1,7 @@
 <template>
     <div class="goods">
         <div class="typeWrap" ref="typeWrap">
-            <ul class="typeList">
+            <ul class="typeList" ref="typeList">
                 <li class="type" :class="{active:index===currentIndex}"
                     v-for="(good,index) in goods" :key="index">
                     <ele-icon class="icon" v-show="good.type >= 0" size="3" :type="good.type"></ele-icon>
@@ -33,13 +33,25 @@
         name: "ele-goods",
         data(){
           return {
-              currentIndex:0,
               tops:[], //记录右侧列表滑到每一项时的位置信息
               scrollY:0 //goodList实时的滑动位置(取的是正值)
           }
         },
         computed:{
-            ...mapState(["goods"])
+            ...mapState(["goods"]),
+            currentIndex(){
+                //根据tops & scrollY 来确定左侧列表谁该选中
+                let {tops,scrollY} = this;
+                let index = tops.findIndex((top,index)=>{
+                    return scrollY >= top && scrollY < tops[index+1]
+                });
+
+                //让左侧列表滑动到选中的li节点上
+                let targetLi = this.$refs.typeList.children[index];
+                this.typeWrapBS && this.typeWrapBS.scrollToElement(targetLi,300)
+
+                return index;
+            }
         },
         methods:{
             ...mapActions([GETGOODS]),
@@ -71,7 +83,7 @@
             initScroll(){
                 //初始化滑屏
                 this.$nextTick(()=>{
-                    new BScroll(this.$refs.typeWrap)
+                    this.typeWrapBS =new BScroll(this.$refs.typeWrap);
                     this.goodWrapBS = new BScroll(this.$refs.goodWrap,{probeType:3});
                     this.goodWrapBS.on("scroll",({x,y})=>{
                         this.scrollY = Math.abs(y)

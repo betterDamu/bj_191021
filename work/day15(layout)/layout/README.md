@@ -6,3 +6,7 @@
             scroll
                 参数：{Object} {x, y} 滚动的实时坐标
                 触发时机：滚动过程中，具体时机取决于选项中的 probeType。
+    3. 通过前两步得到的数据 动态计算左侧哪一个li应该被选中
+    4. 让左侧列表中选中的那个li出现在视口区域中(尽量往头上顶)
+            var test = new BScroll(dom);
+            test.scrollToElement(el, time)
