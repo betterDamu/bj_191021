@@ -13,7 +13,7 @@ export default (axios,config={})=>{
     //toast 代是否要开启轻提示
     //data:apiData   ; data是结构出来的数据 apiData别名
     //hooks:请求级别的钩子
-    let {url,method,isForm,data:apiData,toast,hooks} = api[apiName];
+    let {url,method,isForm,data:apiData,toast,hooks,corsUrl} = api[apiName];
     apiData = apiData||{};
     hooks = hooks||{};
     let {beforeReq,afterReqSuccess,afterReqFail} = hooks;
@@ -35,6 +35,11 @@ export default (axios,config={})=>{
 
       let body = "";
 
+      //跨域的公共处理
+      if(corsUrl){
+          url = corsUrl + url;
+          corsUrl = "";
+      }
 
       try {
         //真正的请求发送的代码

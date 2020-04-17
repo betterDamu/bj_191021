@@ -11,9 +11,6 @@
         name:"app",
         components:{
             FooterGuide
-        },
-        async mounted(){
-            await this.$http.wrap.getPosition()
         }
     }
 </script>

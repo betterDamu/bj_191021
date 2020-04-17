@@ -21,7 +21,7 @@ module.exports={
     // 处理成功 只是api服务器没有成功  那devsever 会将index,html返回回去
     devServer:{
        open:true,
-       //跨的是单域  项目的接口 在400服务器上
+       //跨的是单域  项目的接口 在4000服务器上
        // proxy: 'http://localhost:4000'
        //如果说项目的接口来至于不同的服务器 4000服务器  5000服务器  6000服务器
 

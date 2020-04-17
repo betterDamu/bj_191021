@@ -1,10 +1,6 @@
 <template>
     <section class="profile">
-        <header class="header">
-            <div class="header_title">
-                <span class="header_title_text">我的</span>
-            </div>
-        </header>
+        <header-top address="我的"></header-top>
         <section class="profile-number">
             <a @click="goto(`/Login`)" class="profile-link">
                 <div class="profile_image">
