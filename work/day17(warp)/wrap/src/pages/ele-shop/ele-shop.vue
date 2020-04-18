@@ -3,13 +3,13 @@
         <ele-header></ele-header>
         <div class="navs">
             <div class="item">
-                <router-link to="/goods">商品</router-link>
+                <router-link :to="`/shop/${id}/goods`">商品</router-link>
             </div>
             <div class="item">
-                <router-link to="/ratings">评价</router-link>
+                <router-link :to="`/shop/${id}/ratings`">评价</router-link>
             </div>
             <div class="item">
-                <router-link to="/seller">商家</router-link>
+                <router-link :to="`/shop/${id}/seller`">商家</router-link>
             </div>
         </div>
         <keep-alive>
@@ -24,6 +24,9 @@
     import {GETSELLER} from "store/mutation_types"
     export default {
         name: 'ele-shop',
+        props:{
+            id:String
+        },
         components:{
             "ele-header":header
         },
@@ -31,7 +34,7 @@
             ...mapActions([GETSELLER])
         },
         mounted(){
-            this[GETSELLER]()
+            this[GETSELLER](this.id);
         }
     }
 </script>

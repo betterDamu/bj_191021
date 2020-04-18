@@ -25,6 +25,9 @@
                     <i class="layout-keyboard_arrow_right"></i>
                 </div>
             </div>
+            <div class="close" @click="$router.replace(`/Msite`)">
+                <i class="layout-close"></i>
+            </div>
         </div>
         <div class="bulletin" @click="showMask = true">
             <div class="content">
@@ -160,6 +163,17 @@
                 .text
                     margin-right 2px
 
+            & > .close
+                center()
+                color white
+                font-size 20px
+                position absolute
+                top 8px
+                right 10px
+                width 25px
+                height 25px
+                border-radius 50%
+                background rgba(0,0,0,.6)
         & > .bulletin
             center()
             position relative

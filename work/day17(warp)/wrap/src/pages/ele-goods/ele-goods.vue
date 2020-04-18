@@ -152,14 +152,14 @@
             this.initTops();
 
             //购物车控制组件的功能
+            this.$bus.$off("add");
+            this.$bus.$off("remove");
             this.$bus.$on("add",(food)=>{
                 this.add(food)
             })
             this.$bus.$on("remove",(food)=>{
                 this.remove(food)
             })
-
-            console.log("-----")
         },
         components:{
             "ele-food":food,

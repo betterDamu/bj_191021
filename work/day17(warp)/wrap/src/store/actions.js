@@ -3,7 +3,8 @@ import {GETSELLER,GETGOODS,GETRATINGS,
     GETADDRESSS,GETCATEGORIES,GETSHOPS} from "./mutation_types"
 const OK=0;
 export default {
-    async [GETSELLER]({commit}){
+    async [GETSELLER]({commit},id){
+        console.log(id,"actions")
         const {code,data} = await http.shop.getSeller();
         if(code === OK)
             commit(GETSELLER,data)
