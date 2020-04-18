@@ -3,6 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day17(warp)/wrap/public/css/swiper.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day17(warp)/wrap/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/work/day17(warp)/wrap/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day17(warp)/wrap/src/http/wrap/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day17(warp)/wrap/src/http/wrap/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day17(warp)/wrap/src/pages/Msite/Msite.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day17(warp)/wrap/src/pages/Msite/Msite.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day17(warp)/wrap/src/store/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day17(warp)/wrap/src/store/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day17(warp)/wrap/src/store/mutation_types.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day17(warp)/wrap/src/store/mutation_types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day17(warp)/wrap/src/store/mutations.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day17(warp)/wrap/src/store/mutations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day17(warp)/wrap/src/store/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day17(warp)/wrap/src/store/state.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/routers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/routers/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,54 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="state.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/src/store/state.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mutations.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/src/store/mutations.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="5" selection-start-line="15" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#80#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mutation_types.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/src/store/mutation_types.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="actions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/src/store/actions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Msite.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/src/pages/Msite/Msite.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="254" selection-start-line="254" selection-end-line="254" />
+            <state relative-caret-position="446">
+              <caret line="222" selection-start-line="222" selection-end-line="222" />
               <folding>
                 <element signature="n#header-top#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="e#12518#12580#0" expanded="true" />
+                <element signature="n#nav#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="e#5930#6156#0" />
+                <element signature="e#6191#6398#0" />
+                <element signature="e#6430#7862#0" />
+                <element signature="e#8093#8139#0" />
+                <element signature="e#8195#8277#0" />
               </folding>
             </state>
           </provider>
@@ -104,6 +79,9 @@
       <find>go_back</find>
       <find>app.14206a32.js</find>
       <find>lodash</find>
+      <find>stars</find>
+      <find>shop_rating_order_left</find>
+      <find>shop_container</find>
     </findStrings>
     <replaceStrings>
       <replace>method</replace>
@@ -159,13 +137,13 @@
         <option value="$PROJECT_DIR$/work/day16(wrap)/wrap/src/pages/Msite/Msite.vue" />
         <option value="$PROJECT_DIR$/work/day16(wrap)/wrap/src/components/HeaderTop/HeaderTop.vue" />
         <option value="$PROJECT_DIR$/work/day16(wrap)/day16.md" />
+        <option value="$PROJECT_DIR$/work/day17(warp)/wrap/public/index.html" />
         <option value="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/routers/index.js" />
-        <option value="$PROJECT_DIR$/work/day17(warp)/wrap/src/store/state.js" />
         <option value="$PROJECT_DIR$/work/day17(warp)/wrap/src/store/mutation_types.js" />
         <option value="$PROJECT_DIR$/work/day17(warp)/wrap/src/store/mutations.js" />
+        <option value="$PROJECT_DIR$/work/day17(warp)/wrap/src/store/state.js" />
         <option value="$PROJECT_DIR$/work/day17(warp)/wrap/src/http/wrap/config.js" />
         <option value="$PROJECT_DIR$/work/day17(warp)/wrap/src/store/actions.js" />
-        <option value="$PROJECT_DIR$/work/day17(warp)/wrap/public/index.html" />
         <option value="$PROJECT_DIR$/work/day17(warp)/wrap/src/pages/Msite/Msite.vue" />
       </list>
     </option>
@@ -269,12 +247,6 @@
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
               <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
               <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day06(vue-cli)" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
               <item name="day17(warp)" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -290,7 +262,7 @@
               <item name="work" type="462c0819:PsiDirectoryNode" />
               <item name="day17(warp)" type="462c0819:PsiDirectoryNode" />
               <item name="wrap" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
@@ -298,8 +270,55 @@
               <item name="work" type="462c0819:PsiDirectoryNode" />
               <item name="day17(warp)" type="462c0819:PsiDirectoryNode" />
               <item name="wrap" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="day17(warp)" type="462c0819:PsiDirectoryNode" />
+              <item name="wrap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="day17(warp)" type="462c0819:PsiDirectoryNode" />
+              <item name="wrap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="wrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="day17(warp)" type="462c0819:PsiDirectoryNode" />
+              <item name="wrap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="day17(warp)" type="462c0819:PsiDirectoryNode" />
+              <item name="wrap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Msite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="day17(warp)" type="462c0819:PsiDirectoryNode" />
+              <item name="wrap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
@@ -334,17 +353,7 @@
               <item name="vue" type="462c0819:PsiDirectoryNode" />
               <item name="06_vue-h5" type="462c0819:PsiDirectoryNode" />
               <item name="wrap" type="462c0819:PsiDirectoryNode" />
-              <item name="gshop-server_final" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="课件" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-              <item name="06_vue-h5" type="462c0819:PsiDirectoryNode" />
-              <item name="wrap" type="462c0819:PsiDirectoryNode" />
-              <item name="gshop-server_final" type="462c0819:PsiDirectoryNode" />
-              <item name="routers" type="462c0819:PsiDirectoryNode" />
+              <item name="staticpage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -438,18 +447,18 @@
       <workItem from="1586994687285" duration="8188000" />
       <workItem from="1587006721896" duration="918000" />
       <workItem from="1587051155749" duration="25023000" />
-      <workItem from="1587170573995" duration="4018000" />
+      <workItem from="1587170573995" duration="7495000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="425930000" />
+    <option name="totallyTimeSpent" value="429407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2661823" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25891677" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -483,27 +492,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/work/day16(wrap)/wrap/src/pages/ele-shop/ele-shop.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day16(wrap)/wrap/src/common/stylus/mixins.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day16(wrap)/wrap/src/pages/Login/Login.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -763,59 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/routers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="192" column="9" lean-forward="true" selection-start-line="192" selection-start-column="9" selection-end-line="192" selection-end-column="9" />
-          <folding>
-            <element signature="e#574#1684#0" />
-            <element signature="e#1746#1989#0" />
-            <element signature="e#2057#2503#0" />
-            <element signature="e#2569#3186#0" />
-            <element signature="e#3263#4189#0" />
-            <element signature="e#4263#4403#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/src/store/state.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/src/store/mutations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="5" selection-start-line="15" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/src/store/mutation_types.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/src/http/wrap/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/src/store/actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -850,21 +785,104 @@
     <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/public/css/swiper.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1080" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/routers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="199" column="18" selection-start-line="199" selection-start-column="13" selection-end-line="199" selection-end-column="18" />
+          <folding>
+            <element signature="e#574#1684#0" />
+            <element signature="e#1746#1989#0" />
+            <element signature="e#2057#2503#0" />
+            <element signature="e#2569#3186#0" />
+            <element signature="e#3263#4189#0" />
+            <element signature="e#4263#4403#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/src/store/mutations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/src/store/mutation_types.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/src/http/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/src/http/wrap/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/src/store/state.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/src/store/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/src/pages/Msite/Msite.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="254" selection-start-line="254" selection-end-line="254" />
+        <state relative-caret-position="446">
+          <caret line="222" selection-start-line="222" selection-end-line="222" />
           <folding>
             <element signature="n#header-top#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="e#12518#12580#0" expanded="true" />
+            <element signature="n#nav#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="e#5930#6156#0" />
+            <element signature="e#6191#6398#0" />
+            <element signature="e#6430#7862#0" />
+            <element signature="e#8093#8139#0" />
+            <element signature="e#8195#8277#0" />
           </folding>
         </state>
       </provider>

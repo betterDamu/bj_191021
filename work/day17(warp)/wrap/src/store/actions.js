@@ -1,6 +1,6 @@
 import http from "@/http"
 import {GETSELLER,GETGOODS,GETRATINGS,
-    GETADDRESSS,GETCATEGORIES} from "./mutation_types"
+    GETADDRESSS,GETCATEGORIES,GETSHOPS} from "./mutation_types"
 const OK=0;
 export default {
     async [GETSELLER]({commit}){
@@ -27,5 +27,10 @@ export default {
         const {code,data} = await http.wrap.getCategories()
         if(code === OK)
             commit(GETCATEGORIES,data)
+    },
+    async [GETSHOPS]({commit}){
+        const {code,data} = await http.wrap.getShops()
+        if(code === OK)
+            commit(GETSHOPS,data)
     }
 }

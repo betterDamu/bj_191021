@@ -11,6 +11,11 @@ export default {
           url:"/index_category",
           method:"get",
           corsUrl:"/4000"
+      },
+      getShops:{
+          url:"/shops?latitude=40.10038&longitude=116.36867",
+          method:"get",
+          corsUrl:"/4000"
       }
   }
 }

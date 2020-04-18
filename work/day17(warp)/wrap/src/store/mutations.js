@@ -1,5 +1,5 @@
 import {GETSELLER,GETGOODS,GETRATINGS,
-    GETADDRESSS,GETCATEGORIES} from "./mutation_types"
+    GETADDRESSS,GETCATEGORIES,GETSHOPS} from "./mutation_types"
 export default {
     [GETSELLER](state,seller){
         state.seller = seller
@@ -15,5 +15,8 @@ export default {
     },
     [GETCATEGORIES](state,categories){
         state.categories = categories
+    },
+    [GETSHOPS](state,shops){
+        state.shops = shops
     }
 }
