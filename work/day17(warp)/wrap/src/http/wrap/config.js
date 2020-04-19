@@ -16,6 +16,12 @@ export default {
           url:"/shops?latitude=40.10038&longitude=116.36867",
           method:"get",
           corsUrl:"/4000"
+      },
+      getCode:{
+          url:"/sendcode",
+          method:"get",
+          corsUrl:"/4000"
       }
+
   }
 }

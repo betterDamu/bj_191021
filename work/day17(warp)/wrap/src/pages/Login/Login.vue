@@ -57,7 +57,9 @@
                                 <input type="text" maxlength="4" placeholder="验证码"
                                        v-model="captcha" name="captcha" v-validate="{required: true,regex: /^[0-9a-zA-Z]{4}$/}" />
                                 <span style="color: red;" v-show="errors.has('captcha')">{{ errors.first('captcha') }}</span>
-                                <img class="get_verification" src="./images/captcha.svg" alt="captcha">
+                                <img class="get_verification" ref="imgCaptcha"
+                                     src="http://localhost:4000/captcha"
+                                     @click="getCaptcha">
                             </section>
                         </section>
                     </div>
@@ -73,11 +75,14 @@
 </template>
 
 <script>
+    const OK = 0;
+    const ERROR = 1;
+    import {Toast} from "vant";
     export default {
         name:"Login",
         data(){
             return {
-                loginWay:"message",
+                loginWay:"password",
                 phoneReg:/^1\d{10}/igm,
                 times:0,
                 right:false, //代表明文密文切换的这个小圆 是不是要出现在右边
@@ -110,9 +115,9 @@
                 }
             },
 
-            getCode(){
+            async getCode(){
                 //进行短信验证码的倒计时
-                this.times = 30;
+                this.times = 12;
 
                 //使用循环定时器的一个规范 在开启定时器代码的上一行 先清除上一次的定时器
                 clearInterval(this.timer)
@@ -122,6 +127,19 @@
                     else
                         clearInterval(this.timer)
                 },1000)
+
+                //真正的发送请求获取验证码(不需要交给vuex的 只要验证码能发到用户的手机上 就可以了)
+                const {code,msg} = await this.$http.wrap.getCode({
+                    phone:this.phoneNumber
+                })
+                if(code === OK) Toast.success("短信请求成功")
+                if(code === ERROR) Toast.fail(msg)
+
+                this.times = 0;
+            },
+
+            getCaptcha(){
+                this.$refs.imgCaptcha.src=`http://localhost:4000/captcha?time=${new Date().getTime()}`
             }
         }
     }
