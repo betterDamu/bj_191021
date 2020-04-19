@@ -4,16 +4,26 @@
             <div class="login_header">
                 <h2 class="login_logo">硅谷外卖</h2>
                 <div class="login_header_title">
-                    <a href="javascript:;" class="on">短信登录</a>
-                    <a href="javascript:;">密码登录</a>
+                    <a href="javascript:;"
+                       :class="{on:loginWay===`message`}"
+                       @click="loginWay=`message`" >短信登录</a>
+                    <a href="javascript:;"
+                       :class="{on:loginWay===`password`}"
+                       @click="loginWay=`password`"  >密码登录</a>
                 </div>
             </div>
             <div class="login_content">
                 <form>
-                    <div class="on">
+                    <div :class="{on:loginWay===`message`}">
                         <section class="login_message">
-                            <input type="tel" maxlength="11" placeholder="手机号">
-                            <button disabled="disabled" class="get_verification" >获取验证码</button>
+                            <input type="tel" maxlength="11"
+                                   placeholder="手机号" v-model="phoneNumber">
+                            <button :disabled="!phoneNumberIsRight"
+                                    class="get_verification"
+                                    :class="{highLight:phoneNumberIsRight}"
+                                    @click.prevent="getCode">
+                                {{times>0?`验证码已发送(${times}s)`:`获取验证码`}}
+                            </button>
                         </section>
                         <section class="login_verification">
                             <input type="tel" maxlength="8" placeholder="验证码">
@@ -23,10 +33,10 @@
                             <a href="javascript:;">《用户服务协议》</a>
                         </section>
                     </div>
-                    <div>
+                    <div :class="{on:loginWay===`password`}">
                         <section>
                             <section class="login_message">
-                                <input type="tel" maxlength="11" placeholder="手机/邮箱/用户名">
+                                <input type="tel" maxlength="11" placeholder="用户名">
                             </section>
                             <section class="login_verification">
                                 <input type="tel" maxlength="8" placeholder="密码">
@@ -54,7 +64,35 @@
 
 <script>
     export default {
-        name:"Login"
+        name:"Login",
+        data(){
+            return {
+                loginWay:"message",
+                phoneNumber:"",
+                phoneReg:/^1\d{10}/igm,
+                times:0
+            }
+        },
+        computed:{
+            phoneNumberIsRight(){
+                return this.phoneReg.test(this.phoneNumber)
+            }
+        },
+        methods:{
+            getCode(){
+                //进行短信验证码的倒计时
+                this.times = 30;
+
+                //使用循环定时器的一个规范 在开启定时器代码的上一行 先清除上一次的定时器
+                clearInterval(this.timer)
+                this.timer = setInterval(()=>{
+                    if(this.times > 0)
+                        this.times--
+                    else
+                        clearInterval(this.timer)
+                },1000)
+            }
+        }
     }
 </script>
 
@@ -119,6 +157,9 @@
                                 color #ccc
                                 font-size 14px
                                 background transparent
+                                &.highLight
+                                    color green
+                                    font-weight 800
                         .login_verification
                             position relative
                             margin-top 16px

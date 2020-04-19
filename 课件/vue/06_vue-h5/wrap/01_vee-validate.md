@@ -17,9 +17,7 @@
      <input v-model="phone" name="phone" v-validate="{required: true,regex: /^1\d{10}$/}">
      <span style="color: red;" v-show="errors.has('phone')">{{ errors.first('phone') }}</span>
      
-     const success = await this.$validator.validateAll() // 对所有表单项进行验证
-     const success = await this.$validator.validateAll(names) // 对指定的所有表单项进行验证
-            names:[]
+
      问题: 提示文本默认都是英文的
 
 ## 3). 提示信息本地化
@@ -40,5 +38,37 @@
       },
       getMessage: field => field + '必须是11位手机号码'
     })
+
+## 5). js api
+     const success = await this.$validator.validateAll() // 对所有表单项进行验证
+     const success = await this.$validator.validateAll(names) // 对指定的所有表单项进行验证
+            names:[]
+
+## 6). code
+     <input type="tel" maxlength="8" placeholder="验证码"
+           v-model="code" name="code" v-validate="{required: true,regex: /^\d{6}$/}" >
+     <span style="color: red;" v-show="errors.has('code')">{{ errors.first('code') }}</span>
+
+     <input type="tel" maxlength="11" placeholder="用户名"
+           v-model="name" name="name" v-validate="'required'">
+     <span style="color: red;" v-show="errors.has('name')">{{ errors.first('name') }}</span>
+
+     <input :type="right?`text`:`password`"  maxlength="8" placeholder="密码"
+           v-model="pwd" name="pwd" v-validate="'required'">
+     <span style="color: red;" v-show="errors.has('pwd')">{{ errors.first('pwd') }}</span>
+
+     <input type="text" maxlength="11" placeholder="验证码"
+            v-model="captcha" name="captcha" v-validate="{required: true,regex: /^[0-9a-zA-Z]{4}$/}">
+     <span style="color: red;" v-show="errors.has('captcha')">{{ errors.first('captcha') }}</span>
+
+
+
+
+
+
+
+
+
+
 
 

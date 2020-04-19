@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day17(warp)/wrap/src/pages/Login/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day17(warp)/wrap/src/pages/Login/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/01_vee-validate.md" beforeDir="false" afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/01_vee-validate.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/02_登录需求.md" beforeDir="false" afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/02_登录需求.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/util/sms_util.js" beforeDir="false" afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/util/sms_util.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +20,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sms_util.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/util/sms_util.js">
+      <file leaf-file-name="02_登录需求.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/02_登录需求.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-776">
-              <caret line="27" column="62" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="27" selection-end-column="62" />
+            <state relative-caret-position="96">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/src/pages/Login/Login.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="86" column="41" lean-forward="true" selection-start-line="86" selection-start-column="41" selection-end-line="86" selection-end-column="41" />
+              <folding>
+                <element signature="n#section#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#section#2;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#section#0;n#section#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#section#1;n#section#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#section#2;n#section#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,6 +83,7 @@
       <find>shop_rating_order_left</find>
       <find>shop_container</find>
       <find>children</find>
+      <find>get_verification</find>
     </findStrings>
     <replaceStrings>
       <replace>method</replace>
@@ -75,9 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/work/day15(layout)/layout(add)/src/components/ele-stars/ele-stars.vue" />
-        <option value="$PROJECT_DIR$/work/day15(layout)/layout(add)/src/components/ele-split/ele-split.vue" />
-        <option value="$PROJECT_DIR$/work/day15(layout)/layout(add)/src/components/ele-select/ele-select.vue" />
         <option value="$PROJECT_DIR$/work/day15(layout)/layout(add)/src/filter/index.js" />
         <option value="$PROJECT_DIR$/work/day15(layout)/layout(add)/src/main.js" />
         <option value="$PROJECT_DIR$/work/day15(layout)/layout(add)/src/pages/ele-ratings/ele-ratings.vue" />
@@ -125,6 +143,9 @@
         <option value="$PROJECT_DIR$/work/day17(warp)/wrap/src/mock/data.json" />
         <option value="$PROJECT_DIR$/work/day17(warp)/wrap/src/store/actions.js" />
         <option value="$PROJECT_DIR$/work/day17(warp)/wrap/src/pages/ele-shop/ele-shop.vue" />
+        <option value="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/01_vee-validate.md" />
+        <option value="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/util/sms_util.js" />
+        <option value="$PROJECT_DIR$/work/day17(warp)/wrap/src/pages/Login/Login.vue" />
         <option value="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/02_登录需求.md" />
       </list>
     </option>
@@ -204,15 +225,14 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,6 +269,25 @@
             <path>
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
               <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="day17(warp)" type="462c0819:PsiDirectoryNode" />
+              <item name="wrap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="day17(warp)" type="462c0819:PsiDirectoryNode" />
+              <item name="wrap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
               <item name="课件" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -271,30 +310,12 @@
               <item name="vue" type="462c0819:PsiDirectoryNode" />
               <item name="06_vue-h5" type="462c0819:PsiDirectoryNode" />
               <item name="wrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="课件" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-              <item name="06_vue-h5" type="462c0819:PsiDirectoryNode" />
-              <item name="wrap" type="462c0819:PsiDirectoryNode" />
-              <item name="gshop-server_final" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="课件" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-              <item name="06_vue-h5" type="462c0819:PsiDirectoryNode" />
-              <item name="wrap" type="462c0819:PsiDirectoryNode" />
-              <item name="gshop-server_final" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -383,25 +404,28 @@
       <workItem from="1587006721896" duration="918000" />
       <workItem from="1587051155749" duration="25023000" />
       <workItem from="1587170573995" duration="12935000" />
-      <workItem from="1587189360520" duration="2511000" />
+      <workItem from="1587189360520" duration="4591000" />
+      <workItem from="1587198980041" duration="1226000" />
+      <workItem from="1587270795475" duration="1582000" />
+      <workItem from="1587275538667" duration="3107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="437358000" />
+    <option name="totallyTimeSpent" value="445353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22721268" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20277411" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.41301274" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33380482" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -428,27 +452,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/work/day16(wrap)/wrap/src/store/mutations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day16(wrap)/wrap/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day16(wrap)/wrap/src/pages/Order/Order.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day16(wrap)/wrap/src/pages/Profile/Profile.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47">
@@ -724,13 +727,6 @@
     <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/Msite.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/02_登录需求.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -752,10 +748,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="55" column="32" lean-forward="true" selection-start-line="51" selection-start-column="36" selection-end-line="55" selection-end-column="32" />
+          <folding>
+            <element signature="n#div#0;n#form#0;n#div#1;n#div#0;n#section#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#span#0;n#section#1;n#div#0;n#form#0;n#div#1;n#div#0;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#section#0;n#section#0;n#div#1;n#form#0;n#div#1;n#div#0;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/01_vee-validate.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/util/sms_util.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-776">
-          <caret line="27" column="62" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="27" selection-end-column="62" />
+        <state relative-caret-position="222">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/src/pages/Login/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="86" column="41" lean-forward="true" selection-start-line="86" selection-start-column="41" selection-end-line="86" selection-end-column="41" />
+          <folding>
+            <element signature="n#section#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#section#2;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#section#0;n#section#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#section#1;n#section#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#section#2;n#section#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/02_登录需求.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>

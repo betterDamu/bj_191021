@@ -19,7 +19,7 @@ function randomCode(length) {
 exports.randomCode = randomCode;
 
 /*
-向指定号码发送指定验证码
+向指定号码发送指定验证码  15851802713
  */
 function sendCode(phone, code, callback) {
     var ACCOUNT_SID = '8aaf07086d05d00c016d295275cb1349'; // 可以改成自己的
