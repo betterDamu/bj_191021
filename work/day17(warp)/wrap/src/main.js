@@ -25,6 +25,8 @@ Vue.component("header-top", headertop)
 Vue.prototype.$bus=new Vue()
 //8. 引入过滤器
 import "@/filter"
+//9. 引入表单验证
+import "@/validate"
 
 Vue.config.productionTip = false
 new Vue({

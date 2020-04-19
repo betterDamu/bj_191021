@@ -1,6 +1,7 @@
 # 1. 说明
     1). vee-validate是专门用来做表单验证的vue插件
     2). github地址: https://github.com/baianat/vee-validate
+
 # 2. 使用
 ## 1). 引入
     下载: npm i vee-validate@2.2.15
@@ -45,7 +46,7 @@
             names:[]
 
 ## 6). code
-     <input type="tel" maxlength="8" placeholder="验证码"
+     <input type="tel" maxlength="6" placeholder="验证码"
            v-model="code" name="code" v-validate="{required: true,regex: /^\d{6}$/}" >
      <span style="color: red;" v-show="errors.has('code')">{{ errors.first('code') }}</span>
 
@@ -57,7 +58,7 @@
            v-model="pwd" name="pwd" v-validate="'required'">
      <span style="color: red;" v-show="errors.has('pwd')">{{ errors.first('pwd') }}</span>
 
-     <input type="text" maxlength="11" placeholder="验证码"
+     <input type="text" maxlength="4" placeholder="验证码"
             v-model="captcha" name="captcha" v-validate="{required: true,regex: /^[0-9a-zA-Z]{4}$/}">
      <span style="color: red;" v-show="errors.has('captcha')">{{ errors.first('captcha') }}</span>
 
