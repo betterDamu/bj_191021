@@ -13,7 +13,7 @@ export default (axios,config={})=>{
     //toast 代是否要开启轻提示
     //data:apiData   ; data是结构出来的数据 apiData别名
     //hooks:请求级别的钩子
-    let {url,method,isForm,data:apiData,toast,hooks,corsUrl} = api[apiName];
+    let {url,method,isForm,data:apiData,toast,hooks,corsUrl,token} = api[apiName];
     apiData = apiData||{};
     hooks = hooks||{};
     let {beforeReq,afterReqSuccess,afterReqFail} = hooks;
@@ -41,6 +41,12 @@ export default (axios,config={})=>{
           corsUrl = "";
       }
 
+      //Token的处理
+      let headers = {};
+      if(token){
+          headers = {Authorization:token}
+      }
+
       try {
         //真正的请求发送的代码
         beforeReq&&beforeReq.call(config);
@@ -51,7 +57,8 @@ export default (axios,config={})=>{
             body = await axios({
               url,
               method,
-              params:transformData
+              params:transformData,
+              headers
             })
             break;
           case "put":
@@ -59,7 +66,8 @@ export default (axios,config={})=>{
             body = await axios({
               url,
               method,
-              data:transformData
+              data:transformData,
+              headers
             })
             break;
         }

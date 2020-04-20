@@ -10,12 +10,14 @@ export default {
       getCategories:{
           url:"/index_category",
           method:"get",
-          corsUrl:"/4000"
+          corsUrl:"/4000",
+          token:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVlNzA3ZDc2MDBjYzdhNGRmODhmMjNiMSIsImlhdCI6MTU4NzM1Mzg5MiwiZXhwIjoxNTg3OTU4NjkyfQ.lu1K_XyKLXCNpls-FgO2nf8xrEyqrhMQnnJ3UQX5OM0"
       },
       getShops:{
           url:"/shops?latitude=40.10038&longitude=116.36867",
           method:"get",
-          corsUrl:"/4000"
+          corsUrl:"/4000",
+          token:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVlNzA3ZDc2MDBjYzdhNGRmODhmMjNiMSIsImlhdCI6MTU4NzM1Mzg5MiwiZXhwIjoxNTg3OTU4NjkyfQ.lu1K_XyKLXCNpls-FgO2nf8xrEyqrhMQnnJ3UQX5OM0"
       },
       getCode:{
           url:"/sendcode",
@@ -33,4 +35,9 @@ export default {
           corsUrl:"/4000"
       }
   }
+  // hooks:{
+  //     beforeReq(axiosConfig){
+  //         axiosConfig.headers.Authorization = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVlNzA3ZDc2MDBjYzdhNGRmODhmMjNiMSIsImlhdCI6MTU4NzM1Mzg5MiwiZXhwIjoxNTg3OTU4NjkyfQ.lu1K_XyKLXCNpls-FgO2nf8xrEyqrhMQnnJ3UQX5OM0"
+  //     }
+  // }
 }
