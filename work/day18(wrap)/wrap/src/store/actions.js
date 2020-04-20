@@ -1,9 +1,24 @@
 import {Toast} from "vant";
 import http from "@/http"
+import router from "@/router"
 import {GETSELLER,GETGOODS,GETRATINGS,
     GETADDRESSS,GETCATEGORIES,GETSHOPS,GETUSER} from "./mutation_types"
 const OK=0;
 const ERROR=1;
+
+function loginSuccess(commit,user){
+    commit(GETUSER,user);
+    //编程式路由
+    router.replace("/Profile")
+};
+function loginFail(){
+    Toast.fail({
+        message:"登录失败 请重新登录",
+        duration:2000
+    })
+};
+
+
 export default {
     async [GETSELLER]({commit},id){
         console.log(id,"actions")
@@ -54,7 +69,7 @@ export default {
             })
         }
 
-        if(body.code === OK) commit(GETUSER,body.data)
-        if(body.code === ERROR) Toast("登录失败")
+        if(body.code === OK) loginSuccess(commit,body.data)
+        if(body.code === ERROR) loginFail()
     }
 }
