@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day18(wrap)/wrap/src/http/wrap/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day18(wrap)/wrap/src/http/wrap/axios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day18(wrap)/wrap/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day18(wrap)/wrap/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work/day18(wrap)/wrap/src/http/wrap/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day18(wrap)/wrap/src/http/wrap/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day18(wrap)/wrap/src/store/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day18(wrap)/wrap/src/store/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day18(wrap)/wrap/src/store/mutations.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day18(wrap)/wrap/src/store/mutations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day18(wrap)/wrap/src/store/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day18(wrap)/wrap/src/store/state.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work/day18(wrap)/wrap/src/util/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day18(wrap)/wrap/src/util/http.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/02_登录需求.md" beforeDir="false" afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/02_登录需求.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/routers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/routers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/token/createToken.js" beforeDir="false" afterPath="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/token/createToken.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,35 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="02_登录需求.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="02_登录需求.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/02_登录需求.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="30" column="52" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/day18(wrap)/wrap/src/http/wrap/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="39" column="46" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="46" />
-              <folding>
-                <element signature="e#96#201#0" />
-                <element signature="e#469#555#0" />
-                <element signature="e#574#684#0" />
-                <element signature="e#703#791#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="http.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/work/day18(wrap)/wrap/src/util/http.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+            <state relative-caret-position="390">
+              <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -107,9 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/work/day16(wrap)/wrap/README.md" />
-        <option value="$PROJECT_DIR$/work/day16(wrap)/wrap/src/App.vue" />
-        <option value="$PROJECT_DIR$/work/day16(wrap)/wrap/src/util/http.js" />
         <option value="$PROJECT_DIR$/work/day16(wrap)/wrap/src/http/wrap/config.js" />
         <option value="$PROJECT_DIR$/work/day16(wrap)/wrap/vue.config.js" />
         <option value="$PROJECT_DIR$/work/day16(wrap)/wrap/src/store/state.js" />
@@ -144,20 +119,23 @@
         <option value="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/接口文档/接口文档.md" />
         <option value="$PROJECT_DIR$/work/day17(warp)/wrap/src/pages/Login/Login.vue" />
         <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/README.md" />
-        <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/store/state.js" />
         <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/routes/index.js" />
         <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/pages/Profile/Profile.vue" />
         <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/pages/Login/Login.vue" />
         <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/store/mutation_types.js" />
         <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/pages/UserDetail/UserDetail.vue" />
-        <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/store/mutations.js" />
-        <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/store/actions.js" />
-        <option value="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/02_登录需求.md" />
         <option value="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/routers/index.js" />
         <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/http/wrap/axios.js" />
         <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/vue.config.js" />
         <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/http/wrap/config.js" />
         <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/util/http.js" />
+        <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/store/state.js" />
+        <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/store/mutations.js" />
+        <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/util/local.js" />
+        <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/store/actions.js" />
+        <option value="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/02_登录需求.md" />
+        <option value="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/token/createToken.js" />
+        <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/App.vue" />
       </list>
     </option>
   </component>
@@ -295,8 +273,7 @@
               <item name="day18(wrap)" type="462c0819:PsiDirectoryNode" />
               <item name="wrap" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="wrap" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
@@ -363,11 +340,11 @@
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day03\01_ECMAScript复习" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day18(wrap)\wrap\src\util" />
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\课件\vue\06_vue-h5\wrap" />
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day17(warp)\wrap\public\css" />
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day17(warp)\wrap\src\common\stylus" />
       <recent name="C:\Users\alienware\Desktop\bj_19_1021\课件" />
-      <recent name="C:\Users\alienware\Desktop\bj_19_1021\work\day16(wrap)\wrap\src\http\wrap" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -438,25 +415,25 @@
       <workItem from="1587198980041" duration="1226000" />
       <workItem from="1587270795475" duration="1582000" />
       <workItem from="1587275538667" duration="8703000" />
-      <workItem from="1587340194182" duration="11676000" />
+      <workItem from="1587340194182" duration="15875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="462625000" />
+    <option name="totallyTimeSpent" value="466824000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21202114" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17305152" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.103253186" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.23479491" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -483,33 +460,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/public/css/swiper.min.css" />
-    <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/vue.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1080" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/src/store/mutations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/src/store/mutation_types.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day17(warp)/wrap/src/http/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -781,33 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day18(wrap)/wrap/src/store/mutations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day18(wrap)/wrap/src/store/actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-            <element signature="e#192#349#0" />
-            <element signature="e#381#501#0" />
-            <element signature="e#535#659#0" />
-            <element signature="e#694#820#0" />
-            <element signature="e#857#987#0" />
-            <element signature="e#1019#1139#0" />
-            <element signature="e#1163#1179#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day18(wrap)/wrap/src/pages/UserDetail/UserDetail.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -819,34 +742,6 @@
             <element signature="n#style#0;n#van-button#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="e#546#573#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day18(wrap)/wrap/src/store/state.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/routers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="198" column="31" selection-start-line="198" selection-start-column="21" selection-end-line="198" selection-end-column="31" />
-          <folding>
-            <element signature="e#574#1684#0" />
-            <element signature="e#1746#1989#0" />
-            <element signature="e#2057#2503#0" />
-            <element signature="e#2569#3186#0" />
-            <element signature="e#3263#4189#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/02_登录需求.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="30" column="52" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -872,23 +767,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day18(wrap)/wrap/src/http/wrap/config.js">
+    <entry file="file://$PROJECT_DIR$/work/day07(todolist)/todolist/src/util/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="39" column="46" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="46" />
-          <folding>
-            <element signature="e#96#201#0" />
-            <element signature="e#469#555#0" />
-            <element signature="e#574#684#0" />
-            <element signature="e#703#791#0" />
-          </folding>
+        <state relative-caret-position="24">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day18(wrap)/wrap/src/http/wrap/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/work/day18(wrap)/wrap/src/util/http.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+        <state relative-caret-position="485">
+          <caret line="46" column="40" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day18(wrap)/wrap/src/http/wrap/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="e#96#201#0" />
+            <element signature="e#851#937#0" />
+            <element signature="e#956#1044#0" />
+            <element signature="e#1063#1151#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day18(wrap)/wrap/src/store/state.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day18(wrap)/wrap/src/store/mutations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day18(wrap)/wrap/src/util/local.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day18(wrap)/wrap/src/store/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="91" column="32" lean-forward="true" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+            <element signature="n#!!block;n#loginSuccess#0" />
+            <element signature="n#!!block;n#loginFail#0" />
+            <element signature="e#902#1059#0" />
+            <element signature="e#1091#1211#0" />
+            <element signature="e#1245#1369#0" />
+            <element signature="e#1404#1530#0" />
+            <element signature="e#1567#1697#0" />
+            <element signature="e#1729#1849#0" />
+            <element signature="e#1930#2515#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/routers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="144" column="23" selection-start-line="144" selection-start-column="13" selection-end-line="144" selection-end-column="23" />
+          <folding>
+            <element signature="e#574#1684#0" />
+            <element signature="e#1746#1989#0" />
+            <element signature="e#2057#2503#0" />
+            <element signature="e#2569#3186#0" />
+            <element signature="e#3263#4189#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/token/createToken.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="61" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="61" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day18(wrap)/wrap/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="64" />
+          <folding>
+            <element signature="e#409#589#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/02_登录需求.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
         </state>
       </provider>
     </entry>

@@ -21,9 +21,12 @@ export default {
         state.shops = shops
     },
     [GETUSER](state,user){
-        state.user = user
+        state.user = user;
+        //每次切换登录时 将仓库中的user信息修改掉
+        state.token = user.token
     },
     [RESETUSER](state){
-        state.user = {}
+        state.user = {};
+        state.token = "";
     }
 }

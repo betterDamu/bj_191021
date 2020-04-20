@@ -1,6 +1,7 @@
 import {Toast} from "vant";
 import http from "@/http"
 import router from "@/router"
+import local from "@/util/local"
 import {GETSELLER,GETGOODS,GETRATINGS,
     GETADDRESSS,GETCATEGORIES,GETSHOPS,
     GETUSER,RESETUSER} from "./mutation_types"
@@ -15,6 +16,9 @@ function loginSuccess(commit,user,getCaptcha,loginWay){
     //登录成功之后要更新验证码
     if(loginWay === "password")
         getCaptcha()
+
+    //将token存入到local中  登录成功时将token交给vuex来管理
+    local.set("ele-token",user.token)
 
     //编程式路由 登录成功之后要跳转到个人中心(登录信息回显)
     router.replace("/Profile")
@@ -86,7 +90,10 @@ export default {
         if(body.code === ERROR) loginFail(getCaptcha,loginWay)
     },
     async [RESETUSER]({commit}){
+        //将仓库中的user 和 token 置空
         await commit(RESETUSER)
+        //将locl中的token移除掉
+        local.remove("ele-token")
         router.replace("/Profile")
     },
 }
