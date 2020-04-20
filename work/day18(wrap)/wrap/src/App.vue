@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    123
     <router-view></router-view>
     <FooterGuide v-show="$route.meta.showFooter"></FooterGuide>
   </div>
@@ -18,7 +19,7 @@
             ...mapActions([AUTOLOGIN])
         },
         created(){
-            //自动登录的流程
+            //自动登录的流程  主要是对token进行检验 根据token的情况执行不同的动作
             this[AUTOLOGIN]()
         }
     }

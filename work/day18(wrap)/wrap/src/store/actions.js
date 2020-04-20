@@ -127,19 +127,16 @@ export default {
                         router.replace("/Login")
                     }
                 })
-            }else{
-                //拥有token 可是token已经过期
-                Toast.fail({
-                    message:"登录信息已经过期,请先登录",
-                    duration:2000,
-                    onClose(){
-                        router.replace("/Login")
-                    }
-                })
             }
-        }catch (e) {
+        }catch(e){
             //当报401 异常时  try catch 没有捕捉到
-            console.log(e);
+            Toast.fail({
+                message:"登录信息已经过期,请先登录",
+                duration:2000,
+                onClose(){
+                    router.replace("/Login")
+                }
+            })
         }
     }
 }

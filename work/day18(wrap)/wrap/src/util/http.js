@@ -77,6 +77,8 @@ export default (axios,config={})=>{
       }catch (e) {
         afterReqFail&&afterReqFail.call(config);
         toast && fail();
+        //将请求抛出的错误  再次往外传递 不传;外部是没有办法再次try catch的
+        return Promise.reject(e)
       }
 
       //才是组件上拿到的最后的数据  body是已经经过响应拦截器处理的!!!
