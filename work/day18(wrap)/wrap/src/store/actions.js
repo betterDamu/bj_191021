@@ -4,7 +4,7 @@ import router from "@/router"
 import local from "@/util/local"
 import {GETSELLER,GETGOODS,GETRATINGS,
     GETADDRESSS,GETCATEGORIES,GETSHOPS,
-    GETUSER,RESETUSER} from "./mutation_types"
+    GETUSER,RESETUSER,AUTOLOGIN} from "./mutation_types"
 const OK=0;
 const ERROR=1;
 
@@ -96,4 +96,50 @@ export default {
         local.remove("ele-token")
         router.replace("/Profile")
     },
+    async [AUTOLOGIN]({commit}){
+        //1. 拥有token 而且token没有过期 : 会返回token对应的用户信息 状态200
+        /*{
+            "code": 0,
+            "data": {
+                "_id": "5e9a9933c9f2ab44248ad0de",
+                "name": "damu"
+            }
+        }*/
+        //2. 拥有token 可是token已经过期 : 会返回"message": "token过期，请重新登录"   状态401
+        //3. 没有token 会返回:{"code": 1,"msg": "请先登陆"} 状态200
+
+        // 发送检验token的请求;根据token的状态;我们在app的created钩子中 做出不同的动作
+        /*当app开机进入主界面时:
+            有token token没有失效 则携带上token发送请求 回填user信息
+            没有token 请求进入失败流程 跳转回登录页
+            拥有token 可是token已经失效 跳转回登录页*/
+        try{
+            const body = await http.wrap.autoLogin();
+            if(body.code === OK){
+                //拥有token 而且token没有过期
+                commit(AUTOLOGIN,body.data)
+            }else if(body.code === ERROR){
+                //没有token
+                Toast.fail({
+                    message:"请先登录",
+                    duration:2000,
+                    onClose(){
+                        router.replace("/Login")
+                    }
+                })
+            }else{
+                //拥有token 可是token已经过期
+                Toast.fail({
+                    message:"登录信息已经过期,请先登录",
+                    duration:2000,
+                    onClose(){
+                        router.replace("/Login")
+                    }
+                })
+            }
+        }catch (e) {
+            //当报401 异常时  try catch 没有捕捉到
+            console.log(e);
+        }
+    }
 }

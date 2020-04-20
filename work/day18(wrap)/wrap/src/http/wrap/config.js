@@ -38,6 +38,14 @@ export default {
           url:"/login_sms",
           method:"post",
           corsUrl:"/4000"
+      },
+      autoLogin:{
+          url:"/auto_login",
+          method:"get",
+          corsUrl:"/4000",
+          token:()=>{
+              return local.get("ele-token")
+          }
       }
   }
 }

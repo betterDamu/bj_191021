@@ -43,8 +43,9 @@ export default (axios,config={})=>{
 
       //Token的处理
       let headers = {};
-      if(token){
-          headers = {Authorization:token()}
+      let Authorization = (typeof token === "function")&&token()
+      if(Authorization){
+          headers = {Authorization}
       }
 
       try {

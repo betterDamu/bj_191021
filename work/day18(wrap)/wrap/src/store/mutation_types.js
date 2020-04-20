@@ -6,3 +6,4 @@ export const GETCATEGORIES = "getCategories"; //获取食品的分类信息
 export const GETSHOPS = "getShops"; //获取所有的商家列表
 export const GETUSER = "getUser"; //获取登录用户的信息
 export const RESETUSER = "resetUser"; //获取登录用户的信息
+export const AUTOLOGIN = "autoLogin"; //获取登录用户的信息

@@ -1,6 +1,6 @@
 import {GETSELLER,GETGOODS,GETRATINGS,
     GETADDRESSS,GETCATEGORIES,GETSHOPS,
-    GETUSER,RESETUSER} from "./mutation_types"
+    GETUSER,RESETUSER,AUTOLOGIN} from "./mutation_types"
 export default {
     [GETSELLER](state,seller){
         state.seller = seller
@@ -28,5 +28,8 @@ export default {
     [RESETUSER](state){
         state.user = {};
         state.token = "";
+    },
+    [AUTOLOGIN](state,user){
+        state.user = user;
     }
 }
