@@ -2,16 +2,29 @@ import {Toast} from "vant";
 import http from "@/http"
 import router from "@/router"
 import {GETSELLER,GETGOODS,GETRATINGS,
-    GETADDRESSS,GETCATEGORIES,GETSHOPS,GETUSER} from "./mutation_types"
+    GETADDRESSS,GETCATEGORIES,GETSHOPS,
+    GETUSER,RESETUSER} from "./mutation_types"
 const OK=0;
 const ERROR=1;
 
-function loginSuccess(commit,user){
+function loginSuccess(commit,user,getCaptcha,loginWay){
+    //登录成功之后要将用户信息保存(仓库)
     commit(GETUSER,user);
-    //编程式路由
+
+    //当使用用户名密码登录成功之后 我们需要更新图片验证码
+    //登录成功之后要更新验证码
+    if(loginWay === "password")
+        getCaptcha()
+
+    //编程式路由 登录成功之后要跳转到个人中心(登录信息回显)
     router.replace("/Profile")
 };
-function loginFail(){
+function loginFail(getCaptcha,loginWay){
+    // 登录失败之后要更新验证码
+    if(loginWay === "password")
+        getCaptcha()
+
+    // 登录失败之后提示失败
     Toast.fail({
         message:"登录失败 请重新登录",
         duration:2000
@@ -51,7 +64,7 @@ export default {
         if(code === OK)
             commit(GETSHOPS,data)
     },
-    async [GETUSER]({commit},{loginWay,name,pwd,captcha,phone,code}){
+    async [GETUSER]({commit},{loginWay,name,pwd,captcha,phone,code,getCaptcha}){
         //发送登录的请求 最终去调用一个mutation
         let body = "";
         if(loginWay === "message"){
@@ -69,7 +82,11 @@ export default {
             })
         }
 
-        if(body.code === OK) loginSuccess(commit,body.data)
-        if(body.code === ERROR) loginFail()
-    }
+        if(body.code === OK) loginSuccess(commit,body.data,getCaptcha,loginWay)
+        if(body.code === ERROR) loginFail(getCaptcha,loginWay)
+    },
+    async [RESETUSER]({commit}){
+        await commit(RESETUSER)
+        router.replace("/Profile")
+    },
 }

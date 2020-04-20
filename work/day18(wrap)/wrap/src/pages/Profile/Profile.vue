@@ -2,17 +2,19 @@
     <section class="profile">
         <header-top address="我的"></header-top>
         <section class="profile-number">
-            <a @click="goto(`/Login`)" class="profile-link">
+            <a @click="user._id?goto(`/UserDetail`):goto(`/Login`)" class="profile-link">
                 <div class="profile_image">
                     <i class="iconfont icon-person"></i>
                 </div>
                 <div class="user-info">
-                    <p class="user-info-top">登录/注册</p>
-                    <p>
+                    <p class="user-info-top" v-show="!user.phone">
+                        {{user.name?user.name:`登录/注册`}}
+                    </p>
+                    <p v-show="!user.name">
                         <span class="user-icon">
                           <i class="iconfont icon-shouji icon-mobile"></i>
                         </span>
-                        <span class="icon-mobile-number">暂无绑定手机号</span>
+                        <span class="icon-mobile-number">{{user.phone?user.phone:`暂无绑定手机号`}}</span>
                     </p>
                 </div>
                 <span class="arrow">
@@ -92,8 +94,12 @@
 </template>
 
 <script>
+    import {mapState} from "vuex";
     export default {
         name:"Profile",
+        computed:{
+            ...mapState(["user"])
+        },
         methods:{
             goto(path){
                 this.$router.replace(path)
