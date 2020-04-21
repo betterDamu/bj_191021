@@ -1,7 +1,7 @@
 <template>
     <div>
-        <router-link to="/B" style="font-size: 30px;text-align: center;">
-            toB
+        <router-link to="/B/1" style="font-size: 30px;text-align: center;">
+            toB1
         </router-link>
     </div>
 </template>

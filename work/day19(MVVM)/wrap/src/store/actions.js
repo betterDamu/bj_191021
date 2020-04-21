@@ -38,7 +38,6 @@ function loginFail(getCaptcha,loginWay){
 
 export default {
     async [GETSELLER]({commit},id){
-        console.log(id,"actions")
         const {code,data} = await http.shop.getSeller();
         if(code === OK)
             commit(GETSELLER,data)
@@ -114,6 +113,7 @@ export default {
             没有token 请求进入失败流程 跳转回登录页
             拥有token 可是token已经失效 跳转回登录页*/
         try{
+            //这个请求本质上是在做token合法性的校验
             const body = await http.wrap.autoLogin();
             if(body.code === OK){
                 //拥有token 而且token没有过期

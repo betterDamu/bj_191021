@@ -26,24 +26,33 @@ const Shop = ()=> import(/*webpackChunkName:"Shop"*/"pages/ele-shop/ele-shop.vue
 const UserDetail = ()=> import(/*webpackChunkName:"UserDetail"*/"pages/UserDetail/UserDetail.vue");
 const A = ()=> import(/*webpackChunkName:"A"*/"pages/A/A.vue");
 const B = ()=> import(/*webpackChunkName:"B"*/"pages/B/B.vue");
+import store from "@/store";
 
 export default [
-   /* {path:"/A",component:A,meta:{showFooter:false},name:"A"},
+    {path:"/A",component:A,meta:{showFooter:false},name:"A"},
     {
-        path:"/B",
+        path:"/B/:id",
         component:B,
         meta:{showFooter:false},
-        name:"B",
-        beforeEnter: (to, from, next) => {
-            console.log("B路由 beforeEnter")
-            next()
-        }
-    },*/
+        name:"B"
+    },
     {path:"/Msite",component:Msite,meta:{showFooter:true}},
     {path:"/Order",component:Order,meta:{showFooter:true}},
     {path:"/Profile",component:Profile,meta:{showFooter:true}},
     {path:"/Search",component:Search,meta:{showFooter:true}},
-    {path:"/Login",component:Login,meta:{showFooter:false}},
+    {
+        path:"/Login",
+        component:Login,
+        meta:{showFooter:false},
+        beforeEnter: (to, from, next) => {
+            //如果处于登录状态   login路由是不能被访问的
+            if(store.state.user._id){
+                next("/Msite")
+            }else{
+                next()
+            }
+        }
+    },
     {path:"/UserDetail",component:UserDetail,meta:{showFooter:false}},
     {
         path:"/Shop/:id",

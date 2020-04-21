@@ -27,8 +27,13 @@ router.beforeEach(async (to, from, next) => {
     *  如果合法 自动登录
     *  如果不合法 直接拦下来 转到登录页
     * */
+
+    //判断token的合法性的!!!
+    //如果token合法  仓库中的user会有信息 token有值
+    //如果token不合法  仓库中的user会置空 token置空
+    //不管去什么路由 自动登录是要做的
+    await store.dispatch(AUTOLOGIN);
     if(to.path !== "/Login"){
-        await store.dispatch(AUTOLOGIN);
         //通过仓库中的user信息来判断 token是否合法
         //如果user信息存在 合法的
         //如果user信息不存在 不合法
