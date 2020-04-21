@@ -3,10 +3,12 @@ function MVVM(options) {
     var data = this._data = this.$options.data;
     var me = this;
 
+    //实现数据代理  让我们在页面上创建的vm实例对象 去代理 data配置对象属性的读写
     Object.keys(data).forEach(function(key) {
         me._proxy(key);
     });
 
+    //实现数据劫持
     observe(data, this);
 
     this.$compile = new Compile(options.el || document.body, this)

@@ -14,10 +14,12 @@ Observer.prototype = {
         this.defineReactive(this.data, key, val);
     },
     defineReactive: function(data, key, val) {
+        //分配dep
         var dep = new Dep();
+
         var childObj = observe(val);
 
-
+        //真正数据劫持的代码
         Object.defineProperty(data, key, {
             enumerable: true, // 可枚举
             configurable: false, // 不能再define
