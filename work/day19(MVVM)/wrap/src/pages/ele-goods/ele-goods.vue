@@ -43,9 +43,9 @@
           }
         },
         computed:{
-            // ...mapState(["goods"]),
+            // ...mapState([""]),
             ...mapState({
-                seller:state => state.shop.goods
+                goods:state => state.shop.goods
             }),
             //列表左右联动的功能
             currentIndex(){
@@ -109,8 +109,8 @@
             initScrollY(){
                 //初始化滑屏
                 this.$nextTick(()=>{
-                    this.typeWrapBS =new BScroll(this.$refs.typeWrap);
-                    this.goodWrapBS = new BScroll(this.$refs.goodWrap,{probeType:3});
+                    this.typeWrapBS =new BScroll(this.$refs.typeWrap,{click:true});
+                    this.goodWrapBS = new BScroll(this.$refs.goodWrap,{probeType:3,click:true});
                     this.goodWrapBS.on("scroll",({x,y})=>{
                         this.scrollY = Math.abs(y)
                     })

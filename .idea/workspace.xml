@@ -4,23 +4,11 @@
     <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/wrap/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/wrap/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/components/ele-cart/ele-cart.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/components/ele-cart/ele-cart.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/components/ele-header/ele-header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/components/ele-header/ele-header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/B/B.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/B/B.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/Msite/Msite.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/Msite/Msite.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/Profile/Profile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/Profile/Profile.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/UserDetail/UserDetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/UserDetail/UserDetail.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/ele-goods/ele-goods.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/ele-goods/ele-goods.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/ele-ratings/ele-ratings.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/ele-ratings/ele-ratings.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/ele-seller/ele-seller.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/ele-seller/ele-seller.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/ele-shop/ele-shop.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/ele-shop/ele-shop.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/store/actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/store/getters.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/store/mutations.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/store/state.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,86 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ele-shop.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/ele-shop/ele-shop.vue">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/Login/Login.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="80" column="22" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="22" />
-              <folding>
-                <element signature="n#template#0;n#!!top" />
-                <element signature="e#4672#7128#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Msite.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/Msite/Msite.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="104" column="36" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
-              <folding>
-                <element signature="n#template#0;n#!!top" />
-                <element signature="n#header-top#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="n#nav#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="e#4385#4456#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Order.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/Order/Order.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Profile.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/Profile/Profile.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="102" column="30" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
-              <folding>
-                <element signature="n#section#0;n#template#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Search.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/Search/Search.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDetail.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/UserDetail/UserDetail.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-              <folding>
-                <element signature="e#546#573#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="510">
+              <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -197,7 +110,6 @@
         <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/pages/Msite/Msite.vue" />
         <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/pages/ele-ratings/ele-ratings.vue" />
         <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/README.md" />
-        <option value="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/App.vue" />
         <option value="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/token/createToken.js" />
         <option value="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/store/actions.js" />
         <option value="$PROJECT_DIR$/work/day19(MVVM)/wrap/vue.config.js" />
@@ -209,20 +121,21 @@
         <option value="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/store/modules/wrap/index.js" />
         <option value="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/store/modules/shop/state.js" />
         <option value="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/store/modules/shop/mutations.js" />
-        <option value="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/router/index.js" />
         <option value="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/routes/index.js" />
-        <option value="$PROJECT_DIR$/work/day19(MVVM)/wrap/README.md" />
         <option value="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/store/modules/shop/actions.js" />
         <option value="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/store/modules/wrap/actions.js" />
         <option value="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/store/modules/wrap/mutations.js" />
         <option value="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/components/ele-cart/ele-cart.vue" />
         <option value="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/components/ele-header/ele-header.vue" />
-        <option value="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/ele-goods/ele-goods.vue" />
-        <option value="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/ele-ratings/ele-ratings.vue" />
         <option value="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/ele-seller/ele-seller.vue" />
-        <option value="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/Msite/Msite.vue" />
         <option value="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/Profile/Profile.vue" />
         <option value="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/UserDetail/UserDetail.vue" />
+        <option value="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/ele-ratings/ele-ratings.vue" />
+        <option value="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/App.vue" />
+        <option value="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/Msite/Msite.vue" />
+        <option value="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/router/index.js" />
+        <option value="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/ele-goods/ele-goods.vue" />
+        <option value="$PROJECT_DIR$/work/day19(MVVM)/wrap/README.md" />
       </list>
     </option>
   </component>
@@ -361,157 +274,7 @@
               <item name="day19(MVVM)" type="462c0819:PsiDirectoryNode" />
               <item name="wrap" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="ele-goods" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day19(MVVM)" type="462c0819:PsiDirectoryNode" />
-              <item name="wrap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="ele-ratings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day19(MVVM)" type="462c0819:PsiDirectoryNode" />
-              <item name="wrap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="ele-seller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day19(MVVM)" type="462c0819:PsiDirectoryNode" />
-              <item name="wrap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="ele-shop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day19(MVVM)" type="462c0819:PsiDirectoryNode" />
-              <item name="wrap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day19(MVVM)" type="462c0819:PsiDirectoryNode" />
-              <item name="wrap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Msite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day19(MVVM)" type="462c0819:PsiDirectoryNode" />
-              <item name="wrap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Order" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day19(MVVM)" type="462c0819:PsiDirectoryNode" />
-              <item name="wrap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Profile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day19(MVVM)" type="462c0819:PsiDirectoryNode" />
-              <item name="wrap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day19(MVVM)" type="462c0819:PsiDirectoryNode" />
-              <item name="wrap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="UserDetail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day19(MVVM)" type="462c0819:PsiDirectoryNode" />
-              <item name="wrap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="router" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day19(MVVM)" type="462c0819:PsiDirectoryNode" />
-              <item name="wrap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day19(MVVM)" type="462c0819:PsiDirectoryNode" />
-              <item name="wrap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day19(MVVM)" type="462c0819:PsiDirectoryNode" />
-              <item name="wrap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day19(MVVM)" type="462c0819:PsiDirectoryNode" />
-              <item name="wrap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day19(MVVM)" type="462c0819:PsiDirectoryNode" />
-              <item name="wrap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="wrap" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -615,12 +378,12 @@
       <workItem from="1587405416370" duration="54000" />
       <workItem from="1587405483204" duration="36000" />
       <workItem from="1587405532813" duration="1819000" />
-      <workItem from="1587428827036" duration="12298000" />
+      <workItem from="1587428827036" duration="15389000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="490767000" />
+    <option name="totallyTimeSpent" value="493858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -656,17 +419,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="35" />
+      <option name="time" value="36" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/token/createToken.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -794,13 +550,6 @@
     <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/src/util/http.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/src/store/modules/shop/state.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -889,13 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-720">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -992,28 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/ele-goods/ele-goods.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="47" column="49" lean-forward="true" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="49" />
-          <folding>
-            <element signature="n#div#0;n#template#0;n#!!top" />
-            <element signature="e#1260#1295#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/ele-ratings/ele-ratings.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="81" column="50" selection-start-line="81" selection-start-column="50" selection-end-line="81" selection-end-column="50" />
-          <folding>
-            <element signature="n#div#0;n#template#0;n#!!top" />
-            <element signature="e#2871#2907#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/ele-seller/ele-seller.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -1042,21 +762,6 @@
           <folding>
             <element signature="n#template#0;n#!!top" />
             <element signature="e#4672#7128#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/Msite/Msite.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="104" column="36" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
-          <folding>
-            <element signature="n#template#0;n#!!top" />
-            <element signature="n#header-top#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#nav#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="e#4385#4456#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1092,6 +797,77 @@
           <folding>
             <element signature="e#546#573#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/ele-ratings/ele-ratings.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="54" column="77" selection-start-line="54" selection-start-column="69" selection-end-line="54" selection-end-column="77" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#ele-select#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="e#2871#2907#0" expanded="true" />
+            <element signature="e#3624#3915#0" />
+            <element signature="e#3943#4154#0" />
+            <element signature="e#4175#4248#0" />
+            <element signature="e#4273#4418#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/Msite/Msite.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="129" column="13" lean-forward="true" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
+          <folding>
+            <element signature="n#template#0;n#!!top" />
+            <element signature="n#header-top#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#nav#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="e#4385#4456#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/ele-goods/ele-goods.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="111" column="80" lean-forward="true" selection-start-line="111" selection-start-column="70" selection-end-line="111" selection-end-column="80" />
+          <folding>
+            <element signature="n#div#0;n#template#0;n#!!top" />
+            <element signature="e#1260#1295#0" expanded="true" />
+            <element signature="e#1559#1693#0" />
+            <element signature="e#1578#1683#0" />
+            <element signature="e#1712#2946#0" />
+            <element signature="e#3051#4010#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
         </state>
       </provider>
     </entry>

@@ -7,6 +7,20 @@ import {Toast} from "vant";
 Vue.use(VueRouter);
 
 
+//处理一下编程式路由的一个bug
+const originalPush = VueRouter.prototype.push
+const originalReplace = VueRouter.prototype.replace
+VueRouter.prototype.push = function push(location, onResolve, onReject) {
+    if (onResolve || onReject) return originalPush.call(this, location, onResolve, onReject)
+    return originalPush.call(this, location).catch(err => err)
+}
+VueRouter.prototype.replace = function push(location, onResolve, onReject) {
+    if (onResolve || onReject) return originalReplace.call(this, location, onResolve, onReject)
+    return originalReplace.call(this, location).catch(err => err)
+}
+
+
+
 let router = new VueRouter({
     /*当前端路由为history模式时;
             1.要保证前端路由和后台路由不要产生冲突

@@ -30,8 +30,12 @@
             mutation 和 action 分别被怎么提交和转发?
                 默认情况下，模块内部的 action、mutation 和 getter 是注册在全局命名空间的
 
-
-
 ### 统一处理vue项目不影响项目流程的错误
+    1. 计算属性传参(layout ratings组件中)
+    2. 处理两个异常
+        msite组件滑屏的异常
+        编程式路由自己的bug
+    3. 所有滑屏上的点击事件失效了
+        bettter-scroll主动的派发click事件
 
-### vue源码
+### MVVM的原理(vue数据双向绑定的原理 3:30开始讲)

@@ -51,7 +51,8 @@
                             </div>
                             <p class="text">{{rating.text}}</p>
                             <div class="recommend">
-                                <span :class="rating.rateType===0?`layout-thumb_up`:`layout-thumb_down`"></span>
+                                <!--<span :class="rating.rateType===0?`layout-thumb_up`:`layout-thumb_down`"></span>-->
+                                <span :class="ratingClassName(rating.rateType)"></span>
                             </div>
                             <div class="time">{{rating.rateTime|dateString}}</div>
                         </div>
@@ -80,10 +81,15 @@
             // ...mapState(["ratings","seller"]),
             ...mapState({
                 seller:state => state.shop.seller,
-                ratings:state => state.shop.ratings
+                ratings:state => state.shop.ratings,
+                ratingClassName(){
+                    //如何给计算属性传参
+                   return function (type) {
+                       return type===0?`layout-thumb_up`:`layout-thumb_down`
+                   }
+                }
             }),
             filterRatings(){
-                //5分钟时间  梳理一下这段代码  有问题私信 9:08继续
                 return this.ratings.filter((rating)=>{
                     return ((this.type===2 || rating.rateType===this.type )
                                     && (!this.hasText||rating.text.length>0))

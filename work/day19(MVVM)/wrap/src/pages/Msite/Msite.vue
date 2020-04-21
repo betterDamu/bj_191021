@@ -122,8 +122,10 @@
                 })
             },
             renderShoplist(){
+                // $nextTick中的回调还没有执行   当前组件就销毁了 没有了this.$refs.shopContainer
                 this.$nextTick(()=>{
-                    new BScroll(this.$refs.shopContainer)
+                    // new BScroll(this.$refs.shopContainer)
+                    this.$refs.shopContainer && new BScroll(this.$refs.shopContainer)
                 })
             }
         },
