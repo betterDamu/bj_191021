@@ -19,7 +19,10 @@
     export default {
         name: "UserDetail",
         computed:{
-            ...mapState(["user"])
+            // ...mapState(["user"])
+            ...mapState({
+                user:state => state.wrap.user
+            }),
         },
         methods:{
             ...mapActions([RESETUSER]),

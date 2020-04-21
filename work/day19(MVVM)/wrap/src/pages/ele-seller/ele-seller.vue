@@ -65,7 +65,10 @@
     export default {
         name: "ele-seller",
         computed:{
-            ...mapState(["seller"])
+            // ...mapState(["seller"])
+            ...mapState({
+                seller:state => state.shop.seller
+            }),
         },
         methods:{
             ...mapActions([GETSELLER])

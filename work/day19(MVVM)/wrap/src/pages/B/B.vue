@@ -20,9 +20,12 @@
         //       console.log(vm)
         //     })
         // },
+
+        //动态路由组件 第一次被渲染时 生命周期钩子是会被钓用的 但是beforeRouteUpdate这个路由守卫钩子不会调用
         mounted(){
           console.log("mounted")
         },
+        //在动态路由组件 被动态匹配的时候 生命周期钩子不会调用 但是beforeRouteUpdate这个路由守卫钩子会调用
         beforeRouteUpdate (to, from, next) {
             // 在当前路由改变，但是该组件被复用时调用
             // 举例来说，对于一个带有动态参数的路径 /foo/:id，在 /foo/1 和 /foo/2 之间跳转的时候，

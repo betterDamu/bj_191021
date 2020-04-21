@@ -43,7 +43,10 @@
           }
         },
         computed:{
-            ...mapState(["goods"]),
+            // ...mapState(["goods"]),
+            ...mapState({
+                seller:state => state.shop.goods
+            }),
             //列表左右联动的功能
             currentIndex(){
                 //根据tops & scrollY 来确定左侧列表谁该选中

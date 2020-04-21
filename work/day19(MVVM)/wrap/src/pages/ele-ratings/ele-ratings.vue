@@ -77,7 +77,11 @@
           }
         },
         computed:{
-            ...mapState(["ratings","seller"]),
+            // ...mapState(["ratings","seller"]),
+            ...mapState({
+                seller:state => state.shop.seller,
+                ratings:state => state.shop.ratings
+            }),
             filterRatings(){
                 //5分钟时间  梳理一下这段代码  有问题私信 9:08继续
                 return this.ratings.filter((rating)=>{

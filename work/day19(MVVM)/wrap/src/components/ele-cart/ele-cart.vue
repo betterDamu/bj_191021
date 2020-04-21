@@ -55,7 +55,19 @@
           }
         },
         computed:{
-            ...mapState(["seller"]),
+            // mapState(["seller"]) mapState({sell:"seller"})
+
+            /*
+                seller:fn
+                    seller:   在组件上使用的名字
+                    fn返回值:  seller在仓库中对应的数据
+                    fn参数:    state代表的是总仓库的state
+
+                mapState({seller:state => state.some.nested.module.a})
+            */
+            ...mapState({
+                seller:state => state.shop.seller
+            }),
             //购物车中食物的总数量
             totalCount(){
                 return this.selectedFoods.reduce((adder,item)=>{

@@ -1,16 +1,6 @@
-import {GETSELLER,GETGOODS,GETRATINGS,
-    GETADDRESSS,GETCATEGORIES,GETSHOPS,
-    GETUSER,RESETUSER,AUTOLOGIN} from "./mutation_types"
+import {GETADDRESSS,GETCATEGORIES,GETSHOPS,
+    GETUSER,RESETUSER,AUTOLOGIN} from "@/store/mutation_types"
 export default {
-    [GETSELLER](state,seller){
-        state.seller = seller
-    },
-    [GETGOODS](state,goods){
-        state.goods = goods
-    },
-    [GETRATINGS](state,ratings){
-        state.ratings = ratings
-    },
     [GETADDRESSS](state,address){
         state.addressObj = address
     },

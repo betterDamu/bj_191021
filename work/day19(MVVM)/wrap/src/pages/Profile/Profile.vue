@@ -98,7 +98,10 @@
     export default {
         name:"Profile",
         computed:{
-            ...mapState(["user"])
+            // ...mapState(["user"])
+            ...mapState({
+                user:state => state.wrap.user
+            }),
         },
         methods:{
             goto(path){

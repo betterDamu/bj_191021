@@ -46,7 +46,7 @@ export default [
         meta:{showFooter:false},
         beforeEnter: (to, from, next) => {
             //如果处于登录状态   login路由是不能被访问的
-            if(store.state.user._id){
+            if(store.state.wrap.user._id){
                 next("/Msite")
             }else{
                 next()

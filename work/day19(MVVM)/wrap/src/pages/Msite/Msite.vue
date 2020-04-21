@@ -97,7 +97,13 @@
     export default {
         name:"Msite",
         computed:{
-            ...mapState(["addressObj","categories","shops","imgBaseUrl"]),
+            // ...mapState(["addressObj","categories","shops","imgBaseUrl"]),
+            ...mapState({
+                addressObj:state => state.wrap.addressObj,
+                categories:state => state.wrap.categories,
+                shops:state => state.wrap.shops,
+                imgBaseUrl:state => state.wrap.imgBaseUrl
+            }),
             categoryArrs(){
                 return _.chunk(this.categories,8)
             }

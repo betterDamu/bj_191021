@@ -83,7 +83,10 @@
           }
         },
         computed:{
-            ...mapState(["seller"])
+            // ...mapState(["seller"])
+            ...mapState({
+                seller:state => state.shop.seller
+            })
         },
         components:{
             "ele-line":line,

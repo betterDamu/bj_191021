@@ -12,7 +12,7 @@ let router = new VueRouter({
             1.要保证前端路由和后台路由不要产生冲突
             2.所有的未知请求 404 请求;要让后台程序员 或者 运维的同学配到首页去
     */
-    mode:"history",
+    // mode:"history",
     routes,
     linkActiveClass:"active"
 })
@@ -37,7 +37,7 @@ router.beforeEach(async (to, from, next) => {
         //通过仓库中的user信息来判断 token是否合法
         //如果user信息存在 合法的
         //如果user信息不存在 不合法
-        if(store.state.user._id){
+        if(store.state.wrap.user._id){
             //如果合法 自动登录
             next()
         }else {
