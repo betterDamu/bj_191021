@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/wrap/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/wrap/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/Msite/Msite.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/Msite/Msite.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/ele-goods/ele-goods.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/ele-goods/ele-goods.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/ele-ratings/ele-ratings.vue" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/pages/ele-ratings/ele-ratings.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/wrap/src/router/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -21,17 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -151,8 +133,6 @@
     <handled-path value="$PROJECT_DIR$/work/day03/03_Node/node_modules" />
     <handled-path value="$PROJECT_DIR$/work/day10(vuex)/vuex-exec/node_modules" />
     <handled-path value="$PROJECT_DIR$/work/day14(layout)/layout/node_modules" />
-    <handled-path value="$PROJECT_DIR$/work/day17(warp)/wrap/node_modules" />
-    <handled-path value="$PROJECT_DIR$/work/day18(wrap)/wrap/node_modules" />
     <handled-path value="$PROJECT_DIR$/work/day19(MVVM)/wrap/node_modules" />
     <handled-path value="$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/gshop-server_final/node_modules" />
   </component>
@@ -241,6 +221,32 @@
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
               <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
               <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="day17(warp)" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="day17(warp)" type="462c0819:PsiDirectoryNode" />
+              <item name="wrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="day18(wrap)" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="day18(wrap)" type="462c0819:PsiDirectoryNode" />
+              <item name="wrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
               <item name="day19(MVVM)" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -249,32 +255,6 @@
               <item name="work" type="462c0819:PsiDirectoryNode" />
               <item name="day19(MVVM)" type="462c0819:PsiDirectoryNode" />
               <item name="wrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day19(MVVM)" type="462c0819:PsiDirectoryNode" />
-              <item name="wrap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day19(MVVM)" type="462c0819:PsiDirectoryNode" />
-              <item name="wrap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day19(MVVM)" type="462c0819:PsiDirectoryNode" />
-              <item name="wrap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -378,18 +358,17 @@
       <workItem from="1587405416370" duration="54000" />
       <workItem from="1587405483204" duration="36000" />
       <workItem from="1587405532813" duration="1819000" />
-      <workItem from="1587428827036" duration="15389000" />
+      <workItem from="1587428827036" duration="16186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="493858000" />
+    <option name="totallyTimeSpent" value="494655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21202114" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17833553" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -866,8 +845,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+        <state relative-caret-position="462">
+          <caret line="38" column="34" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="34" />
         </state>
       </provider>
     </entry>
