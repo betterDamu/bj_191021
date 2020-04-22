@@ -11,6 +11,7 @@ function MVVM(options) {
     //实现数据劫持
     observe(data, this);
 
+    //实现模板解析的
     this.$compile = new Compile(options.el || document.body, this)
 }
 

@@ -3,8 +3,11 @@ function Compile(el, vm) {
     this.$el = this.isElementNode(el) ? el : document.querySelector(el);
 
     if (this.$el) {
+        //将vue挂载节点下的子节点 一个个剪切到文档碎片中
         this.$fragment = this.node2Fragment(this.$el);
+        //vue真正解析模板的函数
         this.init();
+        //将vue解析完的文档碎片塞回到挂载节点下
         this.$el.appendChild(this.$fragment);
     }
 }
