@@ -24,8 +24,10 @@ Observer.prototype = {
             enumerable: true, // 可枚举
             configurable: false, // 不能再define
             get: function() {
+                //在watcher.js执行的数据访问 此处的开关都是打开的
+                //Dep.target : 当前被解析的指令所对应的watcher
                 if (Dep.target) {
-                    dep.depend();
+                    dep.depend(); //每一个属性所对应的dep闭包
                 }
                 return val;
             },
@@ -62,6 +64,7 @@ Dep.prototype = {
     },
 
     depend: function() {
+        //wacther.addDep(dep)
         Dep.target.addDep(this);
     },
 

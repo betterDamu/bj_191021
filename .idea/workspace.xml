@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/mvvm/compile.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/mvvm/compile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/mvvm/mvvm.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/mvvm/mvvm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/mvvm/observer.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/mvvm/observer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/mvvm/watcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/mvvm/watcher.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +18,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="04_模板解析.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/04_模板解析.html">
+      <file leaf-file-name="06_数据单向流(响应式更新).html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/06_数据单向流(响应式更新).html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="-168">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="40" />
+              <folding>
+                <element signature="e#360#411#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -30,31 +33,57 @@
       <file leaf-file-name="mvvm.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/mvvm/mvvm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="216">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="compile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/mvvm/compile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="174" column="6" lean-forward="true" selection-start-line="172" selection-start-column="4" selection-end-line="174" selection-end-column="6" />
               <folding>
-                <element signature="e#376#834#0" />
+                <element signature="n#!!block;n#Compile#0" />
+                <element signature="e#2453#2502#0" />
+                <element signature="e#2539#2588#0" />
+                <element signature="e#2626#2999#0" />
+                <element signature="e#3037#3087#0" />
+                <element signature="e#3540#3764#0" />
+                <element signature="e#3800#4078#0" />
+                <element signature="e#4121#4395#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="compile.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/mvvm/compile.js">
+      <file leaf-file-name="observer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/mvvm/observer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="9" selection-end-column="16" />
+            <state relative-caret-position="768">
+              <caret line="79" column="22" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="22" />
               <folding>
-                <element signature="n#!!block;n#Compile#0" />
-                <element signature="e#291#2296#0" />
-                <element signature="e#325#527#0" />
-                <element signature="e#2327#4075#0" />
-                <element signature="e#2947#2997#0" />
-                <element signature="e#3039#3289#0" />
-                <element signature="e#3339#3563#0" />
-                <element signature="e#3599#3756#0" />
-                <element signature="e#3799#4073#0" />
-                <element signature="e#4093#4736#0" />
+                <element signature="e#120#252#0" />
+                <element signature="e#286#343#0" />
+                <element signature="n#!!block;n#observe#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="watcher.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/mvvm/watcher.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-608">
+              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,9 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/store/mutations.js" />
-        <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/http/wrap/config.js" />
-        <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/http/wrap/axios.js" />
         <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/store/actions.js" />
         <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/util/http.js" />
         <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/routes/index.js" />
@@ -160,11 +186,14 @@
         <option value="$PROJECT_DIR$/work/day19(MVVM)/01_数据代理.html" />
         <option value="$PROJECT_DIR$/work/day19(MVVM)/02_数据劫持.html" />
         <option value="$PROJECT_DIR$/work/day19(MVVM)/03_模板解析.html" />
-        <option value="$PROJECT_DIR$/work/day19(MVVM)/mvvm/observer.js" />
         <option value="$PROJECT_DIR$/work/day19(MVVM)/day19.md" />
         <option value="$PROJECT_DIR$/work/day19(MVVM)/mvvm/mvvm.js" />
-        <option value="$PROJECT_DIR$/work/day19(MVVM)/mvvm/compile.js" />
         <option value="$PROJECT_DIR$/work/day19(MVVM)/04_模板解析.html" />
+        <option value="$PROJECT_DIR$/work/day19(MVVM)/05_模板解析&amp;数据代理&amp;数据劫持.html" />
+        <option value="$PROJECT_DIR$/work/day19(MVVM)/mvvm/compile.js" />
+        <option value="$PROJECT_DIR$/work/day19(MVVM)/mvvm/observer.js" />
+        <option value="$PROJECT_DIR$/work/day19(MVVM)/06_数据单向流(响应式更新).html" />
+        <option value="$PROJECT_DIR$/work/day19(MVVM)/mvvm/watcher.js" />
       </list>
     </option>
   </component>
@@ -261,27 +290,47 @@
             <path>
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
               <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="pre" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
               <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
               <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day19(MVVM)" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
               <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day19(MVVM)" type="462c0819:PsiDirectoryNode" />
-              <item name="mvvm" type="462c0819:PsiDirectoryNode" />
+              <item name="课件" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
               <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="day19(MVVM)" type="462c0819:PsiDirectoryNode" />
-              <item name="文档碎片" type="462c0819:PsiDirectoryNode" />
+              <item name="课件" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="课件" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="06_vue-h5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="课件" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="06_vue-h5" type="462c0819:PsiDirectoryNode" />
+              <item name="wrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
+              <item name="课件" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="06_vue-h5" type="462c0819:PsiDirectoryNode" />
+              <item name="wrap" type="462c0819:PsiDirectoryNode" />
+              <item name="staticpage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -386,18 +435,18 @@
       <workItem from="1587405483204" duration="36000" />
       <workItem from="1587405532813" duration="1819000" />
       <workItem from="1587428827036" duration="26764000" />
-      <workItem from="1587515840802" duration="4332000" />
+      <workItem from="1587515840802" duration="9380000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="509565000" />
+    <option name="totallyTimeSpent" value="514613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19022457" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22523117" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -431,27 +480,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/src/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/src/store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/src/store/modules/shop/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/src/store/modules/shop/getters.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -655,9 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/mvvm/watcher.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/05_数据双向绑定.html" />
     <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/04_数据单向流.html" />
     <entry file="file://$PROJECT_DIR$/work/day04(vue-base)/01_vue-声明式编程.html">
@@ -705,19 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/mvvm/observer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="45" column="14" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="14" />
-          <folding>
-            <element signature="e#120#252#0" />
-            <element signature="e#286#343#0" />
-            <element signature="e#815#1018#0" />
-            <element signature="e#1268#1673#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/02_数据劫持.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -739,41 +751,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/mvvm/mvvm.js">
+    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/04_模板解析.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="78">
+          <caret line="8" column="54" lean-forward="true" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/05_模板解析&amp;数据代理&amp;数据劫持.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/mvvm/watcher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-608">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding>
-            <element signature="e#376#834#0" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/04_模板解析.html">
+    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/mvvm/observer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="768">
+          <caret line="79" column="22" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="22" />
+          <folding>
+            <element signature="e#120#252#0" />
+            <element signature="e#286#343#0" />
+            <element signature="n#!!block;n#observe#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/06_数据单向流(响应式更新).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="e#360#411#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/mvvm/compile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="9" selection-end-column="16" />
+        <state relative-caret-position="116">
+          <caret line="174" column="6" lean-forward="true" selection-start-line="172" selection-start-column="4" selection-end-line="174" selection-end-column="6" />
           <folding>
             <element signature="n#!!block;n#Compile#0" />
-            <element signature="e#291#2296#0" />
-            <element signature="e#325#527#0" />
-            <element signature="e#2327#4075#0" />
-            <element signature="e#2947#2997#0" />
-            <element signature="e#3039#3289#0" />
-            <element signature="e#3339#3563#0" />
-            <element signature="e#3599#3756#0" />
-            <element signature="e#3799#4073#0" />
-            <element signature="e#4093#4736#0" />
+            <element signature="e#2453#2502#0" />
+            <element signature="e#2539#2588#0" />
+            <element signature="e#2626#2999#0" />
+            <element signature="e#3037#3087#0" />
+            <element signature="e#3540#3764#0" />
+            <element signature="e#3800#4078#0" />
+            <element signature="e#4121#4395#0" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/mvvm/mvvm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

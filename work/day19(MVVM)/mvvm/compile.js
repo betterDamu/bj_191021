@@ -127,8 +127,10 @@ var compileUtil = {
     bind: function(node, vm, exp, dir) {
         var updaterFn = updater[dir + 'Updater'];
 
+        //this._getVMVal(vm, exp) : 根据表达式 去 vm的data配置中找表达式对应的值
         updaterFn && updaterFn(node, this._getVMVal(vm, exp));
 
+        //创建watcher  在这边就是dep 和 watcher多对多创建的入口
         new Watcher(vm, exp, function(value, oldValue) {
             updaterFn && updaterFn(node, value, oldValue);
         });
@@ -145,9 +147,9 @@ var compileUtil = {
 
     _getVMVal: function(vm, exp) {
         var val = vm._data;
-        exp = exp.split('.');
+        exp = exp.split('.'); //damu.wife.wifeName   ["damu","wife","wifeName"]
         exp.forEach(function(k) {
-            val = val[k];
+            val = val[k]; //data["damu"]  data["damu"]["wife"]  data["damu"]["wife"]["wifeName"]
         });
         return val;
     },
