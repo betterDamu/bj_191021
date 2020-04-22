@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/mvvm/compile.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/mvvm/compile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/mvvm/observer.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/mvvm/observer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/day19(MVVM)/mvvm/watcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/day19(MVVM)/mvvm/watcher.js" afterDir="false" />
-    </list>
+    <list default="true" id="6c36eeb8-d275-4aa4-8b4f-d58383d1b586" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,75 +14,9 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="06_数据单向流(响应式更新).html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/06_数据单向流(响应式更新).html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-168">
-              <caret line="8" column="40" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="40" />
-              <folding>
-                <element signature="e#360#411#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mvvm.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/mvvm/mvvm.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="compile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/mvvm/compile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="174" column="6" lean-forward="true" selection-start-line="172" selection-start-column="4" selection-end-line="174" selection-end-column="6" />
-              <folding>
-                <element signature="n#!!block;n#Compile#0" />
-                <element signature="e#2453#2502#0" />
-                <element signature="e#2539#2588#0" />
-                <element signature="e#2626#2999#0" />
-                <element signature="e#3037#3087#0" />
-                <element signature="e#3540#3764#0" />
-                <element signature="e#3800#4078#0" />
-                <element signature="e#4121#4395#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="observer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/mvvm/observer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="768">
-              <caret line="79" column="22" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="22" />
-              <folding>
-                <element signature="e#120#252#0" />
-                <element signature="e#286#343#0" />
-                <element signature="n#!!block;n#observe#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="watcher.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/mvvm/watcher.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-608">
-              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="vue数据双向绑定.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/vue数据双向绑定.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -143,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/store/actions.js" />
         <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/util/http.js" />
         <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/routes/index.js" />
         <option value="$PROJECT_DIR$/work/day18(wrap)/wrap/src/router/index.js" />
@@ -194,6 +123,7 @@
         <option value="$PROJECT_DIR$/work/day19(MVVM)/mvvm/observer.js" />
         <option value="$PROJECT_DIR$/work/day19(MVVM)/06_数据单向流(响应式更新).html" />
         <option value="$PROJECT_DIR$/work/day19(MVVM)/mvvm/watcher.js" />
+        <option value="$PROJECT_DIR$/work/day19(MVVM)/07_数据双向流.html" />
       </list>
     </option>
   </component>
@@ -290,47 +220,13 @@
             <path>
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
               <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="pre" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
               <item name="work" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
               <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="课件" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="课件" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="课件" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-              <item name="06_vue-h5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="课件" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-              <item name="06_vue-h5" type="462c0819:PsiDirectoryNode" />
-              <item name="wrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bj_19_1021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bj_19_1021" type="462c0819:PsiDirectoryNode" />
-              <item name="课件" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-              <item name="06_vue-h5" type="462c0819:PsiDirectoryNode" />
-              <item name="wrap" type="462c0819:PsiDirectoryNode" />
-              <item name="staticpage" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="day19(MVVM)" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -435,12 +331,12 @@
       <workItem from="1587405483204" duration="36000" />
       <workItem from="1587405532813" duration="1819000" />
       <workItem from="1587428827036" duration="26764000" />
-      <workItem from="1587515840802" duration="9380000" />
+      <workItem from="1587515840802" duration="10313000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="514613000" />
+    <option name="totallyTimeSpent" value="515546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -480,16 +376,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/src/store/modules/shop/getters.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/src/store/modules/wrap/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/wrap/src/components/ele-cart/ele-cart.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -765,13 +651,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/mvvm/watcher.js">
+    <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/mvvm/mvvm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-608">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -787,42 +673,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/06_数据单向流(响应式更新).html">
+    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/mvvm/watcher.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="40" />
+        <state relative-caret-position="-608">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding>
-            <element signature="e#360#411#0" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/mvvm/compile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="174" column="6" lean-forward="true" selection-start-line="172" selection-start-column="4" selection-end-line="174" selection-end-column="6" />
+        <state relative-caret-position="343">
+          <caret line="118" column="27" lean-forward="true" selection-start-line="118" selection-start-column="27" selection-end-line="118" selection-end-column="27" />
           <folding>
             <element signature="n#!!block;n#Compile#0" />
-            <element signature="e#2453#2502#0" />
-            <element signature="e#2539#2588#0" />
-            <element signature="e#2626#2999#0" />
             <element signature="e#3037#3087#0" />
+            <element signature="e#3129#3490#0" />
             <element signature="e#3540#3764#0" />
-            <element signature="e#3800#4078#0" />
-            <element signature="e#4121#4395#0" />
+            <element signature="e#4456#4532#0" />
+            <element signature="e#4574#4648#0" />
+            <element signature="e#4701#4933#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/mvvm/mvvm.js">
+    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/06_数据单向流(响应式更新).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="448">
+          <caret line="68" column="11" lean-forward="true" selection-start-line="66" selection-start-column="4" selection-end-line="68" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/课件/vue/06_vue-h5/wrap/staticpage/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/07_数据双向流.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/day19(MVVM)/vue数据双向绑定.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
